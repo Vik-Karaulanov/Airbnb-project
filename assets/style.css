@@ -47,7 +47,104 @@ table {
 	border-spacing: 0;
 }
 
+/* main header styles */
+
 .logo {
-	color: #FFFFFF !important;
-	filter: invert(1);	/* fill: white; */
+	fill: rgb(255,56,92);
+	cursor: pointer;
+}
+
+#mainHeader {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 5rem;
+	background-color: white;
+	color: #484848;
+	font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+	font-size: 0.9rem;
+}
+
+#headerContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	padding: 0 4.5% 0 6%;
+}
+
+.search-container {
+	margin-left: 10rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid rgb(221,221,221);
+	width: 18.5rem;
+	border-radius: 2rem;
+	height: 2.7rem;
+	cursor: pointer;
+}
+
+.search-loop-wrapper {
+	margin-right: 0.5rem;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 2rem;
+	background-color: rgb(255,56,92);
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.search-loop-icon {
+	width: 1rem;
+	height: 1rem;
+}
+
+.inner-header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.inner-header-container div {
+	cursor: pointer;
+	margin: 0 1rem;
+}
+
+#littleSearchLabel {
+padding: 0 1.5rem;
+}
+
+.login-container {
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid #DDDDDD;
+	border-radius: 2rem;
+	align-items: center;
+	transition: 0.3s;
+	width: 4.75rem;
+	height: 2.5rem;
+	padding: 0 0.1rem 0 0.5rem;
+}
+.login-container:hover {
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+}
+
+.default-profile-img {
+	width: 2rem;
+	height: 2rem;
+	border-radius: 2rem;
+}
+
+.login-menu-icon {
+	width: 1rem;
+	height: 1rem;
+}
+
+main {
+	background-color: tomato;
+	height: 200vh;
+	width: 100%;
 }
