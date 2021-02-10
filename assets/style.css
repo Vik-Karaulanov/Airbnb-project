@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto$display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -50,4 +51,98 @@ table {
 .logo {
 	color: #FFFFFF !important;
 	filter: invert(1);	/* fill: white; */
+}
+
+/* footer */
+#footer {
+	font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+	font-size: 14px;
+	background-color: #F7F7F7 !important;
+	line-height: 18px !important;
+	border-top: 1px solid #DDDDDD !important;
+	display: flex;
+	justify-content: center;
+}
+#footer a {
+	text-decoration: none;
+	color: black !important;
+}
+#footer a:hover {
+	text-decoration: underline;
+}
+.footer-container{
+	width: 85%;
+	display: flex;
+	flex-direction: column;
+	padding: 0 10px;
+}
+.footer-info {
+	min-width: 1228px;
+	display: flex;
+	justify-content: space-between;
+	padding: 48px 0;
+}
+.footer-info .info {
+	width: 25%;
+}
+.footer-info .info h4 {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.footer-info .info .info-list .info-list-item{
+	margin-top: 15px;
+}
+.footer-contacts {
+	display: flex;
+	padding: 25px 0;
+	min-width: 1228px;
+	border-top: 1px solid rgb(221, 221, 221);
+}
+.footer-contacts .contacts {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.important-links {
+	display: flex;
+	justify-content: space-between;
+}
+.contacts .links {
+	display: flex;
+	justify-content: flex-start;
+	width: 70%;
+}
+.rights {
+	padding-right: 30px;
+}
+.important-links span {
+	display: inline-block;
+	width: 20px;
+	text-align: center;
+}
+.contacts .settings-and-social {
+	display: flex;
+	justify-content: space-between;
+}
+.settings {
+	display: flex;
+	padding-right: 40px;
+}
+.settings div {
+	margin: 0 10px;
+}
+.settings .selection {
+	text-decoration: underline;
+}
+.settings .language a{
+	display: flex;
+}
+.settings .language a span {
+	padding: 0 5px;
+}
+.social ul {
+	display: flex;
+}
+.social ul li {
+	padding: 0 16px;
 }
