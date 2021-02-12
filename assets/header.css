@@ -1,7 +1,7 @@
 /* main header styles */
 
 .logo {
-	fill: rgb(255,56,92);
+	fill: rgb(255, 56, 92);
 	cursor: pointer;
 	width: 33%;
 	display: flex;
@@ -9,6 +9,7 @@
 }
 
 #mainHeader {
+	z-index: 10;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -37,7 +38,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border: 1px solid rgb(221,221,221);
+	border: 1px solid rgb(221, 221, 221);
 	width: 18.5rem;
 	border-radius: 2rem;
 	height: 2.7rem;
@@ -49,7 +50,7 @@
 	width: 2rem;
 	height: 2rem;
 	border-radius: 2rem;
-	background-color: rgb(255,56,92);
+	background-color: rgb(255, 56, 92);
 	align-items: center;
 	display: flex;
 	flex-direction: column;
@@ -74,7 +75,7 @@
 }
 
 #littleSearchLabel {
-padding: 0 1.5rem;
+	padding: 0 1.5rem;
 }
 
 .login-container {
@@ -88,6 +89,7 @@ padding: 0 1.5rem;
 	height: 2.5rem;
 	padding: 0 0.1rem 0 0.5rem;
 }
+
 .login-container:hover {
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
 }

@@ -48,10 +48,7 @@ table {
 	border-spacing: 0;
 }
 
-.logo {
-	color: #FFFFFF !important;
-	filter: invert(1);	/* fill: white; */
-}
+
 
 /* footer */
 #footer {
