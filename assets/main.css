@@ -66,11 +66,10 @@ explore-all-btn a:active {
 
 .exp-container {
     display: flex;
-    justify-content: space-between;
     margin: 40px 0;
 }
 .exp-container > div {
-    width: 49%;
+    width: 50%;
     cursor: pointer;
 }
 .main-exp,.top-left,.top-right,.bot {
@@ -93,6 +92,12 @@ explore-all-btn a:active {
     background-color: rgb(34, 34, 34);
     border-radius: 0px 0px 16px 16px !important;
 }
+.exp-container .main-exp {
+    margin-right: 1rem;
+}
+.exp-container .extra-exp {
+    margin-left: 1rem;
+}
 .exp-container .main-exp div p {
     width: 65%;
     font-size: 16px !important;
@@ -103,14 +108,16 @@ explore-all-btn a:active {
 .exp-container .extra-exp {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
-/* .exp-container .extra-exp .top,.bot {
-    height: 92%;
-} */
-.exp-container .extra-exp .top {
+.extra-exp .top {
+    margin-bottom: 1rem;
     display: flex;
     justify-content: space-between;
+}.extra-exp .top .top-left{
+    margin-right: 1rem;
+}
+.extra-exp .top .top-right{
+    margin-left: 1rem;
 }
 .exp-container .extra-exp .top .description {
     height: 76px;
@@ -123,12 +130,13 @@ explore-all-btn a:active {
     background-color: rgb(34, 34, 34);
     border-radius: 0px 0px 16px 16px !important;
 }
-.exp-container .extra-exp .top div p {
+.exp-container .extra-exp .top div p, .bot div p {
     font-size: 16px !important;
     line-height: 20px !important;
     font-weight: 600 !important;
     padding: 16px !important;
 }
-.exp-container .extra-exp .top div{
-    width: 48%;
+
+.exp-container .extra-exp .bot {
+    margin-top: 1rem;
 }
