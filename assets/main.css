@@ -26,3 +26,145 @@
     margin: 0 0 0.5rem 0;
     border-radius: 0.5rem;
 }
+main {
+    padding-top: 300px;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+}
+main .online-experiences {
+    background-color: black;
+    padding: 40px 0;
+}
+main .online-experiences .container {
+    color: white;
+    margin: 30px auto;
+    width: 85%;
+}
+.online-experiences .container .header {
+    display: flex;
+    justify-content: space-between;
+}
+.container .header .wrapper h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.container .header .wrapper p {
+    margin-top: 5px;
+}
+#explore-all-btn a{
+    cursor: pointer !important;
+    display: inline-block !important;
+    margin: 0px !important;
+    position: relative !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    width: auto !important;
+    touch-action: manipulation !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    outline: none !important;
+    padding: 7px 15px !important;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s !important;
+    border-color: rgb(255, 255, 255) !important;
+    background: transparent !important;
+    color: rgb(255, 255, 255) !important;
+}
+#explore-all-btn a:hover {
+    border-color: rgb(255, 255, 255) !important;
+    background: rgb(113, 113, 113) !important;
+    color: rgb(255, 255, 255) !important;
+}
+#explore-all-btn a:focus-visible {
+    outline: none !important;
+    transition: box-shadow 0.2s ease 0s !important;
+    box-shadow: rgb(34, 34, 34) 0px 0px 0px 2px, rgba(255, 255, 255, 0.8) 0px 0px 0px 4px !important;
+    border-color: rgb(34, 34, 34) !important;
+    color: rgb(255, 255, 255) !important;
+}
+explore-all-btn a:active {
+    transform: scale(0.96) !important;
+    border-color: rgb(255, 255, 255) !important;
+    background: transparent !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.exp-container {
+    display: flex;
+    margin: 40px 0;
+}
+.exp-container > div {
+    width: 50%;
+    cursor: pointer;
+}
+.main-exp,.top-left,.top-right,.bot {
+    position: relative;
+}
+.exp-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.description {
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    border-radius: 0px 0px 16px 16px !important;
+}
+.exp-container .main-exp {
+    margin-right: 1rem;
+}
+.exp-container .extra-exp {
+    margin-left: 1rem;
+}
+.exp-container .main-exp div p {
+    width: 65%;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    font-weight: 600 !important;
+    padding: 16px !important;
+}
+.exp-container .extra-exp {
+    display: flex;
+    flex-direction: column;
+}
+.extra-exp .top {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}.extra-exp .top .top-left{
+    margin-right: 1rem;
+}
+.extra-exp .top .top-right{
+    margin-left: 1rem;
+}
+.exp-container .extra-exp .top .description {
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    border-radius: 0px 0px 16px 16px !important;
+}
+.exp-container .extra-exp .top div p, .bot div p {
+    font-size: 16px !important;
+    line-height: 20px !important;
+    font-weight: 600 !important;
+    padding: 16px !important;
+}
+
+.exp-container .extra-exp .bot {
+    margin-top: 1rem;
+}
