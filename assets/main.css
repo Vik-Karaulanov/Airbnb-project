@@ -2,6 +2,54 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto$display=swap');
 
+#mini {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    background-color: white;
+}
+
+#mini .container {
+    margin: 0 auto;
+    display: flex;
+    width: 85%;
+    flex-wrap: wrap;
+}
+
+#mini .container .mini-card {
+    width: 25%;
+    height: 64px;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#mini .container .mini-card .mini-img {
+    border-radius: 8px;
+    height: 100%;
+}
+
+#mini .container .mini-card .mini-img img {
+    height: 100%;
+    border-radius: 8px;
+}
+
+#mini .container .mini-card b {
+    font-weight: 600;
+}
+
+.mini-card .mini-info {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    line-height: 18px;
+}
+
+.mini-info .destination {
+    margin-bottom: 6px;
+}
+
 #liveAnywhereSection {
     width: 100%;
     height: 25rem;
@@ -38,32 +86,37 @@
     user-select: none;
 }
 
-
 main {
     padding-top: 300px;
-    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
 }
+
 main .online-experiences {
     background-color: black;
     padding: 40px 0;
 }
+
 main .online-experiences .container {
     color: white;
     margin: 30px auto;
     width: 85%;
 }
+
 .online-experiences .container .header {
     display: flex;
     justify-content: space-between;
 }
+
 .container .header .wrapper h2 {
     font-size: 2rem;
     font-weight: bold;
 }
+
 .container .header .wrapper p {
     margin-top: 5px;
 }
-#explore-all-btn a{
+
+#explore-all-btn a {
     cursor: pointer !important;
     display: inline-block !important;
     margin: 0px !important;
@@ -86,11 +139,13 @@ main .online-experiences .container {
     background: transparent !important;
     color: rgb(255, 255, 255) !important;
 }
+
 #explore-all-btn a:hover {
     border-color: rgb(255, 255, 255) !important;
     background: rgb(113, 113, 113) !important;
     color: rgb(255, 255, 255) !important;
 }
+
 #explore-all-btn a:focus-visible {
     outline: none !important;
     transition: box-shadow 0.2s ease 0s !important;
@@ -98,6 +153,7 @@ main .online-experiences .container {
     border-color: rgb(34, 34, 34) !important;
     color: rgb(255, 255, 255) !important;
 }
+
 explore-all-btn a:active {
     transform: scale(0.96) !important;
     border-color: rgb(255, 255, 255) !important;
@@ -109,19 +165,26 @@ explore-all-btn a:active {
     display: flex;
     margin: 40px 0;
 }
-.exp-container > div {
+
+.exp-container>div {
     width: 50%;
     cursor: pointer;
 }
-.main-exp,.top-left,.top-right,.bot {
+
+.main-exp,
+.top-left,
+.top-right,
+.bot {
     position: relative;
 }
+
 .exp-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 16px;
 }
+
 .description {
     height: 76px;
     display: flex;
@@ -133,12 +196,15 @@ explore-all-btn a:active {
     background-color: rgb(34, 34, 34);
     border-radius: 0px 0px 16px 16px !important;
 }
+
 .exp-container .main-exp {
     margin-right: 1rem;
 }
+
 .exp-container .extra-exp {
     margin-left: 1rem;
 }
+
 .exp-container .main-exp div p {
     width: 65%;
     font-size: 16px !important;
@@ -146,20 +212,26 @@ explore-all-btn a:active {
     font-weight: 600 !important;
     padding: 16px !important;
 }
+
 .exp-container .extra-exp {
     display: flex;
     flex-direction: column;
 }
+
 .extra-exp .top {
     margin-bottom: 1rem;
     display: flex;
     justify-content: space-between;
-}.extra-exp .top .top-left{
+}
+
+.extra-exp .top .top-left {
     margin-right: 1rem;
 }
-.extra-exp .top .top-right{
+
+.extra-exp .top .top-right {
     margin-left: 1rem;
 }
+
 .exp-container .extra-exp .top .description {
     height: 76px;
     display: flex;
@@ -171,7 +243,9 @@ explore-all-btn a:active {
     background-color: rgb(34, 34, 34);
     border-radius: 0px 0px 16px 16px !important;
 }
-.exp-container .extra-exp .top div p, .bot div p {
+
+.exp-container .extra-exp .top div p,
+.bot div p {
     font-size: 16px !important;
     line-height: 20px !important;
     font-weight: 600 !important;
