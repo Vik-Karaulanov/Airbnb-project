@@ -28,10 +28,8 @@
 
 #liveAnywhereContainer .general-card {
     position: relative;
-    margin: 0.5rem;
-    width: 25%;
-    min-width: 15rem;
-    height: 100%;
+    width: 23%;
+    height: 21vw;
     cursor: pointer;
     transition: 0.3s;
     border-radius: 0.5rem;
