@@ -2,10 +2,13 @@
 
 .logo {
 	fill: rgb(255, 56, 92);
-	cursor: pointer;
 	width: 33%;
 	display: flex;
 	justify-content: flex-start;
+}
+
+.logo svg {
+	cursor: pointer;
 }
 
 #mainHeader {
