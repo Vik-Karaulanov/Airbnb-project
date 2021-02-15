@@ -1,6 +1,42 @@
+
 /* live anywhere section */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto$display=swap');
+
+.go-near-section {
+    width: 100%;
+    background-image: url(/assets/images/home-cover.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+    height: 35rem;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, 
+}
+
+.go-near-section .go-near-container {
+    padding: 13rem 0 0 5rem;
+}
+
+.go-near-section .go-near-container .go-near-title {
+    font-size: 7rem;
+    line-height: 6rem;
+    width: 10rem;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.go-near-section .go-near-container .go-near-button {
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+    color: rgb(77,77,77);
+    background-color: white;
+}
 
 #mini {
     display: flex;
@@ -85,7 +121,6 @@
 }
 
 main {
-    padding-top: 300px;
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
 }
 
