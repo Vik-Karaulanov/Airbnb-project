@@ -77,7 +77,6 @@ table {
 	padding: 0 10px;
 }
 .footer-info {
-	min-width: 1228px;
 	display: flex;
 	justify-content: space-between;
 	padding: 48px 0;
@@ -95,12 +94,12 @@ table {
 .footer-contacts {
 	display: flex;
 	padding: 25px 0;
-	min-width: 1228px;
 	border-top: 1px solid rgb(221, 221, 221);
 }
 .footer-contacts .contacts {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	width: 100%;
 }
 .important-links {
