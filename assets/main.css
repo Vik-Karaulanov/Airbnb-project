@@ -1,0 +1,30 @@
+.go-near-section {
+    width: 100%;
+    background-image: url(/assets/images/home-cover.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+}
+
+.go-near-section .go-near-container {
+    padding: 13rem 0 0 5rem;
+}
+
+.go-near-section .go-near-container .go-near-title {
+    font-size: 7rem;
+    width: 10rem;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.go-near-section .go-near-container .go-near-button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    color: rgb(77,77,77);
+    background-color: white;
+}
