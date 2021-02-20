@@ -111,7 +111,30 @@
     border-radius: 16px;
     font-size: 15px;
 }
-#country-select:active {
+#country-select:focus {
     outline: none;
+    border: none;
+}
+#email-container > div {
+    position: relative;
+}
+#email, #date-of-birth {
+    width: 100%;
+    border: none;
+    border: 1px lightgray solid;
+    border-radius: 16px;
+    min-height: 64px !important;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+#email-container input:focus~.floating-label,
+#email-container input:not(:focus):valid~.floating-label{
+    top: 10px;
+    bottom: 0px;
+    left: 10px;
+    font-size: 0.9em;
+    opacity: 1;
 }
 
