@@ -12,6 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/login.css">
     <link rel="stylesheet" href="assets/header.css">
     <link rel="stylesheet" href="assets/main.css">
     <link rel="stylesheet" href="assets/footer.css">
@@ -55,6 +56,62 @@
         </div>
     </header>
     <main>
+        <div id="signup">
+            <div class="signup-container">
+                <div class="signup-header">
+                    <button class="closeBtn">X</button>
+                    <div>
+                        <h3>Sign up</h3>
+                    </div>
+                    <div>
+                    </div>
+                </div>
+                <div class="signup-body">
+                    <form action="#" id="signup-form">
+                        <div id="country">
+                            <span>Country/Region</span>
+                            <select id="country-select" required>
+                                <option value="591BO">Bolivia (+591)</option>
+                                <option value="Bulgaria">Bulgaria (+359)</option>
+                                <option value="385HR">Croatia (+385)</option>
+                                <option value="45DK">Denmark (+45)</option>
+                                <option value="49DE">Germany (+49)</option>
+                                <option value="30GR">Greece (+30)</option>
+                                <option value="36HU">Hungary (+36)</option>
+                                <option value="354IS">Iceland (+354)</option>
+                            </select>
+                            <!-- <div class="dropdown-icon">
+                                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 4px; overflow: visible;"
+                                    aria-hidden="true" role="presentation" focusable="false">
+                                    <g fill="none">
+                                        <path
+                                            d="m28 12-11.2928932 11.2928932c-.3905243.3905243-1.0236893.3905243-1.4142136 0l-11.2928932-11.2928932">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </div> -->
+                        </div>
+                        <div id="name">
+                            <div>
+                                <input type="text" id="firstName" required>
+                                <span class="floating-label">First name</span>
+                            </div>
+                            <div>
+                                <input type="text" id="lastName" required>
+                                <span class="floating-label">Last name</span>
+                            </div>
+                        </div>
+                        <div id="date-of-birth">
+                            <input type="date" placeholder="Date of birth">
+                        </div>
+                        <div id="email">
+                            <input type="text" placeholder="Email">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
         <section class="go-near-section">
             <div class="go-near-container">
                 <div class="go-near-title">
@@ -265,6 +322,7 @@
                             </div>
                         </div>
                     </div>
+        </section>
     </main>
     <footer id="footer">
         <div class="footer-container">

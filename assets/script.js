@@ -6,6 +6,12 @@
     let footer = getById('footer');
     let sectionsInMain = document.querySelectorAll('main > section');
     let search = getById('littleSearchLabel');
+    let loginBtn = document.querySelector('.login-container');
+    let signup = getById('signup');
+    
+    loginBtn.addEventListener('click', () => {
+        window.location.hash = "login";
+    })
     
     search.addEventListener('click', (e) => {
         window.location.hash = 'allLocations';
@@ -16,13 +22,11 @@
 
         switch (currentPage) {
             case 'homePage': {
-                hideElements(test);
                 showElements(...sectionsInMain);
             }
                 break;
             case 'allLocations': {
                 hideElements(...sectionsInMain);
-                showElements(test);
             }
                 break;
             case 'targetLocation': {
@@ -34,7 +38,7 @@
             }
                 break;
             case 'login': {
-
+                showElements(signup);
             }
                 break;
             case 'errorPage': {

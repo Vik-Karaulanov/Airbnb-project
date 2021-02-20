@@ -1,0 +1,117 @@
+#signup {
+    display: none;
+    position: absolute;
+    right: 100px;
+    top: 300px;
+}
+
+#signup * {
+    /* border: 1px solid purple; */
+}
+
+.signup-container {
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.signup-header {
+    display: flex;
+    width: 100%;
+    min-height: 64px !important;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    padding: 0px 24px;
+    color: rgb(34, 34, 34);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 800;
+}
+
+.signup-header > div {
+    flex: 0 1 auto;
+    text-align: center;
+}
+.signup-header .closeBtn {
+    width: 16px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+.signup-body {
+    width: 100%;
+    padding: 30px 24px;
+}
+#country {
+    border: 1px lightgray solid;
+}
+#signup-form {
+    width: 100%;
+}
+#signup-form > div {
+    border-radius: 16px;
+    width: 100%;
+}
+#name input {
+    border: none;
+    width: 100%;
+    border: 1px lightgray solid;
+    border-radius: 16px;
+    min-height: 64px !important;
+    font-size: 16px;
+    line-height: 20px;
+}
+#name > div {
+    position: relative;
+}
+#name #firstName {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+#name #lastName:last-of-type {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+#name input:focus~.floating-label,
+#name input:not(:focus):valid~.floating-label{
+    top: 10px;
+    bottom: 0px;
+    left: 10px;
+    font-size: 0.9em;
+    opacity: 1;
+}
+
+.floating-label {
+    font-size: 1.2em;
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    top: 25px;
+    transition: 0.4s ease all;
+}
+#country {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+#country span {
+    margin: 10px;
+}
+#country-select {
+    border: none;
+    padding: 10px 10px;
+    border-radius: 16px;
+    font-size: 15px;
+}
+#country-select:active {
+    outline: none;
+}
+

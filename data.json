@@ -1,0 +1,69 @@
+{
+    "title" : "Cozy Studio / Top Top Location",
+    "location" : {
+        "country" : "Bulgaria",
+        "city" : "Varna",
+        "street": "ul. Makedonia"
+    },
+    "images" : [
+        "https://a0.muscache.com/im/pictures/miso/Hosting-45263614/original/459113ad-78ca-4cee-8f2f-094ce860b488.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-45263614/original/9a1a5c9a-d3f0-45e4-ae86-89e5a6fd25d6.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-45263614/original/44182f96-4220-400f-bcc5-c2fb743d3a5c.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-45263614/original/b4db02cf-e543-400a-9942-b4c3f2f7f7be.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-45263614/original/fbf95bd2-d556-4b8e-b56b-0ce4b6c5bbb8.jpeg?im_w=720"
+    ],
+    "description": "В сърцето на град Варна, топ локация, уютно и чисто студио на 350 м. от централен плаж, 100 м. от Морската Градина на Варна, 50 м. от колоритната пешеходна алея на Варна. Всички атракции, барове, ресторанти са на пешеходно разстояние.",
+    "host": "Vladimir",
+    "rating" : 5.0,
+    "reviews" : 19,
+    "stayType": "Entire home",
+    "nonAvailableDates" : ["20.03.2020"],
+    "guests": 4,
+    "bedrooms": 2,
+    "baths": 1,
+    "beds": 2,
+    "price" : {
+        "perNight": "45lv/night",
+        "serviceFee": "9lv"
+    },
+    "enhancedCleaning": true,
+    "cancellationPolicy": "Non-refundable at this price. You can pay extra during checkout to make this reservation refundable until Feb 25.",
+    "houseRules": {
+        "checkIn": "After 2:00 PM",
+        "checkOut": "11:00 AM",
+        "suitableForChildrenAndInfants": false,
+        "smoking": false,
+        "petsAllowed": false,
+        "partiesAllowed": false,
+        "additionalRules": ["keeping silence after 22:00", "... sth else"]
+    },
+    "Amenities": {
+        "Bathroom": [
+            "Shampoo", "Hair Dryer", "Shower gel", "Hot Water"
+        ],
+        "Bedroom and laundry": [
+            "Iron", "Washer", "Hangers", "Bed linens", "Essentials", "Extra pillows and blankets"
+        ],
+        "Entertainment": [
+            "Cable TV", "TV", "Ethernet connection"
+        ],
+        "Heating and cooling": [
+            "Heating", "Air conditioning"
+        ],
+        "Internet and office": [
+            "Dedicated workspace", "Wifi"
+        ],
+        "Kitchen and dining": [
+            "Kitchen", "Dishwasher", "Cooking basics", "Refrigerator", "Stove", "Oven", "Coffee maker", "Microwave", "Dishes and silverware"
+        ],
+        "Outdoor": [
+            "Garden or backyard", "BBQ grill"
+        ],
+        "Parking and facilities": [
+             "Paid parking", "Single level home"
+        ],
+        "Not included": [
+        "Carbon monoxide alarm", "Smoking Alarm", "Private entrance"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "fisrtName": "Vladimir",
+    "lastName": "Peshov",
+    "dateOfBirth": "01.01.1985",
+    "email" : "asd@abv.bg",
+    "country/region": "Bulgaria",
+    "superhost" : true,
+    "picture" : "https://a0.muscache.com/im/pictures/user/0cb2968d-c45e-46b5-a2d8-8a10026d7802.jpg?im_w=240",
+    "homes" : [{}, {}, {}],
+    "isIdentityVerified": true,
+    "responseRate" : 100,
+    "reviews": 19,
+    "responseTime": "within an hour"
+}
