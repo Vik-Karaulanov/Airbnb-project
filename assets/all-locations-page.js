@@ -18,7 +18,7 @@ function printAllLocationsPage(location, allStays) {
     allStayInLocation.forEach(el => {
             let newCard = createEl('div', 'className', 'new-card');
             let imgDiv = createEl('img', 'className', 'card-img');
-            imgDiv.src = `${el.image}`;
+            imgDiv.src = `${el.images}`;
             // imgDiv.src = `images/cosy-stay.jpeg`;
             let ratingSpan = createEl('span', 'className', 'rating-span');
             let starIcon = createEl('img', 'className', 'star-icon');

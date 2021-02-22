@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="assets/footer.css">
     <link rel="stylesheet" href="assets/all-locations-page.css">
     <script src="assets/stays.js" defer></script>
+    <script src="assets/userModel.js" defer></script>
+    <script src="assets/userController.js" defer></script>
     <script src="assets/StaysManager.js" defer></script>
     <script src="assets/Stay.js" defer></script>
     <script src="assets/Host.js" defer></script>
@@ -106,6 +108,21 @@
                                 <span class="floating-label">Email</span>
                             </div>
                         </div>
+                        <div id="password-signup-container">
+                            <div>
+                                <input type="password" id="signup-password" required>
+                                <span class="floating-label">Password</span>
+                            </div>
+                        </div>
+                        <div class="error-message">
+                            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 2px; overflow: visible;" aria-label="Error indicator" role="img" focusable="false"><circle cx="16" cy="16" r="14" fill="none"></circle><path d="m16 8v10" fill="none"></path><circle cx="16" cy="22.5" fill="#000" r=".5"></circle></svg>
+                            <span>Enter a valid ....</span>
+                        </div>
+                        <div class="done-container">
+                            <div>
+                                <button id="signupBtn" class="button">Sign up</button>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -114,6 +131,43 @@
                     <span>or</span>
                 </div>
             </div> -->
+        </div>
+        <div id="login">
+            <div class="signup-container">
+                <div class="signup-header">
+                    <button class="login-closeBtn">X</button>
+                    <div>
+                        <h3>Log in</h3>
+                    </div>
+                    <div>
+                    </div>
+                </div>
+                <div class="signup-body">
+                    <form action="#" id="login-form">
+                        <div id="username-container">
+                            <div>
+                                <input type="text" id="username" required>
+                                <span class="floating-label">Email</span>
+                            </div>
+                        </div>
+                        <div id="password-login-container">
+                            <div>
+                                <input type="password" id="login-password" required>
+                                <span class="floating-label">Password</span>
+                            </div>
+                        </div>
+                        <div class="error-message">
+                            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 2px; overflow: visible;" aria-label="Error indicator" role="img" focusable="false"><circle cx="16" cy="16" r="14" fill="none"></circle><path d="m16 8v10" fill="none"></path><circle cx="16" cy="22.5" fill="#000" r=".5"></circle></svg>
+                            <span>Enter a valid ....</span>
+                        </div>
+                        <div class="done-container">
+                            <div>
+                                <button id="loginBtn" class="button">Log in</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
         <div id="allLocations">
 

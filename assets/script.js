@@ -22,11 +22,34 @@
     let sectionsInMain = document.querySelectorAll('main section');
     let search = getById('littleSearchLabel');
     
-    let loginBtn = document.querySelector('.login-container');
+    let loginBtnIcon = document.querySelector('.login-container');
     let signup = getById('signup');
+    let signupBtn = getById('signupBtn');
+    let signupCloseBtn = signup.querySelector('.signup-closeBtn');
+    let login = getById('login');
+    let loginBtn = getById('loginBtn');
+    let loginCloseBtn = login.querySelector('.login-closeBtn');
+
+    window.addEventListener('click', (e) => {
+        if (e.target === signup || e.target === signupCloseBtn) {
+            hideElements(signup);
+        }
+        if (e.target === login || e.target === loginCloseBtn) {
+            hideElements(login);
+        }
+    })
     
-    loginBtn.addEventListener('click', () => {
-        window.location.hash = "login";
+    loginBtnIcon.addEventListener('click', () => {
+        //If there is no user logged in
+        //Show login modal
+        if (userModel.isLoggedIn()) {
+            
+        } else {
+            showElementsFlex(login);
+            
+        }
+        //If there is a user already logged in
+        //Show user menu
     });
     
     let allLocations = getById('allLocations');
@@ -65,7 +88,8 @@
             }
                 break;
             case 'login': {
-                showElementsFlex(signup);
+                // showElementsFlex(signup);
+                showElementsFlex(login);
             }
                 break;
             case 'errorPage': {
