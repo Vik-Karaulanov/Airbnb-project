@@ -1,13 +1,13 @@
 const userModel = (function () {
 
     class User {
-        constructor(firstName, lastName, email, password, country) {
+        constructor(firstName, lastName, email, password, country, profilePicture) {
             this.firstName = firstName;
             this.lastName = lastName;
             this.email = email;
             this.password = password;
             this.country = country;
-            this.profilePicture = 'assets/images/default-profile-img.png';
+            this.profilePicture = profilePicture || 'assets/images/default-profile-img.png';
             this.reviews = [];
             this.stays = [];
         }
@@ -15,7 +15,7 @@ const userModel = (function () {
 
     let users = [
         new User('Pesho', 'Peshov', 'pesho@abv.bg', '123', 'Bulgaria'),
-        new User('asd', 'asd', 'asd@asd.asd', 'asd', 'asd'),
+        new User('asd', 'asd', 'asd@asd.asd', 'asd', 'asd', 'assets/images/userProfilePicTest.webp'),
     ];
 
     let localStorageUsers = JSON.parse(window.localStorage.getItem('users')) || users;
@@ -28,6 +28,9 @@ const userModel = (function () {
 
     return {
         localStorageUsers,
+        get currentLoggedUser() {
+            return JSON.parse(window.localStorage.getItem('currentUser'));
+        },
         validateName: function (name) {
             let letters = /^[A-Za-z]{4,}$/;
             return (name.match(letters)) ? true : false;
@@ -46,15 +49,16 @@ const userModel = (function () {
             updateLocalStorage(user);
         },
         isLoggedIn: function () {
-            currentUser ? true : false;
+            return currentUser ? true : false;
         },
         loginUser: function (email, password) {
             let user = users.find(user => {
-                user.email === email && user.password === password
+                return user.email === email && user.password === password
             });
 
             if (user) {
-                window.localStorage.setItem('currentUser', user);
+                window.localStorage.setItem('currentUser', JSON.stringify(user));
+                console.log(`lognah ${email} s parola ${password}`);
             }
             return user; 
         },
