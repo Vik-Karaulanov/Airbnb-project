@@ -1,0 +1,84 @@
+#allLocations .button {
+    cursor: pointer !important;
+    text-align: center !important;
+    border: 1px solid black !important;
+    background-color: #FFFFFF !important;
+    outline: none !important;
+    padding: 0.5rem 1rem !important;
+    margin: 0px !important;
+    border-color: #B0B0B0 !important;
+    border-radius: 30px !important;
+    color: #222222 !important;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    position: relative !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+}
+
+#allLocations {
+    margin-top: 5rem;
+    padding: 4rem 5rem;
+}
+
+#allLocations .stays-counter {
+    padding-left: 0.5rem;
+}
+
+#allLocations .info {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1rem 0.5rem;
+}
+
+#allLocations .buttons-container {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+}
+
+#allLocations .stays-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+#allLocations .new-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    padding: 0.5rem;
+}
+
+.new-card .card-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 0.6rem;
+}
+
+.new-card .rating-span {
+    padding: 0.5rem 0;
+}
+
+.new-card .star-icon {
+    width: 0.9rem;
+
+}
+
+.new-card .current-rating {
+    padding: 0 0.2rem;
+}
+
+.new-card .users-votes {
+    color: gray;
+}
+
+.new-card .stay-title {
+    padding-bottom: 1rem;
+}
+
+.description-container .card-title{
+    padding: 0.3rem 0;
+}
