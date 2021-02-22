@@ -21,6 +21,7 @@
 	color: #484848;
 	font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 	font-size: 0.9rem;
+	box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 12px;
 }
 
 #headerContainer {
@@ -34,7 +35,7 @@
 .search-wrapper {
 	display: flex;
 	justify-content: center;
-	width: 33%;
+	width: 20.5rem;
 }
 
 .search-container {
@@ -42,9 +43,9 @@
 	justify-content: space-between;
 	align-items: center;
 	border: 1px solid rgb(221, 221, 221);
-	width: 18.5rem;
+	width: 100%;
 	border-radius: 2rem;
-	height: 2.7rem;
+	height: 3rem;
 	cursor: pointer;
 }
 
@@ -78,7 +79,14 @@
 }
 
 #littleSearchLabel {
-	padding: 0 1.5rem;
+	padding-left: 0.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#littleSearchLabel div {
+	padding: 0 1rem;
 }
 
 .login-container {
