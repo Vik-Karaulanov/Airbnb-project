@@ -38,7 +38,7 @@
             }
                 break;
             case 'login': {
-                showElements(signup);
+                showElementsFlex(signup);
             }
                 break;
             case 'errorPage': {
