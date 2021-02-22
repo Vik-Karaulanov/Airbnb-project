@@ -3,9 +3,16 @@
     window.addEventListener('DOMContentLoaded', router);
 
     let staysManager = new StaysManager();
+
     stays.forEach(el => {
-        let stay = new Stay(el.location);
-        console.log(stay);
+        // let xhr = new XMLHttpRequest();
+        // xhr.open('GET', 'https://i.picsum.photos/id/47/200/200')
+        // xhr.onloadend = function() {
+        //     console.log(xhr);
+        // };
+        // xhr.send();
+        el.image = 'assets/images/cosy-stay.jpeg';
+        let stay = new Stay(el.title, el.location, el.images, el.description, el.host, el.rating, el.reviews, el.stayType, el.nonAvailableDates, el.guests, el.bedrooms, el.baths, el.beds, el.price, el.enhancedCleaning, el.cancellationPolicy, el.houseRules, el.amenities);
         staysManager.allStays.push(stay);
     });
 
@@ -16,17 +23,17 @@
     let search = getById('littleSearchLabel');
     let allLocations = getById('allLocations');
     let miniLocations = document.querySelectorAll('#mini .container .mini-card');
-    
-    console.log(miniLocations);
+    let logo = document.querySelector('.logo svg');
 
     miniLocations.forEach(el => {
-        let chosenLocation = el.querySelector('.destination b').innerHTML;
-        el.addEventListener('click', printAllLocationsPage(chosenLocation, staysManager.allStays))
+        el.addEventListener('click', () => {
+            let chosenLocation = el.querySelector('b').innerHTML;
+            printAllLocationsPage(chosenLocation, staysManager.allStays);
+        });
+        el.addEventListener('click', () => window.location.hash = 'allLocations');
     });
-
-    search.addEventListener('click', (e) => {
-        window.location.hash = 'allLocations';
-    })
+    
+    logo.addEventListener('click', () => window.location.hash = 'homePage');
 
     function router(){
         let currentPage = window.location.hash.slice(1);
@@ -58,7 +65,10 @@
 
             }
                 break;
-            default:
+            default: {
+                hideElements(allLocations);
+                showElements(...sectionsInMain);
+            }
                 break;
         }
     }
