@@ -19,7 +19,6 @@ const userModel = (function () {
     ];
 
     let localStorageUsers = JSON.parse(window.localStorage.getItem('users')) || users;
-    let currentUser = JSON.parse(window.localStorage.getItem('currentUser'));
     window.localStorage.setItem('users', JSON.stringify(users));
 
     function updateLocalStorage(users) {
@@ -44,11 +43,15 @@ const userModel = (function () {
             return (password >= 4) ? true : false;
         },
         registerUser: function (firstName, lastName, email, password, country) {
-            let user = new User(firstName, lastName, email, password, country);
-            users.push(user);
-            updateLocalStorage(user);
+            if (!users.find(user => user.email === email)) {
+                let newUser = new User(firstName, lastName, email, password, country);
+                users.push(newUser);
+                updateLocalStorage(users);
+                return newUser;
+            } else return false;
         },
         isLoggedIn: function () {
+            let currentUser = JSON.parse(window.localStorage.getItem('currentUser'));
             return currentUser ? true : false;
         },
         loginUser: function (email, password) {
@@ -59,8 +62,19 @@ const userModel = (function () {
             if (user) {
                 window.localStorage.setItem('currentUser', JSON.stringify(user));
                 console.log(`lognah ${email} s parola ${password}`);
+            } else {
+                console.log(`dobavi logika za %cnesyshtestvuvash %cuser i/ili parola`,
+                    'color:red; font-size:20px',
+                    '');
             }
-            return user; 
+            return user;
+        },
+        logoutUser: function () {
+            curUser = JSON.parse(window.localStorage.getItem('currentUser'));
+            console.log(`log%cOUT%cnah ${curUser.email} s parola ${curUser.password}`,
+                'color:red; font-size: 20px',
+                '');
+            window.localStorage.removeItem('currentUser');
         },
     }
 })();

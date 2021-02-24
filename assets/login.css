@@ -198,6 +198,9 @@
     font-size: 14px !important;
     line-height: 16px !important;
 }
+.button:focus {
+    border: 2px solid black !important;
+}
 
 .signup-closeBtn:focus,
 .login-closeBtn:focus {
@@ -209,7 +212,7 @@
     padding: 10px !important;
 }
 
-.error-message {
+#error-message {
     display: none;
     color: red;
     font-size: 0.7rem;

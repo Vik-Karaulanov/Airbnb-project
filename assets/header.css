@@ -91,6 +91,7 @@
 	width: 4rem;
 	height: 2.5rem;
 	padding: 0 0.1rem 0 0.5rem;
+	position: relative;
 }
 
 .login-container:hover {
@@ -110,4 +111,36 @@
 
 main {
 	width: 100%;
+}
+
+.profile-menu {
+	position: absolute;
+	width: 225px;
+	display: none;
+	/* display: flex; */
+	flex-direction: column;
+	top: 70px;
+	background-color: white;
+	border-radius: 16px;
+	transition: 0.3s;
+	border: 1px solid lightgray;
+	padding: 10px 0;
+}
+.profile-menu:hover {
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.28);
+}
+.menu-item {
+	width: 100%;
+	padding: 10px;
+	margin: 0 !important;
+}
+.menu-item:hover {
+	background-color: #dbdbdb;
+}
+.line {
+	padding: 0;
+	margin: 0 !important;
+	height: 0;
+	width: 100%;
+	border-bottom: 1px solid lightgray;
 }
