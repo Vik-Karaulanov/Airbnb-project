@@ -12,6 +12,9 @@
 }
 
 #mainHeader {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	z-index: 10;
 	position: fixed;
 	top: 0;
@@ -22,20 +25,21 @@
 	font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 	font-size: 0.9rem;
 	box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 12px;
+	user-select: none;
 }
 
 #headerContainer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 100%;
+	height: 5rem;
 	padding: 0 5% 0 6%;
 }
 
 .search-wrapper {
 	display: flex;
 	justify-content: center;
-	width: 20.5rem;
+	width: auto;
 }
 
 .search-container {
@@ -43,10 +47,10 @@
 	justify-content: space-between;
 	align-items: center;
 	border: 1px solid rgb(221, 221, 221);
-	width: 100%;
-	border-radius: 2rem;
+	border-radius: 5rem;
 	height: 3rem;
 	cursor: pointer;
+	transition: 0.1s;
 }
 
 .search-loop-wrapper {
@@ -80,13 +84,66 @@
 
 #littleSearchLabel {
 	padding-left: 0.5rem;
+}
+
+#littleSearchLabel div {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+#littleSearchLabel .search-specific-location {
+	padding: 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-#littleSearchLabel div {
-	padding: 0 1rem;
+#littleSearchLabel .search-specifics-expanded {
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#littleSearchLabel .start-your-search {
+	padding: 0 8rem 0 1rem;
+}
+
+#littleSearchLabel .add-dates-in-search {
+	display: flex;
+	border-left: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+}
+
+.search-line-height {
+	line-height: 1.5rem;
+}
+
+.search-divs-width {
+	width: 10rem;
+}
+
+.flex-row {
+	display: flex;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.search-specifics-expanded .add-dates-in-search > div {
+	display: flex;
+	flex-direction: column;
+}
+
+.search-specifics-expanded .add-guests-in-search {
+	display: flex;
+	flex-direction: column;
+}
+
+.search-specifics-expanded .add-dates-in-search > div:first-child {
+	border-right: 1px solid lightgray;
 }
 
 .login-container {
@@ -99,6 +156,11 @@
 	width: 4rem;
 	height: 2.5rem;
 	padding: 0 0.1rem 0 0.5rem;
+}
+
+.bold {
+	font-weight: bold;
+	color: black;
 }
 
 .login-container:hover {
@@ -118,4 +180,8 @@
 
 main {
 	width: 100%;
+}
+
+#expWhiteField {
+	height: 0rem;
 }

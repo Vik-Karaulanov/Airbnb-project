@@ -2998,4 +2998,4 @@ let stays = [{
         "houseRules": "error: Missing or stray quote in line 1",
         "amenities": "error: Missing or stray quote in line 1"
     }
-]
+];

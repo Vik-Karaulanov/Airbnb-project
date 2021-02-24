@@ -1,4 +1,7 @@
-function printAllLocationsPage(location, allStays) {
+
+function printAllLocationsPage(location = localStorage.getItem("chosenLocation"), allStays = staysManager.allStays) {
+    allLocations.innerHTML = '';
+
     let staysCounter = createEl('div', 'className', 'stays-counter');
     let info = createEl('div', 'className', 'info');
     let buttonsContainer = createEl('div', 'className', 'buttons-container');
@@ -19,7 +22,6 @@ function printAllLocationsPage(location, allStays) {
         let newCard = createEl('div', 'className', 'new-card');
         let imgDiv = createEl('img', 'className', 'card-img');
         imgDiv.src = `${el.images}`;
-        // imgDiv.src = `images/cosy-stay.jpeg`;
         let ratingSpan = createEl('span', 'className', 'rating-span');
         let starIcon = createEl('img', 'className', 'star-icon');
         starIcon.src = 'assets/images/icons/red-star.png';
@@ -27,7 +29,7 @@ function printAllLocationsPage(location, allStays) {
         let currentRating = createEl('span', 'className', 'current-rating');
         currentRating.innerHTML = el.rating;
         let usersVotes = createEl('span', 'className', 'users-votes');
-        usersVotes.innerHTML = `(${el.reviews})`
+        usersVotes.innerHTML = `(${el.reviews})`;
         let descriptionContainer = createEl('div', 'className', 'description-container');
         let cardTitle = createEl('div', 'className', 'card-title');
         cardTitle.innerHTML = `${el.stayType} · ${el.location}`

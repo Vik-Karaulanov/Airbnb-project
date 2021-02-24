@@ -17,12 +17,14 @@
     <link rel="stylesheet" href="assets/main.css">
     <link rel="stylesheet" href="assets/footer.css">
     <link rel="stylesheet" href="assets/all-locations-page.css">
-    <script src="assets/stays.js" defer></script>
-    <script src="assets/StaysManager.js" defer></script>
-    <script src="assets/Stay.js" defer></script>
-    <script src="assets/Host.js" defer></script>
     <script src="assets/utils.js" defer></script>
+    <script src="assets/stays.js" defer></script>
+    <script src="assets/Stay.js" defer></script>
+    <script src="assets/StaysManager.js" defer></script>
+    <script src="assets/Host.js" defer></script>
+    <script src="assets/searchBarPrint.js" defer></script>
     <script src="assets/all-locations-page.js" defer></script>
+    <script src="assets/searchBarController.js" defer></script>
     <script src="assets/script.js" defer></script>
 </head>
 
@@ -39,8 +41,35 @@
             <div class="search-wrapper">
                 <div class="search-container">
                     <div id="littleSearchLabel">
-                        <div>
+                        <div class="start-your-search">
                             Start your search
+                        </div>
+                        <div class="search-specific-location">
+                            <div class="searched-location bold"></div>
+                            <div class="add-dates-in-search search-line-height">Add dates</div>
+                            <div class="add-guests-in-search search-line-height">Add guests</div>
+                        </div>
+                        <div class="search-specifics-expanded">
+                            <div class="searched-location-expanded">
+                                <div class="search-line-height flex-column search-divs-width">
+                                    <span class="bold">Location</span>
+                                    <span class="current-location"></span>
+                                </div>
+                            </div>
+                            <div class="add-dates-in-search search-line-height">
+                                <div class="search-divs-width">
+                                    <span class="bold">Check in</span>
+                                    <span>Add dates</span>
+                                </div>
+                                <div class="search-divs-width">
+                                    <span class="bold">Check out</span>
+                                    <span>Add dates</span>
+                                </div>
+                            </div>
+                            <div class="add-guests-in-search search-line-height search-divs-width">
+                                <span class="bold">Guests</span>
+                                <span>Add guests</span>
+                            </div>
                         </div>
                     </div>
                     <div class="search-loop-wrapper">
@@ -64,6 +93,7 @@
                 </div>
             </div>
         </div>
+        <div id="expWhiteField"></div>
     </header>
     <main>
         <div id="signup">
