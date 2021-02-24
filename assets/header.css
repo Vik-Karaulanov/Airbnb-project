@@ -53,6 +53,10 @@
 	transition: 0.1s;
 }
 
+.search-container:hover {
+	box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 3px;
+}
+
 .search-loop-wrapper {
 	margin-right: 0.5rem;
 	width: 2rem;
@@ -116,11 +120,11 @@
 }
 
 .search-line-height {
-	line-height: 1.5rem;
+	line-height: 1.25rem;
 }
 
 .search-divs-width {
-	width: 10rem;
+	width: 7rem;
 }
 
 .flex-row {
@@ -132,7 +136,11 @@
 	flex-direction: column;
 }
 
-.search-specifics-expanded .add-dates-in-search > div {
+.search-location-width {
+	width: 5rem;
+}
+
+.search-specifics-expanded .add-dates-in-search>div {
 	display: flex;
 	flex-direction: column;
 }
@@ -142,7 +150,7 @@
 	flex-direction: column;
 }
 
-.search-specifics-expanded .add-dates-in-search > div:first-child {
+.search-specifics-expanded .add-dates-in-search>div:first-child {
 	border-right: 1px solid lightgray;
 }
 

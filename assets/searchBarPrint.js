@@ -5,8 +5,6 @@ function printSearchBar(chosenLocation = localStorage.getItem("chosenLocation"),
     searchedLocationDiv.innerHTML = loc;
     searchedLocationExpanded.innerHTML = loc;
     let currentPage = window.location.hash.slice(1);
-    let addDatesInSearch = document.querySelector(".add-dates-in-search");
-    let addGuestsInSearch = document.querySelector(".add-guests-in-search");
 
     if (currentWhiteFieldHeight !== undefined) {
         let searchSpecificsExpanded = document.querySelector('.search-specifics-expanded');
@@ -16,14 +14,16 @@ function printSearchBar(chosenLocation = localStorage.getItem("chosenLocation"),
         let expWhiteField = getById("expWhiteField");
         let mainHeader = getById('mainHeader');
         let searchContainer = document.querySelector(".search-container");
+        let searchLocationWidth = document.querySelectorAll(".search-location-width");
+        let searchDivsWidth = document.querySelectorAll(".search-divs-width");
 
         if (currentWhiteFieldHeight === "") {
             console.log("Height-a e 0");
             showElementsFlex(searchSpecificsExpanded);
             hideElements(startYourSearch, searchSpecificLocations);
             
-            let paddingLeft = 1;
-            let paddingRight = 1;
+            let normalDivWidth = 7;
+            let locationDivWidth = 5;
             let whiteFieldHeight = 0;
             let headerHeight = 5;
             let searchContainerHeight = 3;
@@ -37,8 +37,13 @@ function printSearchBar(chosenLocation = localStorage.getItem("chosenLocation"),
                 } else {
                     whiteFieldHeight += 0.25;
                     headerHeight += 0.25;
-                    searchContainerHeight += 0.1;
+                    searchContainerHeight += 0.06;
                     translateState += 0.2;
+                    locationDivWidth += 0.4;
+                    normalDivWidth += 0.15;
+
+                    searchLocationWidth.forEach(el => el.style.width = `${locationDivWidth}rem`);
+                    searchDivsWidth.forEach(el => el.style.width = `${normalDivWidth}rem`);
                     searchBar.style.transform = `translateY(${translateState}rem)`;
                     expWhiteField.style.height = whiteFieldHeight + 'rem';
                     mainHeader.style.height = headerHeight + 'rem';
@@ -46,7 +51,6 @@ function printSearchBar(chosenLocation = localStorage.getItem("chosenLocation"),
                 }
             }
         } else {
-            searchedLocationExpanded.innerHTML = `${chosenLocation}`;
             console.log("Height-a e 5rem");
             if (currentPage === 'allLocations') {
                 showElementsFlex(searchSpecificLocations);
@@ -55,10 +59,11 @@ function printSearchBar(chosenLocation = localStorage.getItem("chosenLocation"),
                 showElements(startYourSearch);
                 hideElements(searchSpecificsExpanded);
             }
-            let padding = 1;
+            let normalDivWidth = 10;
+            let locationDivWidth = 13;
             let whiteFieldHeight = 5;
             let headerHeight = 10;
-            let searchContainerHeight = 5;
+            let searchContainerHeight = 4.2;
             let translateState = 1;
             let timer = setInterval(makeSearchNarrower, 3);
 
@@ -69,8 +74,13 @@ function printSearchBar(chosenLocation = localStorage.getItem("chosenLocation"),
                 } else {
                     whiteFieldHeight -= 0.25;
                     headerHeight -= 0.25;
-                    searchContainerHeight -= 0.1;
+                    searchContainerHeight -= 0.06;
                     translateState -= 0.05;
+                    locationDivWidth -= 0.4;
+                    normalDivWidth -= 0.15;
+
+                    searchLocationWidth.forEach(el => el.style.width = `${locationDivWidth}rem`);
+                    searchDivsWidth.forEach(el => el.style.width = `${normalDivWidth}rem`);
                     searchBar.style.transform = `translateY(${translateState}rem)`;
                     expWhiteField.style.height = whiteFieldHeight + 'rem';
                     mainHeader.style.height = headerHeight + 'rem';
