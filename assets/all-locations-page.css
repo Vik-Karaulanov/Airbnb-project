@@ -13,6 +13,7 @@
     position: relative !important;
     font-size: 14px !important;
     line-height: 16px !important;
+    user-select: none;
 }
 
 #allLocations {
@@ -81,4 +82,23 @@
 
 .description-container .card-title{
     padding: 0.3rem 0;
+}
+
+#optionsWrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    visibility: hidden;
+    position: relative;
+}
+
+.checkbox-container {
+    position: absolute;
+    top: -0.3rem;
+    padding: 0 0.5rem;
+}
+
+.checkbox-container label {
+    padding-left: 0.2rem;
+    padding-right: 0.5rem;
 }

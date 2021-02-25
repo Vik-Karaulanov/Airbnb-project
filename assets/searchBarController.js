@@ -2,7 +2,6 @@ let searchBar = document.querySelector('.search-wrapper .search-container');
 let miniLocations = document.querySelectorAll('#mini .container .mini-card');
 let chosenLocation = '';
 
-printAllLocationsPage();
 printSearchBar();
 
 miniLocations.forEach(el => {

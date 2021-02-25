@@ -2,9 +2,10 @@ function printSearchBar(chosenLocation = localStorage.getItem("chosenLocation"),
     let searchedLocationDiv = document.querySelector('.search-specific-location .searched-location');
     let searchedLocationExpanded = document.querySelector(".search-specifics-expanded .current-location");
     let loc = localStorage.getItem("chosenLocation");
-    searchedLocationDiv.innerHTML = loc;
-    searchedLocationExpanded.innerHTML = loc;
     let currentPage = window.location.hash.slice(1);
+    searchedLocationDiv.innerHTML = loc;
+    if (currentPage !== 'allLocations') searchedLocationExpanded.innerHTML = 'Where to?';
+    else searchedLocationExpanded.innerHTML = loc;
 
     if (currentWhiteFieldHeight !== undefined) {
         let searchSpecificsExpanded = document.querySelector('.search-specifics-expanded');
@@ -18,7 +19,6 @@ function printSearchBar(chosenLocation = localStorage.getItem("chosenLocation"),
         let searchDivsWidth = document.querySelectorAll(".search-divs-width");
 
         if (currentWhiteFieldHeight === "") {
-            console.log("Height-a e 0");
             showElementsFlex(searchSpecificsExpanded);
             hideElements(startYourSearch, searchSpecificLocations);
             
@@ -51,7 +51,6 @@ function printSearchBar(chosenLocation = localStorage.getItem("chosenLocation"),
                 }
             }
         } else {
-            console.log("Height-a e 5rem");
             if (currentPage === 'allLocations') {
                 showElementsFlex(searchSpecificLocations);
                 hideElements(searchSpecificsExpanded);

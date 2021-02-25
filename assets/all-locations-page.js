@@ -1,24 +1,21 @@
-
 function printAllLocationsPage(location = localStorage.getItem("chosenLocation"), allStays = staysManager.allStays) {
-    allLocations.innerHTML = '';
 
-    let staysCounter = createEl('div', 'className', 'stays-counter');
-    let info = createEl('div', 'className', 'info');
-    let buttonsContainer = createEl('div', 'className', 'buttons-container');
-    let typeOfPlaceButton = createEl('button', 'className', 'button');
-    typeOfPlaceButton.innerHTML = 'Type of place';
-    let priceButton = createEl('button', 'className', 'button');
-    priceButton.innerHTML = 'Price';
-    let moreFiltersButton = createEl('button', 'className', 'button');
-    moreFiltersButton.innerHTML = 'More filters';
-    let staysContainer = createEl('div', 'className', 'stays-container');
+    let staysCounter = document.querySelector('#allLocations .stays-counter');
+    let info = document.querySelector('#allLocations .info');
+    let optionsWrapper = getById('optionsWrapper');
+    let buttonsContainer = document.querySelector('#allLocations .buttons-container');
+    let typeOfPlaceButton = document.querySelector('.type-of-place-btn');
+    let priceButton = document.querySelector('.price-btn');
+    let moreFiltersButton = document.querySelector('.more-filters-btn');
+    let staysContainer = document.querySelector('#allLocations .stays-container');
+    let allStaysInLocation = allStays.filter(el => el.location === location);
 
-    let allStayInLocation = allStays.filter(el => el.location === location);
+    staysContainer.innerHTML = '';
 
-    staysCounter.innerText = `${allStayInLocation.length} stays`;
+    staysCounter.innerText = `${allStaysInLocation.length} stays`;
     info.innerText = `Stays in ${location}`;
 
-    allStayInLocation.forEach(el => {
+    allStaysInLocation.forEach(el => {
         let newCard = createEl('div', 'className', 'new-card');
         let imgDiv = createEl('img', 'className', 'card-img');
         imgDiv.src = `${el.images}`;
@@ -49,7 +46,29 @@ function printAllLocationsPage(location = localStorage.getItem("chosenLocation")
         newCard.append(imgDiv, ratingSpan, descriptionContainer);
         staysContainer.append(newCard);
     });
+}
 
-    buttonsContainer.append(typeOfPlaceButton, priceButton, moreFiltersButton);
-    allLocations.append(staysCounter, info, buttonsContainer, staysContainer);
+function printTypeOfPlacesOptions() {
+
+    let typesOfPlaces = [];
+    stays.forEach(el => {
+        if (!typesOfPlaces.includes(el.stayType)) typesOfPlaces.push(el.stayType)
+    })
+    let checkboxContainer = document.querySelector('#allLocations .checkbox-container');
+    checkboxContainer.innerHTML = '';
+
+    typesOfPlaces.forEach(el => {
+        let typeOfPlace = createEl('input', 'type', 'checkbox');
+        typeOfPlace.id = el.toLowerCase().split(' ').map(word => {
+            if (el.toLowerCase().indexOf(word) !== 0) return word = word[0].toUpperCase() + word.slice(1);
+            else return word;
+        }).join('');
+        let labelForEntireAp = document.createElement('label');
+        labelForEntireAp.setAttribute('for', `${typeOfPlace.id}`);
+        labelForEntireAp.style.userSelect = 'none';
+
+        labelForEntireAp.innerHTML = `${el[0].toUpperCase() + el.slice(1)}`;
+
+        checkboxContainer.append(typeOfPlace, labelForEntireAp);
+    })
 }
