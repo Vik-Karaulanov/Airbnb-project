@@ -212,7 +212,8 @@
     padding: 10px !important;
 }
 
-#error-message {
+#signup-error-message,
+#login-error-message {
     display: none;
     color: red;
     font-size: 0.7rem;

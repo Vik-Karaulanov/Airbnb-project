@@ -30,19 +30,27 @@ const userModel = (function () {
         get currentLoggedUser() {
             return JSON.parse(window.localStorage.getItem('currentUser'));
         },
-        validateName: function (name) {
-            let letters = /^[A-Za-z]{4,}$/;
+        validateName(name) {
+            let letters = /^[A-Z]{1}[a-z]{3,}$/;
             return (name.match(letters)) ? true : false;
         },
-        validateEmail: function (email) {
+        validateEmail(email) {
             let mailCheck = /^[^@\s]+@[^@\s\.]+\.[^@\.\s]+$/;
             return (email.match(mailCheck)) ? true : false;
 
         },
-        validatePassword: function (password) {
+        validatePassword(password) {
             return (password >= 4) ? true : false;
         },
-        registerUser: function (firstName, lastName, email, password, country) {
+        validateBirthDate(birthDate) {
+            let birth = new Date(birthDate).getFullYear();
+            let currentDate = new Date(Date.now()).getFullYear();
+            if (currentDate - birth < 18) {
+                return false;
+            }
+            return true;
+        },
+        registerUser(firstName, lastName, email, password, country) {
             if (!users.find(user => user.email === email)) {
                 let newUser = new User(firstName, lastName, email, password, country);
                 users.push(newUser);
@@ -50,11 +58,11 @@ const userModel = (function () {
                 return newUser;
             } else return false;
         },
-        isLoggedIn: function () {
+        isLoggedIn() {
             let currentUser = JSON.parse(window.localStorage.getItem('currentUser'));
             return currentUser ? true : false;
         },
-        loginUser: function (email, password) {
+        loginUser(email, password) {
             let user = users.find(user => {
                 return user.email === email && user.password === password
             });
@@ -69,7 +77,7 @@ const userModel = (function () {
             }
             return user;
         },
-        logoutUser: function () {
+        logoutUser() {
             curUser = JSON.parse(window.localStorage.getItem('currentUser'));
             console.log(`log%cOUT%cnah ${curUser.email} s parola ${curUser.password}`,
                 'color:red; font-size: 20px',
