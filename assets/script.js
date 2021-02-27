@@ -15,17 +15,17 @@ let searchDefaultText = document.querySelector('#littleSearchLabel .start-your-s
 let loginBtn = document.querySelector('.login-container');
 let signup = getById('signup');
 
+let allLocations = getById('allLocations');
+let miniLocations = document.querySelectorAll('#mini .container .mini-card');
+let logo = document.querySelector('.logo svg');
+
 loginBtn.addEventListener('click', () => {
     window.location.hash = "login";
 });
 
 let allLocations = getById('allLocations');
 
-// Print of the searchBar and allLocations page in case of refresh:
-
-
 let logo = document.querySelector('.logo svg');
-
 
 logo.addEventListener('click', () => window.location.hash = 'homePage');
 
@@ -37,34 +37,34 @@ function router() {
             hideElements(allLocations, searchBarAllLocations, searchSpecificsExpanded);
             showElements(...sectionsInMain, searchDefaultText);
         }
-        break;
-    case 'allLocations': {
-        hideElements(...sectionsInMain, searchDefaultText, searchSpecificsExpanded);
-        showElements(allLocations);
-        showElementsFlex(searchBarAllLocations);
-    }
-    break;
-    case 'targetLocation': {
+            break;
+        case 'allLocations': {
+            hideElements(...sectionsInMain, searchDefaultText, searchSpecificsExpanded);
+            showElements(allLocations);
+            showElementsFlex(searchBarAllLocations);
+        }
+            break;
+        case 'targetLocation': {
 
-    }
-    break;
-    case 'becomeAHost': {
+        }
+            break;
+        case 'becomeAHost': {
 
-    }
-    break;
-    case 'login': {
-        showElementsFlex(signup);
-    }
-    break;
-    case 'errorPage': {
+        }
+            break;
+        case 'login': {
+            showElementsFlex(signup);
+        }
+            break;
+        case 'errorPage': {
 
-    }
-    break;
-    default: {
-        hideElements(allLocations, searchBarAllLocations, searchSpecificsExpanded);
-        showElements(...sectionsInMain, searchDefaultText);
-    }
-    break;
+        }
+            break;
+        default: {
+            hideElements(allLocations, searchBarAllLocations, searchSpecificsExpanded);
+            showElements(...sectionsInMain, searchDefaultText);
+        }
+            break;
     }
 }
 // })();

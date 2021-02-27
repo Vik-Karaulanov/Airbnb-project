@@ -1,4 +1,5 @@
-#signup {
+#signup,
+#login {
     display: none;
     background-color: rgba(61, 52, 52, 0.700);
     width: 100vw;
@@ -9,8 +10,7 @@
     position: fixed;
 }
 
-#signup {
-}
+#signup {}
 
 .signup-container {
     width: 570px;
@@ -37,33 +37,47 @@
     font-weight: 800;
 }
 
-.signup-header > div {
+.signup-header>div {
     flex: 0 1 auto;
     text-align: center;
 }
-.signup-header .signup-closeBtn {
-    width: 16px;
+
+.signup-header .signup-closeBtn,
+.login-closeBtn {
+    width: 40px;
+    height: 40px;
     border: none;
     padding: 0;
     background-color: transparent;
 }
+
 .signup-body {
     width: 100%;
     padding: 30px 24px;
 }
+
 #country {
     border: 1px lightgray solid;
 }
+
 #signup-form {
     width: 100%;
     padding: 10px;
 }
-#signup-form > div {
+
+#signup-form>div,
+#login-form>div {
     border-radius: 16px;
     width: 100%;
     margin-top: 15px;
 }
-#name input {
+
+/* #name input,
+#username-container input,
+#email-container input,
+#password-login-container input,
+#password-signup-container input { */
+.signup-container input {
     border: none;
     width: 100%;
     border: 1px lightgray solid;
@@ -72,20 +86,32 @@
     font-size: 16px;
     line-height: 20px;
 }
-#name > div {
+.signup-container input:focus {
+    outline: none;
+    border: 2px black solid;
+    border-radius: 16px;
+}
+
+#name>div,
+#email-container>div,
+#username-container>div,
+#password-login-container>div,
+#password-signup-container>div {
     position: relative;
 }
+
 #name #firstName {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
+
 #name #lastName:last-of-type {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
 
 #name input:focus~.floating-label,
-#name input:not(:focus):valid~.floating-label{
+#name input:not(:focus):valid~.floating-label {
     top: 10px;
     bottom: 0px;
     left: 10px;
@@ -101,29 +127,32 @@
     top: 25px;
     transition: 0.4s ease all;
 }
+
 #country {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
 }
+
 #country span {
     margin: 10px;
 }
+
 #country-select {
     border: none;
     padding: 10px 10px;
     border-radius: 16px;
     font-size: 15px;
 }
+
 #country-select:focus {
     outline: none;
     border: none;
 }
-#email-container > div {
-    position: relative;
-}
-#email, #date-of-birth {
+
+#email,
+#date-of-birth {
     width: 100%;
     border: none;
     border: 1px lightgray solid;
@@ -135,12 +164,64 @@
 }
 
 #email-container input:focus~.floating-label,
-#email-container input:not(:focus):valid~.floating-label{
+#username-container input:focus~.floating-label,
+#password-login-container input:focus~.floating-label,
+#password-signup-container input:focus~.floating-label,
+#email-container input:not(:focus):valid~.floating-label,
+#username-container input:not(:focus):valid~.floating-label,
+#password-login-container input:not(:focus):valid~.floating-label,
+#password-signup-container input:not(:focus):valid~.floating-label {
     top: 10px;
     bottom: 0px;
     left: 10px;
     font-size: 0.9em;
     opacity: 1;
+}
+
+.done-container {
+    text-align: center;
+}
+
+.done-container .button {
+    cursor: pointer !important;
+    text-align: center !important;
+    border: 1px solid black !important;
+    background-color: #FFFFFF !important;
+    outline: none !important;
+    padding: 0.5rem 1rem !important;
+    margin: 0px !important;
+    border-color: #B0B0B0 !important;
+    border-radius: 30px !important;
+    color: #222222 !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
+    position: relative !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+}
+.button:focus {
+    border: 2px solid black !important;
+}
+
+.signup-closeBtn:focus,
+.login-closeBtn:focus {
+    width: 40px;
+    height: 40px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px !important;
+}
+
+#signup-error-message,
+#login-error-message {
+    display: none;
+    color: red;
+    font-size: 0.7rem;
+    align-items: center;
+}
+
+.error-message span {
+    padding-left: 6px;
 }
 
 /* .other-containe {
