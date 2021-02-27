@@ -17,6 +17,7 @@ miniLocations.forEach(el => {
     el.addEventListener('click', () => window.location.hash = 'allLocations');
     el.addEventListener('click', () => {
         localStorage.setItem("chosenLocation", el.querySelector('b').innerHTML);
+        loc = localStorage.getItem("chosenLocation");
         chosenLocation = localStorage.getItem("chosenLocation");
         printAllLocationsPage(chosenLocation, staysManager.allStays);
         printSearchBar(chosenLocation);
