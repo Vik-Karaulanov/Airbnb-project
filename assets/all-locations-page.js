@@ -83,12 +83,10 @@ function printSortByPriceOptions() {
 
 }
 
-function sortByPrice(loc, sortDirection) {
-    let allStays = staysManager.allStays;
-    let allStaysInLocation = allStays.filter(el => el.location === loc);
+function sortByPrice(sortDirection, stays) {
     if (sortDirection === 'ascending') {
-        return allStaysInLocation.sort((a, b) => b.price - a.price);
+        return stays.sort((a, b) => b.price - a.price);
     } else {
-        return allStaysInLocation.sort((a, b) => a.price - b.price);
+        return stays.sort((a, b) => a.price - b.price);
     }
 }
