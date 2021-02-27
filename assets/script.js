@@ -16,16 +16,11 @@ let loginBtn = document.querySelector('.login-container');
 let signup = getById('signup');
 
 let allLocations = getById('allLocations');
-let miniLocations = document.querySelectorAll('#mini .container .mini-card');
 let logo = document.querySelector('.logo svg');
 
 loginBtn.addEventListener('click', () => {
     window.location.hash = "login";
 });
-
-let allLocations = getById('allLocations');
-
-let logo = document.querySelector('.logo svg');
 
 logo.addEventListener('click', () => window.location.hash = 'homePage');
 
@@ -53,7 +48,6 @@ function router() {
         }
             break;
         case 'login': {
-            showElementsFlex(signup);
         }
             break;
         case 'errorPage': {
