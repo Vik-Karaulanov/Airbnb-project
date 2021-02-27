@@ -51,6 +51,7 @@
 	height: 3rem;
 	cursor: pointer;
 	transition: 0.1s;
+	padding-left: 0.5rem;
 }
 
 .search-container:hover {
@@ -86,9 +87,9 @@
 	margin: 0 0.75rem;
 }
 
-#littleSearchLabel {
-	padding-left: 0.5rem;
-}
+/* #littleSearchLabel {
+	
+} */
 
 #littleSearchLabel div {
 	padding-left: 1rem;
@@ -137,12 +138,17 @@
 }
 
 .search-location-width {
-	width: 5rem;
+	min-width: max-content;
 }
 
 .search-specifics-expanded .add-dates-in-search>div {
 	display: flex;
 	flex-direction: column;
+}
+
+.search-specifics-expanded input {
+	outline: none;
+	border: none;
 }
 
 .search-specifics-expanded .add-guests-in-search {
