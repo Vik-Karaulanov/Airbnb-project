@@ -21,9 +21,6 @@ loginBtn.addEventListener('click', () => {
 
 let allLocations = getById('allLocations');
 
-// Print of the searchBar and allLocations page in case of refresh:
-
-
 let logo = document.querySelector('.logo svg');
 
 

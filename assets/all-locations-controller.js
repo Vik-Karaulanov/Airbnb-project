@@ -1,20 +1,67 @@
-printAllLocationsPage();
+let loc = localStorage.getItem("chosenLocation");
+
+printAllLocationsPage(loc);
 
 let typeOfPlaceBtn = document.querySelector('.type-of-place-btn');
+let priceBtn = document.querySelector('.price-btn');
 let optionsWrapper = getById('optionsWrapper');
+let radioOptionsContainer = document.querySelector('.radio-buttons-container');
 let typeOfPlaceOptions = optionsWrapper.innerHTML;
+let priceOrderContainer = document.querySelector('.price-order-container');
+let ascendingPriceOption = document.querySelector('.price-order-container .ascending-price-sort');
+let descendingPriceOption = document.querySelector('.price-order-container .descending-price-sort');
+let miniLocations = document.querySelectorAll('#mini .container .mini-card');
 
-window.addEventListener('click', (ev) => {        
-    if(ev.target === typeOfPlaceBtn) {
-        // if (optionsWrapper.style.display === 'flex') {
-            if (optionsWrapper.style.visibility === 'visible') {
-                optionsWrapper.style.visibility = 'hidden';
-            // hideElements(optionsWrapper);
+miniLocations.forEach(el => {
+    el.addEventListener('click', () => window.location.hash = 'allLocations');
+    el.addEventListener('click', () => {
+        localStorage.setItem("chosenLocation", el.querySelector('b').innerHTML);
+        chosenLocation = localStorage.getItem("chosenLocation");
+        printAllLocationsPage(chosenLocation, staysManager.allStays);
+        printSearchBar(chosenLocation);
+    });
+});
+
+window.addEventListener('click', (ev) => {
+    if (ev.target === typeOfPlaceBtn) {
+        if (radioOptionsContainer.style.visibility === 'visible') {
+            radioOptionsContainer.style.visibility = 'hidden';
         } else {
             printTypeOfPlacesOptions();
-            // showElementsFlex(optionsWrapper);
-            optionsWrapper.style.visibility = 'visible';
+            priceOrderContainer.style.visibility = 'hidden';
+            radioOptionsContainer.style.visibility = 'visible';
+        }
+    } else if (ev.target === priceBtn) {
+        if (priceOrderContainer.style.visibility === 'visible') {
+            priceOrderContainer.style.visibility = 'hidden';
+        } else {
+            radioOptionsContainer.style.visibility = 'hidden';
+            priceOrderContainer.style.visibility = 'visible';
         }
     }
 });
+
+optionsWrapper.addEventListener('change', (ev) => {
+    let allLabelOptions = Array.from(document.querySelectorAll('#optionsWrapper label'));
+    let focusedElm = allLabelOptions.reduce((focused, el) => {
+        if (el.control.id === ev.target.id) {
+            focused = el.innerHTML;
+        }
+        return focused;
+    }, '');
+    console.log(ev.target.checked);
+    if (ev.target.checked) {
+        printAllLocationsPage(loc, filterStays(loc, 'stayType', focusedElm));
+    } else {
+        printAllLocationsPage(loc);
+    }
+})
+
+ascendingPriceOption.addEventListener('click', (ev) => {
+    printAllLocationsPage(loc, sortByPrice(loc, 'ascending'));
+})
+
+descendingPriceOption.addEventListener('click', (ev) => {
+    printAllLocationsPage(loc, sortByPrice(loc, 'descending'));
+})
 
