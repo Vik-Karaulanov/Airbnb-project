@@ -16,6 +16,7 @@ let loginBtn = document.querySelector('.login-container');
 let signup = getById('signup');
 
 let allLocations = getById('allLocations');
+
 let logo = document.querySelector('.logo svg');
 
 logo.addEventListener('click', () => window.location.hash = 'homePage');

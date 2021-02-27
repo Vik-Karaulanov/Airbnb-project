@@ -1,11 +1,10 @@
-function printSearchBar(chosenLocation = localStorage.getItem("chosenLocation"), currentWhiteFieldHeight) {
+function printSearchBar(chosenLocation, currentWhiteFieldHeight) {
     let searchedLocationDiv = document.querySelector('.search-specific-location .searched-location');
     let searchedLocationExpanded = document.querySelector(".search-specifics-expanded .current-location");
-    let loc = localStorage.getItem("chosenLocation");
     let currentPage = window.location.hash.slice(1);
-    searchedLocationDiv.innerHTML = loc;
+    searchedLocationDiv.innerHTML = chosenLocation;
     if (currentPage !== 'allLocations') searchedLocationExpanded.innerHTML = 'Where to?';
-    else searchedLocationExpanded.innerHTML = loc;
+    else searchedLocationExpanded.innerHTML = chosenLocation;
 
     if (currentWhiteFieldHeight !== undefined) {
         let searchSpecificsExpanded = document.querySelector('.search-specifics-expanded');
