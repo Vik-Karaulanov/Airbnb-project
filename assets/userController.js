@@ -25,8 +25,8 @@
     let menuHYHBtn2 = getById('menuHYHBtn2');
     let menuSignoutBtn = getById('menuSignoutBtn');
 
-    
-    function appendError(errEl, errMessage){
+
+    function appendError(errEl, errMessage) {
         let message = errEl.querySelector('span');
         message.innerText = '';
         message.innerText = errMessage;
@@ -42,7 +42,7 @@
     // to hide signup/login div if clicked outside
     window.addEventListener('click', (e) => {
 
-        if (e.target == loginBtnIcon  || e.target.parentNode == loginBtnIcon) {
+        if (e.target == loginBtnIcon || e.target.parentNode == loginBtnIcon) {
             if (userModel.isLoggedIn()) {
                 toggleDisplay(headerProfileMenu2, 'block');
             } else {
@@ -53,6 +53,9 @@
         if (e.target != loginBtnIcon && e.target.parentNode != loginBtnIcon) {
             hideElements(headerProfileMenu1, headerProfileMenu2);
         }
+    });
+
+    window.addEventListener('mousedown', (e) => {
 
         if (e.target === signup || e.target === signupCloseBtn) {
             hideElements(signup);
@@ -60,7 +63,7 @@
         if (e.target === login || e.target === loginCloseBtn) {
             hideElements(login);
         }
-    });
+    })
 
     menuSignoutBtn.addEventListener('click', () => {
         userModel.logoutUser();
@@ -110,7 +113,7 @@
         allFormFields.set('lastName', userModel.validateName(lastName));
         allFormFields.set('email', userModel.validateEmail(email));
         allFormFields.set('birthDate', userModel.validateBirthDate(birthDate));
-        
+
         console.log(allFormFields);
         for (let x in allFormFields) {
             if (allFormFields[x] === false) {
@@ -118,7 +121,7 @@
             }
         }
 
-        
+
     })
 
 })();

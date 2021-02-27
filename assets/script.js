@@ -18,10 +18,6 @@ let signup = getById('signup');
 let allLocations = getById('allLocations');
 let logo = document.querySelector('.logo svg');
 
-loginBtn.addEventListener('click', () => {
-    window.location.hash = "login";
-});
-
 logo.addEventListener('click', () => window.location.hash = 'homePage');
 
 function router() {
@@ -48,6 +44,7 @@ function router() {
         }
             break;
         case 'login': {
+            showElementsFlex(login);
         }
             break;
         case 'errorPage': {
