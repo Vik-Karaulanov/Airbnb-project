@@ -16,7 +16,7 @@ window.addEventListener('click', (ev) => {
     if ((ev.target.closest('.start-your-search') || ev.target.closest('.search-specific-location')) && isExpanded === false) {
         isExpanded = printSearchBar(chosenLocation, 'expand');
     }
-    if (ev.target === searchLoop) {
-        getReservationData();
+    if (ev.target.closest('.search-specifics-expanded .search-loop-wrapper') === searchLoop) {
+        localStorage.setItem('searchFieldsValues', `${getReservationData()}`);
     }
 });

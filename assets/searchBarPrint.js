@@ -116,5 +116,14 @@ function printSearchBar(chosenLocation = '', expandedOrNormal) {
 }
 
 function getReservationData() {
+    let chosenLocation = document.querySelector('.searched-location-expanded .current-location');
+    let checkInDate = getById('checkInDate');
+    let checkOutDate = getById('checkOutDate');
+    let guestsNumber = getById('guestsNumber');
+    console.log(chosenLocation.value);
+    console.log(checkInDate.value);
+    console.log(checkOutDate.value);
+    console.log(guestsNumber.value);
 
+    return [chosenLocation.value, checkInDate.value, checkOutDate.value, guestsNumber.value];
 }
