@@ -120,10 +120,13 @@ function getReservationData() {
     let checkInDate = getById('checkInDate');
     let checkOutDate = getById('checkOutDate');
     let guestsNumber = getById('guestsNumber');
-    console.log(chosenLocation.value);
-    console.log(checkInDate.value);
-    console.log(checkOutDate.value);
-    console.log(guestsNumber.value);
+    let allElements = [chosenLocation, checkInDate, checkOutDate, guestsNumber];
 
+    allElements.forEach(el => {
+        if (el.value === '') {
+            el.style.border = '2px solid red';
+        } else el.style.border = 'none';
+    })
+    
     return [chosenLocation.value, checkInDate.value, checkOutDate.value, guestsNumber.value];
 }

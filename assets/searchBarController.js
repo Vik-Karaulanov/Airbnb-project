@@ -17,6 +17,9 @@ window.addEventListener('click', (ev) => {
         isExpanded = printSearchBar(chosenLocation, 'expand');
     }
     if (ev.target.closest('.search-specifics-expanded .search-loop-wrapper') === searchLoop) {
-        localStorage.setItem('searchFieldsValues', `${getReservationData()}`);
+        let searchInputValues = getReservationData();
+        if (!searchInputValues.includes('')) {
+            localStorage.setItem('searchFieldsValues', `${searchInputValues}`);
+        }
     }
 });
