@@ -96,6 +96,7 @@
 }
 
 #littleSearchLabel .search-specific-location {
+	display: none;
 	padding: 0;
 	display: flex;
 	height: 3rem;
@@ -105,7 +106,7 @@
 }
 
 #littleSearchLabel .search-specifics-expanded {
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: space-between;
 	padding-left: 0.5rem;
