@@ -12,6 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/host-your-home.css">
     <link rel="stylesheet" href="assets/login.css">
     <link rel="stylesheet" href="assets/header.css">
     <link rel="stylesheet" href="assets/main.css">
@@ -449,6 +450,77 @@
                         </div>
                     </div>
         </section>
+        <div id="host-your-home">
+            <div class="container">
+                <div id="progress-bar">
+                    <div id="progress"></div>
+                </div>
+                <div id="get-started">
+                    <div id="step1">
+                        <h3>Hi {user}! Let's get started listing your space.</h3>
+                        <strong>Step 1</strong>
+                        <div class="heading">
+                            Where's your place located?
+                        </div>
+                        <input type="text" placeholder="Property address">
+                        <button>Continue</button>
+                    </div>
+                    <div id="step2">
+                        <h3>What kind of place are you listing?</h3>
+                        <span class="step">Step 2</span>
+                        <label class="heading" for="property-type">
+                            Choose a property type
+                        </label>
+                        <select name="" id="property-type">
+                            <option value="Flat">Flat</option>
+                            <option value="Unique space">Unique space</option>
+                            <option value="Cabin">Cabin</option>
+                        </select>
+                        <label class="heading" for="property-type-type">
+                            Confirm the type of place guests will have
+                        </label>
+                        <select name="" id="property-type-type">
+                            <option value="Entire place">Entire place</option>
+                            <option value="Private room">Private room</option>
+                            <option value="Shared room">Shared room</option>
+                        </select>
+                        <label class="heading" for="number-of-guests">
+                            How many guests can your place accommodate?
+                        </label>
+                        <select name="" id="number-of-guests">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        <label class="heading" for="number-of-bedrooms">
+                            How many bedrooms can guests use?
+                        </label>
+                        <select name="" id="number-of-bedrooms">
+                            <option value="studio">studio</option>
+                            <option value="1">1 bedroom</option>
+                            <option value="2">2 bedrooms</option>
+                            <option value="3">3 bedrooms</option>
+                            <option value="4">4 bedrooms</option>
+                            <option value="5">5 bedrooms</option>
+                            <option value="6">6 bedrooms</option>
+                        </select>
+                        <label class="heading" for="number-of-beds">
+                            How many beds can guests use?
+                        </label>
+                        <select name="" id="number-of-beds">
+                            <option value="1">1 bed</option>
+                            <option value="2">2 beds</option>
+                            <option value="3">3 beds</option>
+                            <option value="4">4 beds</option>
+                            <option value="5">5 beds</option>
+                            <option value="6">6 beds</option>
+                        </select>
+                        <button>Continue</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer id="footer">
         <div class="footer-container">

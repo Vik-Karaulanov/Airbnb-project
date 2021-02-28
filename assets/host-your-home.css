@@ -1,0 +1,33 @@
+#host-your-home {
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+#host-your-home .container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#progress-bar {
+    width: 100%;
+    border: 1px lightgray solid;
+    border-radius: 12px;
+}
+#progress {
+    background-color: darkblue;
+    border-radius: 12px;
+    width: 10%;
+    height: 15px;
+}
+
+#get-started {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#get-started > div {
+    display: flex;
+    flex-direction: column;
+}
