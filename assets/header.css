@@ -51,7 +51,6 @@
 	height: 3rem;
 	cursor: pointer;
 	transition: 0.1s;
-	padding-left: 0.5rem;
 }
 
 .search-container:hover {
@@ -98,20 +97,30 @@
 
 #littleSearchLabel .search-specific-location {
 	padding: 0;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0.5rem;
 }
 
 #littleSearchLabel .search-specifics-expanded {
-	padding: 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	padding-left: 0.5rem;
+	height: 4.1rem;
+	padding-right: 0.1rem;
 }
 
 #littleSearchLabel .start-your-search {
-	padding: 0 8rem 0 1rem;
+	padding-left: 1.5rem;
+	padding-right: 0;
+	height: 3rem;
+    align-items: center;
+	display: flex;
+	width: 17rem;
+	justify-content: space-between;
 }
 
 #littleSearchLabel .add-dates-in-search {
@@ -198,4 +207,9 @@ main {
 
 #expWhiteField {
 	height: 0rem;
+}
+
+.search-specifics-expanded .current-location {
+	outline: none;
+	border: none;
 }

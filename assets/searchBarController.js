@@ -1,33 +1,22 @@
 let searchBar = document.querySelector('.search-wrapper .search-container');
-let miniLocations = document.querySelectorAll('#mini .container .mini-card');
-let chosenLocation = '';
-// let locationSearch = document.querySelector('.search-specifics-expanded .searched-location-expanded');
-// let searchBarIsClicked = false;
-printSearchBar();
+let startYourSearch = document.querySelector('.start-your-search');
+let searchSpecificLocation = document.querySelector('.search-specific-location');
+let mainSection = document.querySelector('main');
+let footerSection = getById('footer');
+let searchLoop = document.querySelector('.search-specifics-expanded .search-loop-wrapper');
+let isExpanded = false;
+let chosenLocation = localStorage.getItem('chosenLocation') || '';
 
-miniLocations.forEach(el => {
-    el.addEventListener('click', () => window.location.hash = 'allLocations');
-    el.addEventListener('click', () => {
-        localStorage.setItem("chosenLocation", el.querySelector('b').innerHTML);
-        chosenLocation = localStorage.getItem("chosenLocation");
-        printAllLocationsPage(chosenLocation, staysManager.allStays);
-        printSearchBar(chosenLocation);
-    });
+printSearchBar(chosenLocation);
+
+window.addEventListener('click', (ev) => {
+    if ((ev.target.closest('main') === mainSection || ev.target.closest('#footer') === footerSection) && isExpanded === true) {
+        isExpanded = printSearchBar(chosenLocation, 'normalize');
+    }
+    if ((ev.target.closest('.start-your-search') || ev.target.closest('.search-specific-location')) && isExpanded === false) {
+        isExpanded = printSearchBar(chosenLocation, 'expand');
+    }
+    if (ev.target === searchLoop) {
+        getReservationData();
+    }
 });
-
-searchBar.addEventListener('click', () => {
-    // searchBarIsClicked = true;
-    let currentWhiteFieldHeight = expWhiteField.style.height;
-    printSearchBar(chosenLocation, currentWhiteFieldHeight);
-})
-
-// window.addEventListener('click', (ev) => {
-//     if (ev.target === locationSearch) {
-//         searchBarIsClicked = false;
-//         console.log(1);
-//     }
-//     // if (searchBarIsClicked) {
-//     //     let currentWhiteFieldHeight = expWhiteField.style.height;
-//     //     printSearchBar(chosenLocation, currentWhiteFieldHeight);
-//     // }
-// })

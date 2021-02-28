@@ -35,7 +35,8 @@ function router() {
     switch (currentPage) {
         case 'homePage': {
             hideElements(allLocations, searchBarAllLocations, searchSpecificsExpanded);
-            showElements(...sectionsInMain, searchDefaultText);
+            showElements(...sectionsInMain);
+            showElementsFlex(searchDefaultText);
         }
         break;
     case 'allLocations': {
@@ -63,6 +64,7 @@ function router() {
     default: {
         hideElements(allLocations, searchBarAllLocations, searchSpecificsExpanded);
         showElements(...sectionsInMain, searchDefaultText);
+        showElementsFlex(searchDefaultText);
     }
     break;
     }
