@@ -15,17 +15,9 @@ let searchDefaultText = document.querySelector('#littleSearchLabel .start-your-s
 let loginBtn = document.querySelector('.login-container');
 let signup = getById('signup');
 
-loginBtn.addEventListener('click', () => {
-    window.location.hash = "login";
-});
-
 let allLocations = getById('allLocations');
 
-// Print of the searchBar and allLocations page in case of refresh:
-
-
 let logo = document.querySelector('.logo svg');
-
 
 logo.addEventListener('click', () => window.location.hash = 'homePage');
 
@@ -54,7 +46,7 @@ function router() {
     }
     break;
     case 'login': {
-        showElementsFlex(signup);
+        showElementsFlex(login);
     }
     break;
     case 'errorPage': {

@@ -9,11 +9,12 @@
     border-color: #B0B0B0 !important;
     border-radius: 30px !important;
     color: #222222 !important;
-    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
     position: relative !important;
     font-size: 14px !important;
     line-height: 16px !important;
     user-select: none;
+    min-width: max-content;
 }
 
 #allLocations {
@@ -49,7 +50,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 25%;
+    width: 18.5rem;
     padding: 0.5rem;
 }
 
@@ -80,25 +81,61 @@
     padding-bottom: 1rem;
 }
 
-.description-container .card-title{
+.description-container .card-title {
     padding: 0.3rem 0;
 }
 
 #optionsWrapper {
     display: flex;
     flex-direction: column;
-    margin: 1rem 0;
-    visibility: hidden;
+    margin: 1rem 0 1.5rem 0;
     position: relative;
 }
 
-.checkbox-container {
+.radio-buttons-container {
     position: absolute;
     top: -0.3rem;
     padding: 0 0.5rem;
+    visibility: hidden;
 }
 
-.checkbox-container label {
+.radio-buttons-container label {
     padding-left: 0.2rem;
     padding-right: 0.5rem;
+}
+
+.price-order-container {
+    position: absolute;
+    top: -0.6rem;
+    padding: 0 0.5rem;
+    visibility: hidden;
+    display: flex;
+}
+
+.price-order-container span {
+    margin-right: 0.5rem;
+}
+
+.ascending-price-sort,
+.descending-price-sort {
+    user-select: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+    font-size: 0.9rem;
+    border: solid lightgray 2px;
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
+    outline: none;
+    line-height: 16px !important;
+    min-width: max-content;
+}
+
+.price-order-container div:hover {
+    border-color: black;
+}
+
+.price-order-container img {
+    height: 1rem;
 }

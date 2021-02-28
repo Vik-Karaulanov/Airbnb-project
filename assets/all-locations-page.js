@@ -1,12 +1,7 @@
-function printAllLocationsPage(location = localStorage.getItem("chosenLocation"), allStays = staysManager.allStays) {
+function printAllLocationsPage(location, allStays = staysManager.allStays) {
 
     let staysCounter = document.querySelector('#allLocations .stays-counter');
     let info = document.querySelector('#allLocations .info');
-    let optionsWrapper = getById('optionsWrapper');
-    let buttonsContainer = document.querySelector('#allLocations .buttons-container');
-    let typeOfPlaceButton = document.querySelector('.type-of-place-btn');
-    let priceButton = document.querySelector('.price-btn');
-    let moreFiltersButton = document.querySelector('.more-filters-btn');
     let staysContainer = document.querySelector('#allLocations .stays-container');
     let allStaysInLocation = allStays.filter(el => el.location === location);
 
@@ -54,11 +49,12 @@ function printTypeOfPlacesOptions() {
     stays.forEach(el => {
         if (!typesOfPlaces.includes(el.stayType)) typesOfPlaces.push(el.stayType)
     })
-    let checkboxContainer = document.querySelector('#allLocations .checkbox-container');
-    checkboxContainer.innerHTML = '';
+    let radioButtonsContainer = document.querySelector('#allLocations .radio-buttons-container');
+    radioButtonsContainer.innerHTML = '';
 
     typesOfPlaces.forEach(el => {
-        let typeOfPlace = createEl('input', 'type', 'checkbox');
+        let typeOfPlace = createEl('input', 'type', 'radio');
+        typeOfPlace.name = 'typeOfPlace';
         typeOfPlace.id = el.toLowerCase().split(' ').map(word => {
             if (el.toLowerCase().indexOf(word) !== 0) return word = word[0].toUpperCase() + word.slice(1);
             else return word;
@@ -69,6 +65,28 @@ function printTypeOfPlacesOptions() {
 
         labelForEntireAp.innerHTML = `${el[0].toUpperCase() + el.slice(1)}`;
 
-        checkboxContainer.append(typeOfPlace, labelForEntireAp);
+        radioButtonsContainer.append(typeOfPlace, labelForEntireAp);
     })
+}
+
+function filterStays(loc, stayKey, value) {
+    let allStays = staysManager.allStays;
+    let allStaysInLocation = allStays.filter(el => el.location === loc);
+
+    return allStaysInLocation.filter(el => el[stayKey] === value);
+}
+
+function printSortByPriceOptions() {
+    let priceOrderContainer = document.querySelector('.price-order-container');
+    priceOrderContainer.innerHTML = '';
+    
+
+}
+
+function sortByPrice(sortDirection, stays) {
+    if (sortDirection === 'ascending') {
+        return stays.sort((a, b) => b.price - a.price);
+    } else {
+        return stays.sort((a, b) => a.price - b.price);
+    }
 }
