@@ -1,4 +1,4 @@
-let loc = localStorage.getItem("chosenLocation");
+let loc = localStorage.getItem("chosenLocation") || '';
 
 printAllLocationsPage(loc);
 
@@ -12,6 +12,8 @@ let ascendingPriceOption = document.querySelector('.price-order-container .ascen
 let descendingPriceOption = document.querySelector('.price-order-container .descending-price-sort');
 let miniLocations = document.querySelectorAll('#mini .container .mini-card');
 let filteredByStayType = staysManager.allStays;
+let searchBtn = document.querySelector('.search-specifics-expanded .search-loop-wrapper');
+let searchLoopImg = getById('searchLoopImg');
 
 miniLocations.forEach(el => {
     el.addEventListener('click', () => window.location.hash = 'allLocations');
@@ -39,6 +41,11 @@ window.addEventListener('click', (ev) => {
         } else {
             radioOptionsContainer.style.visibility = 'hidden';
             priceOrderContainer.style.visibility = 'visible';
+        }
+    } else if (ev.target === searchBtn || ev.target === searchLoopImg) {
+        if (localStorage.getItem('searchFieldsValues')) {
+            let searchInputsValues = localStorage.getItem('searchFieldsValues').split(',');
+            printAllLocationsPage(searchInputsValues[0], filterStays(searchInputsValues[0], 'guests', Number(searchInputsValues[3])))
         }
     }
 });
