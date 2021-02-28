@@ -19,11 +19,9 @@ function hideElements(...elements) {
 function toggleDisplay(el, value) {
     let display = (window.getComputedStyle ? getComputedStyle(el, null) : el.currentStyle).display;
     if (display === 'none') {
-        console.log('none e, smenqm go na block')
         el.style.display = value;
     }
     else {
-        console.log('NE E none, smenqm go na none');
         el.style.display = 'none';
     }
 }

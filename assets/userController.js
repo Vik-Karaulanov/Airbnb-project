@@ -1,5 +1,9 @@
 (function () {
 
+    const errIcon = `<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 2px; overflow: visible;" aria-label="Error indicator" role="img" focusable="false"><circle cx="16" cy="16" r="14" fill="none"></circle><path d="m16 8v10" fill="none"></path><circle cx="16" cy="22.5" fill="#000" r=".5"></circle></svg>`;
+
+    
+
     let loginBtnIcon = document.querySelector('.login-container');
     let signup = getById('signup');
     let signupCountry = getById('country-select');
@@ -25,12 +29,16 @@
     let menuHYHBtn2 = getById('menuHYHBtn2');
     let menuSignoutBtn = getById('menuSignoutBtn');
 
+    function clearValues(...elements) {
+        elements.forEach(el => el.value = '');
+    }
 
     function appendError(errEl, errMessage) {
-        let message = errEl.querySelector('span');
-        message.innerText = '';
-        message.innerText = errMessage;
-        showElementsFlex(errEl);
+        let messageSpan = errEl.querySelector('span');
+        messageSpan.innerHTML = '';
+        messageSpan.innerHTML = errMessage;
+        if (errMessage) showElementsFlex(errEl);
+        else hideElements(errEl);
     }
 
     if (userModel.isLoggedIn()) {
@@ -46,7 +54,6 @@
             if (userModel.isLoggedIn()) {
                 toggleDisplay(headerProfileMenu2, 'block');
             } else {
-                console.log(getComputedStyle(headerProfileMenu1).display);
                 toggleDisplay(headerProfileMenu1, "block");
             }
         }
@@ -87,19 +94,22 @@
         let email = loginEmail.value.trim();
         let password = loginPassword.value.trim();
         if (userModel.validateEmail(email)) {
-            console.log('Valid email');
+            appendError(error, '');
             if (userModel.loginUser(email, password)) {
                 hideElements(login);
                 defaultProfileImg.src = userModel.currentLoggedUser.profilePicture;
+                clearValues(loginEmail, loginPassword);
+            } else {
+                appendError(error, 'Email ot password is incorrect!')
             }
         }
         else {
-            console.log('invalid email');
             appendError(error, 'Invalid email!');
         }
     });
 
-    signupBtn.addEventListener('click', () => {
+    signupBtn.addEventListener('click', (e) => {
+        e.preventDefault();
         let error = getById('signup-error-message');
         let country = signupCountry.value;
         let firstName = signupFirstName.value;
@@ -108,17 +118,34 @@
         let email = signupEmail.value;
         let password = signupPassword.value;
 
-        let allFormFields = new Map();
-        allFormFields.set('firstName', userModel.validateName(firstName));
-        allFormFields.set('lastName', userModel.validateName(lastName));
-        allFormFields.set('email', userModel.validateEmail(email));
-        allFormFields.set('birthDate', userModel.validateBirthDate(birthDate));
+        let allFormFields = {
+            'firstName': userModel.validateName(firstName),
+            'lastName': userModel.validateName(lastName),
+            'email': userModel.validateEmail(email),
+            'birthDate': userModel.validateBirthDate(birthDate),
+            'password' : userModel.validatePassword(password),
+        }
 
-        console.log(allFormFields);
-        for (let x in allFormFields) {
-            if (allFormFields[x] === false) {
-                appendError(error, `${x} is invalid!`);
+        if (!(Object.values(allFormFields).every(el => !!el))) {
+            let message = '';
+            for (let x in allFormFields) {
+                if (allFormFields[x] === false) {
+                    if (x === 'birthDate') {
+                        message += `${errIcon} You have to be over 18 years old!<br>`;
+                    } else if (x === 'password') {
+                        message += `${errIcon} password must be at least 3 characters!`
+                    } else {
+                        message += `${errIcon} ${x} is invalid! <br>`;
+                    }
+                }
             }
+            appendError(error, message);
+        } else {
+            let user = userModel.registerUser(firstName, lastName, email, password, country);
+            if (user) {
+                hideElements(signup);
+                userModel.loginUser(email, password);
+            } else appendError(error, 'user with that email already exists!')
         }
 
 

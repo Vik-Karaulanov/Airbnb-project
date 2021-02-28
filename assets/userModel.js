@@ -19,11 +19,11 @@ const userModel = (function () {
     ];
 
     let localStorageUsers = JSON.parse(window.localStorage.getItem('users')) || users;
-    window.localStorage.setItem('users', JSON.stringify(users));
+    window.localStorage.setItem('users', JSON.stringify(localStorageUsers));
 
     function updateLocalStorage(users) {
         window.localStorage.setItem('users', JSON.stringify(users));
-    }
+    };
 
     return {
         localStorageUsers,
@@ -31,16 +31,16 @@ const userModel = (function () {
             return JSON.parse(window.localStorage.getItem('currentUser'));
         },
         validateName(name) {
-            let letters = /^[A-Z]{1}[a-z]{3,}$/;
+            let letters = /^[A-Z]{1}[a-z]{2,}$/;
             return (name.match(letters)) ? true : false;
         },
         validateEmail(email) {
             let mailCheck = /^[^@\s]+@[^@\s\.]+\.[^@\.\s]+$/;
             return (email.match(mailCheck)) ? true : false;
-
+            // && !users.find(user => user.email === email)
         },
         validatePassword(password) {
-            return (password >= 4) ? true : false;
+            return (password.length >= 3) ? true : false;
         },
         validateBirthDate(birthDate) {
             let birth = new Date(birthDate).getFullYear();
@@ -51,10 +51,10 @@ const userModel = (function () {
             return true;
         },
         registerUser(firstName, lastName, email, password, country) {
-            if (!users.find(user => user.email === email)) {
+            if (!localStorageUsers.find(user => user.email === email)) {
                 let newUser = new User(firstName, lastName, email, password, country);
-                users.push(newUser);
-                updateLocalStorage(users);
+                localStorageUsers.push(newUser);
+                updateLocalStorage(localStorageUsers);
                 return newUser;
             } else return false;
         },
@@ -63,7 +63,7 @@ const userModel = (function () {
             return currentUser ? true : false;
         },
         loginUser(email, password) {
-            let user = users.find(user => {
+            let user = localStorageUsers.find(user => {
                 return user.email === email && user.password === password
             });
 
@@ -71,9 +71,7 @@ const userModel = (function () {
                 window.localStorage.setItem('currentUser', JSON.stringify(user));
                 console.log(`lognah ${email} s parola ${password}`);
             } else {
-                console.log(`dobavi logika za %cnesyshtestvuvash %cuser i/ili parola`,
-                    'color:red; font-size:20px',
-                    '');
+                return false;
             }
             return user;
         },
