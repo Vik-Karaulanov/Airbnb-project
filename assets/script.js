@@ -41,7 +41,7 @@ function router() {
         }
             break;
         case 'becomeAHost': {
-
+            
         }
             break;
         case 'login': {

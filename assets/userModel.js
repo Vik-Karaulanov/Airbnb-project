@@ -15,7 +15,7 @@ const userModel = (function () {
 
     let users = [
         new User('Pesho', 'Peshov', 'pesho@abv.bg', '123', 'Bulgaria'),
-        new User('asd', 'asd', 'asd@asd.asd', 'asd', 'asd', 'assets/images/userProfilePicTest.webp'),
+        new User('Asd', 'Asd', 'asd@asd.asd', 'Asd', 'Asd', 'assets/images/userProfilePicTest.webp'),
     ];
 
     let localStorageUsers = JSON.parse(window.localStorage.getItem('users')) || users;
@@ -28,7 +28,7 @@ const userModel = (function () {
     return {
         localStorageUsers,
         get currentLoggedUser() {
-            return JSON.parse(window.localStorage.getItem('currentUser'));
+            return JSON.parse(window.localStorage.getItem('currentUser')) ?? 'Guest';
         },
         validateName(name) {
             let letters = /^[A-Z]{1}[a-z]{2,}$/;
