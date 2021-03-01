@@ -26,6 +26,7 @@ miniLocations.forEach(el => {
         userSearchedStays = staysManager.allStays.filter(el => el.location === loc);
         printAllLocationsPage(loc, staysManager.allStays);
         printSearchBar(loc);
+        localStorage.removeItem('searchFieldsValues');
     });
 });
 
