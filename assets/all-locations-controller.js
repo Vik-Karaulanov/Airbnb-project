@@ -14,6 +14,7 @@ let miniLocations = document.querySelectorAll('#mini .container .mini-card');
 let filteredByStayType = staysManager.allStays;
 let searchBtn = document.querySelector('.search-specifics-expanded .search-loop-wrapper');
 let searchLoopImg = getById('searchLoopImg');
+let cuurentStays = staysManager.allStays.filter(el => el.location === loc);
 let userSearchedStays = staysManager.allStays.filter(el => el.location === loc);
 
 miniLocations.forEach(el => {
@@ -21,9 +22,10 @@ miniLocations.forEach(el => {
     el.addEventListener('click', () => {
         localStorage.setItem("chosenLocation", el.querySelector('b').innerHTML);
         loc = localStorage.getItem("chosenLocation");
-        chosenLocation = localStorage.getItem("chosenLocation");
-        printAllLocationsPage(chosenLocation, staysManager.allStays);
-        printSearchBar(chosenLocation);
+        cuurentStays = staysManager.allStays.filter(el => el.location === loc);
+        userSearchedStays = staysManager.allStays.filter(el => el.location === loc);
+        printAllLocationsPage(loc, staysManager.allStays);
+        printSearchBar(loc);
     });
 });
 
@@ -47,8 +49,9 @@ window.addEventListener('click', (ev) => {
         if (localStorage.getItem('searchFieldsValues')) {
             let searchInputsValues = localStorage.getItem('searchFieldsValues').split(',');
             loc = searchInputsValues[0];
-            userSearchedStays = filterStays('guests', Number(searchInputsValues[3]), userSearchedStays);
-            printAllLocationsPage(searchInputsValues[0], userSearchedStays)
+            cuurentStays = staysManager.allStays.filter(el => el.location === loc);
+            userSearchedStays = filterStays('guests', Number(searchInputsValues[3]), cuurentStays);
+            printAllLocationsPage(loc, userSearchedStays)
         }
     }
 });
