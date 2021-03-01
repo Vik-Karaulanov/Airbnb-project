@@ -18,7 +18,7 @@ window.addEventListener('click', (ev) => {
     }
     if (ev.target.closest('.search-specifics-expanded .search-loop-wrapper') === searchLoop) {
         let searchInputValues = getReservationData();
-        if (!searchInputValues.includes('')) {
+        if (!searchInputValues.some(el => !el)) {
             localStorage.setItem('searchFieldsValues', `${searchInputValues}`);
         }
     }

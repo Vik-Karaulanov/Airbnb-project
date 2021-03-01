@@ -14,6 +14,7 @@ let miniLocations = document.querySelectorAll('#mini .container .mini-card');
 let filteredByStayType = staysManager.allStays;
 let searchBtn = document.querySelector('.search-specifics-expanded .search-loop-wrapper');
 let searchLoopImg = getById('searchLoopImg');
+let userSearchedStays = staysManager.allStays.filter(el => el.location === loc);
 
 miniLocations.forEach(el => {
     el.addEventListener('click', () => window.location.hash = 'allLocations');
@@ -45,7 +46,9 @@ window.addEventListener('click', (ev) => {
     } else if (ev.target === searchBtn || ev.target === searchLoopImg) {
         if (localStorage.getItem('searchFieldsValues')) {
             let searchInputsValues = localStorage.getItem('searchFieldsValues').split(',');
-            printAllLocationsPage(searchInputsValues[0], filterStays(searchInputsValues[0], 'guests', Number(searchInputsValues[3])))
+            loc = searchInputsValues[0];
+            userSearchedStays = filterStays('guests', Number(searchInputsValues[3]), userSearchedStays);
+            printAllLocationsPage(searchInputsValues[0], userSearchedStays)
         }
     }
 });
@@ -58,9 +61,8 @@ optionsWrapper.addEventListener('change', (ev) => {
         }
         return focused;
     }, '');
-    console.log(ev.target.checked);
     if (ev.target.checked) {
-        filteredByStayType = filterStays(loc, 'stayType', focusedElm);
+        filteredByStayType = filterStays('stayType', focusedElm, userSearchedStays);
         printAllLocationsPage(loc, filteredByStayType);
     } else {
         printAllLocationsPage(loc);

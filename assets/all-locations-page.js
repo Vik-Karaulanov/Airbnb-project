@@ -69,11 +69,8 @@ function printTypeOfPlacesOptions() {
     })
 }
 
-function filterStays(loc, stayKey, value) {
-    let allStays = staysManager.allStays;
-    let allStaysInLocation = allStays.filter(el => el.location === loc);
-
-    return allStaysInLocation.filter(el => el[stayKey] === value);
+function filterStays(stayKey, value, stays) {
+    return stays.filter(el => el[stayKey] === value);
 }
 
 function printSortByPriceOptions() {
