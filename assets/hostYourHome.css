@@ -11,14 +11,27 @@
     flex-direction: column;
 }
 #progress-bar {
+    position: relative;
     width: 100%;
     border: 1px lightgray solid;
+    background-color: lightgray;
     border-radius: 12px;
 }
-#progress {
-    background-color: darkblue;
+#progress-steps {
+    position: absolute;
+    display: flex;
+    width: 100%;
+}
+#progress-steps div {
+    width: 20%;
+    border-right: 5px solid rgb(255, 56, 92);
     border-radius: 12px;
-    width: 10%;
+    height: 15px;
+}
+#progress {
+    background-color: rgba(0, 0, 255, 0.7);
+    border-radius: 12px;
+    width: 20%;
     height: 15px;
 }
 
@@ -36,6 +49,11 @@
 }
 #host-your-home h3 {
     font-size: 1.6rem;   
+}
+div.heading {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 20px auto;
 }
 fieldset {
     border: 2px solid gray;
@@ -57,4 +75,24 @@ button {
 }
 .userName {
     font-size: 2rem;
+}
+.continue {
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+    background-color: rgb(161, 139, 139);
+}
+
+#uploadImages > div > img {
+    width: 100px;
+}
+
+#HYH {
+    display: block;
+    width: max-content;
+    height: 40px;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    background-color: rgb(255, 56, 92);
+    border-radius: 16px;
 }
