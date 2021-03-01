@@ -14,6 +14,7 @@ let searchSpecificsExpanded = document.querySelector('#littleSearchLabel .search
 let searchDefaultText = document.querySelector('#littleSearchLabel .start-your-search');
 let loginBtn = document.querySelector('.login-container');
 let signup = getById('signup');
+let targetStayContainer = getById('targetStayContainer');
 
 let allLocations = getById('allLocations');
 
@@ -26,19 +27,20 @@ function router() {
 
     switch (currentPage) {
         case 'homePage': {
-            hideElements(allLocations, searchBarAllLocations, searchSpecificsExpanded);
+            hideElements(allLocations, searchBarAllLocations, searchSpecificsExpanded, targetStayContainer);
             showElements(...sectionsInMain);
             showElementsFlex(searchDefaultText);
         }
         break;
     case 'allLocations': {
-        hideElements(...sectionsInMain, searchDefaultText, searchSpecificsExpanded);
+        hideElements(...sectionsInMain, searchDefaultText, searchSpecificsExpanded, targetStayContainer);
         showElements(allLocations);
         showElementsFlex(searchBarAllLocations);
     }
     break;
     case 'targetLocation': {
-
+        hideElements(...sectionsInMain, allLocations, searchBarAllLocations, searchSpecificsExpanded, searchDefaultText);
+        showElementsFlex(targetStayContainer, searchDefaultText);
     }
     break;
     case 'becomeAHost': {
@@ -54,7 +56,7 @@ function router() {
     }
     break;
     default: {
-        hideElements(allLocations, searchBarAllLocations, searchSpecificsExpanded);
+        hideElements(allLocations, searchBarAllLocations, searchSpecificsExpanded, targetStayContainer);
         showElements(...sectionsInMain, searchDefaultText);
         showElementsFlex(searchDefaultText);
     }

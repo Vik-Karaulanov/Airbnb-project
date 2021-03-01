@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/main.css">
     <link rel="stylesheet" href="assets/footer.css">
     <link rel="stylesheet" href="assets/all-locations-page.css">
+    <link rel="stylesheet" href="assets/singleStayStyle.css">
     <script src="assets/utils.js" defer></script>
     <script src="assets/stays.js" defer></script>
     <script src="assets/userModel.js" defer></script>
@@ -24,6 +25,8 @@
     <script src="assets/Stay.js" defer></script>
     <script src="assets/StaysManager.js" defer></script>
     <script src="assets/Host.js" defer></script>
+    <script src="assets/singleStayPrint.js" defer></script>
+    <script src="assets/singleStayController.js" defer></script>
     <script src="assets/searchBarPrint.js" defer></script>
     <script src="assets/all-locations-page.js" defer></script>
     <script src="assets/searchBarController.js" defer></script>
@@ -249,6 +252,45 @@
             </div>
             <div class="stays-container"></div>
         </div>
+        <div id="targetStayContainer">
+            <div id="targetStayWrapper">
+                <div class="stay-title vertical-margin"></div>
+                <div class="general-info-and-like-btn vertical-margin">
+                    <div>
+                        <div class="reveiwsWrapper">
+                            <img src="assets/images/icons/red-star.png" alt="rating star">
+                            <span id="singleStayRating" class="horizontal-padding"></span>
+                            <span id="singleStayReviews" class="color-gray"></span>
+                        </div>
+                        <span class="horizontal-padding color-gray">*</span>
+                        <div class="hostTypeWrapper">
+                            <img src="assets/images/icons/super-host.png" alt="super host icon">
+                            <div class="hostType color-gray"></div>
+                        </div>
+                        <span class="horizontal-padding color-gray">*</span>
+                        <div class="locationWrapper underlined">
+                        </div>
+                    </div>
+                    <div id="likeBtn">
+                        <img src="assets/images/icons/hollow-heart2.png" alt="like button" class="horizontal-margin">
+                        <span class="underlined">Save</span>
+                    </div>
+                </div>
+                <div class="images-container vertical-margin">
+                </div>
+                <div class="stay-type-and-host-container vertical-margin">
+                    <div>
+                        <div class="title-for-stay">
+    
+                        </div>
+                        <div class="space-arrangement vertical-margin">
+
+                        </div>
+                    </div>
+                    <div class="host-icon-container"></div>
+                </div>
+            </div>
+        </div>
         <section class="go-near-section">
             <div class="go-near-container">
                 <div class="go-near-title">
@@ -432,7 +474,7 @@
                 </div>
             </div>
         </section>
-        <section id="hosting-types-section">
+        <section id="hostingTypesSection">
             <div class="hosting-types-container">
                 <div class="hosting-types-wrapper">
                     <div class="section-title">

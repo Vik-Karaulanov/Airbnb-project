@@ -323,26 +323,26 @@ explore-all-btn a:active {
     box-shadow: 10px 10px 17px -8px rgba(0, 0, 0, 0.87);
 }
 
-#hosting-types-section .hosting-types-container {
+#hostingTypesSection .hosting-types-container {
     width: 100%;
     padding: 5rem 7.5%;
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
     color: #222222;
 }
 
-#hosting-types-section .hosting-types-container .section-title {
+#hostingTypesSection .hosting-types-container .section-title {
     font-size: 2rem;
     font-weight: bold;
 }
 
-#hosting-types-section .hosting-types-container .hosting-cards-container {
+#hostingTypesSection .hosting-types-container .hosting-cards-container {
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
     width: 100%;
 }
 
-#hosting-types-section .hosting-cards-container .hosting-type-card {
+#hostingTypesSection .hosting-cards-container .hosting-type-card {
     position: relative;
     width: 31.5%;
     height: 20vw;
@@ -352,13 +352,13 @@ explore-all-btn a:active {
     user-select: none;
 }
 
-#hosting-types-section .hosting-cards-container .hosting-type-card:hover {
+#hostingTypesSection .hosting-cards-container .hosting-type-card:hover {
     -webkit-box-shadow: 10px 10px 17px -8px rgba(0, 0, 0, 0.87);
     -moz-box-shadow: 10px 10px 17px -8px rgba(0, 0, 0, 0.87);
     box-shadow: 10px 10px 17px -8px rgba(0, 0, 0, 0.87);
 }
 
-#hosting-types-section .hosting-type-card .background-div{
+#hostingTypesSection .hosting-type-card .background-div{
     margin: 0 0 0.5rem 0;
     border-radius: 0.5rem;
     height: 100%;
@@ -368,19 +368,19 @@ explore-all-btn a:active {
 }
 
 
-#hosting-types-section .hosting-type-card .host-your-home {
+#hostingTypesSection .hosting-type-card .host-your-home {
     background-image: url(images/hosting-types/host-your-home.jpg);
 }
 
-#hosting-types-section .hosting-type-card .host-online-exp {
+#hostingTypesSection .hosting-type-card .host-online-exp {
     background-image: url(images/hosting-types/host-online-exp.jpg);
 }
 
-#hosting-types-section .hosting-type-card .host-an-exp {
+#hostingTypesSection .hosting-type-card .host-an-exp {
     background-image: url(images/hosting-types/host-an-exp.jpg);
 }
 
-#hosting-types-section .hosting-type-card .hosting-type-title {
+#hostingTypesSection .hosting-type-card .hosting-type-title {
     font-size: 1rem;
     font-weight: bold;
 }
