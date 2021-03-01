@@ -6,11 +6,13 @@ let footerSection = getById('footer');
 let searchLoop = document.querySelector('.search-specifics-expanded .search-loop-wrapper');
 let isExpanded = false;
 let chosenLocation = localStorage.getItem('chosenLocation') || '';
+let logoField = document.querySelector('.logo')
 
 printSearchBar(chosenLocation);
 
 window.addEventListener('click', (ev) => {
-    if ((ev.target.closest('main') === mainSection || ev.target.closest('#footer') === footerSection) && isExpanded === true) {
+    chosenLocation = localStorage.getItem('chosenLocation');
+    if ((ev.target.closest('main') === mainSection || ev.target.closest('#footer') === footerSection || ev.target.closest('.logo') === logoField) && isExpanded === true) {
         isExpanded = printSearchBar(chosenLocation, 'normalize');
     }
     if ((ev.target.closest('.start-your-search') || ev.target.closest('.search-specific-location')) && isExpanded === false) {
@@ -20,6 +22,8 @@ window.addEventListener('click', (ev) => {
         let searchInputValues = getReservationData();
         if (!searchInputValues.some(el => !el)) {
             localStorage.setItem('searchFieldsValues', `${searchInputValues}`);
+            localStorage.setItem('chosenLocation', searchInputValues[0]);
+            chosenLocation = localStorage.getItem('chosenLocation');
         }
     }
 });

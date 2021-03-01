@@ -1,10 +1,12 @@
 /* main header styles */
-
+.logo-container {
+	width: 33%;
+}
 .logo {
 	fill: rgb(255, 56, 92);
-	width: 33%;
 	display: flex;
 	justify-content: flex-start;
+	width: max-content;
 }
 
 .logo svg {

@@ -3,9 +3,9 @@ function printSearchBar(chosenLocation = '', expandedOrNormal) {
     let searchedLocationExpanded = document.querySelector(".search-specifics-expanded .current-location");
     let currentPage = window.location.hash.slice(1);
     searchedLocationDiv.innerHTML = chosenLocation;
+
     if (currentPage !== 'allLocations') searchedLocationExpanded.placeholder = 'Where to?';
     else searchedLocationExpanded.value = chosenLocation;
-
 
     let searchSpecificsExpanded = document.querySelector('.search-specifics-expanded');
     let startYourSearch = document.querySelector(".start-your-search");
@@ -112,7 +112,9 @@ function printSearchBar(chosenLocation = '', expandedOrNormal) {
         }
         return false;
     }
-    return expandedOrNormal === 'expand' ? expandSearchBar() : normalizeSearchBar();
+    if (expandedOrNormal) {
+        return expandedOrNormal === 'expand' ? expandSearchBar() : normalizeSearchBar();
+    }
 }
 
 function getReservationData() {
