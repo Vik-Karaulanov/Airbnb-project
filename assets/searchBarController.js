@@ -27,8 +27,9 @@ window.addEventListener('click', (ev) => {
         isExpanded = printSearchBar(chosenLocation, 'expand');
     }
     if (ev.target.closest('.search-specifics-expanded .search-loop-wrapper') === searchLoop) {
+        localStorage.removeItem('searchFieldsValues');
         let searchInputValues = getReservationData();
-        if (!searchInputValues.some(el => !el)) {
+        if (searchInputValues) {
             localStorage.setItem('searchFieldsValues', `${searchInputValues}`);
             localStorage.setItem('chosenLocation', searchInputValues[0]);
             chosenLocation = localStorage.getItem('chosenLocation');
