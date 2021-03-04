@@ -36,6 +36,7 @@ window.addEventListener('click', (ev) => {
             radioOptionsContainer.style.visibility = 'hidden';
         } else {
             printTypeOfPlacesOptions();
+            // radioOptionsContainer.style.visibility = 'visible';
             priceOrderContainer.style.visibility = 'hidden';
             radioOptionsContainer.style.visibility = 'visible';
         }
@@ -55,6 +56,14 @@ window.addEventListener('click', (ev) => {
             localStorage.setItem('displayedStays', userSearchedStays)
             printAllLocationsPage(loc, userSearchedStays)
         }
+    }
+    if (ev.target.closest('.price-order-container') !== priceOrderContainer &&
+        ev.target.closest('.price-btn') !== priceBtn) {
+        priceOrderContainer.style.visibility = 'hidden';
+    }
+    if (ev.target.closest('.radio-buttons-container') !== radioOptionsContainer &&
+        ev.target.closest('.type-of-place-btn') !== typeOfPlaceBtn) {
+        radioOptionsContainer.style.visibility = 'hidden';
     }
 });
 
@@ -84,4 +93,3 @@ descendingPriceOption.addEventListener('click', () => {
     let descendingPriceSoredStays = sortByPrice('descending', JSON.parse(localStorage.getItem('displayedStays')));
     printAllLocationsPage(loc, descendingPriceSoredStays);
 })
-
