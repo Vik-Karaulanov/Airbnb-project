@@ -24,6 +24,8 @@ window.addEventListener('click', (ev) => {
             localStorage.setItem('searchFieldsValues', `${searchInputValues}`);
             localStorage.setItem('chosenLocation', searchInputValues[0]);
             chosenLocation = localStorage.getItem('chosenLocation');
+            isExpanded = printSearchBar(chosenLocation, 'normalize');
+            window.location.hash = '#allLocations';
         }
     }
 });

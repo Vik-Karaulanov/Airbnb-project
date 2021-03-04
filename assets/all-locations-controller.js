@@ -52,6 +52,7 @@ window.addEventListener('click', (ev) => {
             loc = searchInputsValues[0];
             cuurentStays = staysManager.allStays.filter(el => el.location === loc);
             userSearchedStays = filterStays('guests', Number(searchInputsValues[3]), cuurentStays);
+            localStorage.setItem('displayedStays', userSearchedStays)
             printAllLocationsPage(loc, userSearchedStays)
         }
     }
