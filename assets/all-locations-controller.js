@@ -11,11 +11,11 @@ let priceOrderContainer = document.querySelector('.price-order-container');
 let ascendingPriceOption = document.querySelector('.price-order-container .ascending-price-sort');
 let descendingPriceOption = document.querySelector('.price-order-container .descending-price-sort');
 let miniLocations = document.querySelectorAll('#mini .container .mini-card');
-let filteredByStayType = staysManager.allStays;
 let searchBtn = document.querySelector('.search-specifics-expanded .search-loop-wrapper');
 let searchLoopImg = getById('searchLoopImg');
 let cuurentStays = staysManager.allStays.filter(el => el.location === loc);
 let userSearchedStays = staysManager.allStays.filter(el => el.location === loc);
+let filteredByStayType = JSON.parse(localStorage.getItem('displayedStays'));
 
 miniLocations.forEach(el => {
     el.addEventListener('click', () => window.location.hash = 'allLocations');
@@ -68,18 +68,19 @@ optionsWrapper.addEventListener('change', (ev) => {
     if (ev.target.checked) {
         filteredByStayType = filterStays('stayType', focusedElm, userSearchedStays);
         printAllLocationsPage(loc, filteredByStayType);
+        localStorage.setItem('displayedStays', JSON.stringify(filteredByStayType));
     } else {
         printAllLocationsPage(loc);
     }
 })
 
 ascendingPriceOption.addEventListener('click', () => {
-    let ascendingPriceSoredStays = sortByPrice('ascending', filteredByStayType);
+    let ascendingPriceSoredStays = sortByPrice('ascending', JSON.parse(localStorage.getItem('displayedStays')));
     printAllLocationsPage(loc, ascendingPriceSoredStays);
 })
 
 descendingPriceOption.addEventListener('click', () => {
-    let descendingPriceSoredStays = sortByPrice('descending', filteredByStayType);
+    let descendingPriceSoredStays = sortByPrice('descending', JSON.parse(localStorage.getItem('displayedStays')));
     printAllLocationsPage(loc, descendingPriceSoredStays);
 })
 
