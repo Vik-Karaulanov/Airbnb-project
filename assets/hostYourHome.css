@@ -1,0 +1,110 @@
+#host-your-home {
+    display: block;
+    margin-top: 5rem;
+    width: 100%;
+    height: 800px;
+}
+#host-your-home .container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#progress-bar {
+    position: relative;
+    width: 100%;
+    border: 1px lightgray solid;
+    background-color: lightgray;
+    border-radius: 12px;
+}
+#progress-steps {
+    position: absolute;
+    display: flex;
+    width: 100%;
+}
+#progress-steps div {
+    width: 20%;
+    border-right: 5px solid rgb(255, 56, 92);
+    border-radius: 12px;
+    height: 15px;
+}
+#progress {
+    background-color: rgba(0, 0, 255, 0.7);
+    border-radius: 12px;
+    width: 20%;
+    height: 15px;
+}
+
+#get-started {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#get-started > div {
+    display: flex;
+    flex-direction: column;
+}
+#host-your-home h3 {
+    font-size: 1.6rem;   
+}
+div.heading {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 20px auto;
+}
+fieldset {
+    border: 2px solid gray;
+    border-radius: 16px;
+}
+fieldset legend {
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.active {
+    background-color: lightgray;
+}
+.content {
+    display: none;
+    flex-direction: column;
+    transition: all 1s ease;
+}
+button {
+    border: 1px solid black;
+}
+.userName {
+    font-size: 2rem;
+}
+.continue {
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+    background-color: rgb(161, 139, 139);
+}
+
+#uploadImages > div > img {
+    width: 100px;
+}
+
+#HYH {
+    display: block;
+    width: max-content;
+    height: 40px;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgb(255, 56, 92);
+    border-radius: 16px;
+}
+.collapsible {
+    height: 35px;
+    border-radius: 16px;
+}
+
+#description {
+    width: 350px;
+}
