@@ -19,7 +19,7 @@
 
 #allLocations {
     margin-top: 5rem;
-    padding: 4rem 5rem;
+    padding: 0 5rem;
 }
 
 #allLocations .stays-counter {
@@ -41,7 +41,6 @@
 
 #allLocations .stays-container {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     margin: 1rem 0;
 }

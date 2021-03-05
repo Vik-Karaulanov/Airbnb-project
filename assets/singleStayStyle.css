@@ -9,8 +9,8 @@
 }
 
 #targetStayContainer .general-info-and-like-btn img {
-    width: 1rem;
     height: 1rem;
+    /* margin-right: 0.3rem; */
 }
 
 #targetStayWrapper {
@@ -28,7 +28,7 @@
 }
 
 .title-for-stay {
-    font-size: 1.35rem;
+    font-size: 1.25rem;
 }
 
 .general-info-and-like-btn {
@@ -39,6 +39,7 @@
 }
 
 .host-icon-container {
+    position: relative;
     background-image: url('images/userProfilePicTest.webp');
     background-position: center;
     background-size: cover;
@@ -47,9 +48,19 @@
     border-radius: 2rem;
 }
 
+#superHostIcon {
+    width: 1rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+}
+
 .stay-type-and-host-container {
     display: flex;
+    /* min-width: 35%; */
     justify-content: space-between;
+    margin: 1rem 0;
 }
 
 .bottom-line {
@@ -58,8 +69,14 @@
     margin-bottom: 1rem;
 }
 
-.stay-specifications {
+.stay-specifics-container > div {
+    display: flex;
+    padding: 1rem 0;
+}
 
+.stay-specifics-container img {
+    height: 1.5rem;
+    padding-right: 1rem;
 }
 
 .underlined {
@@ -74,16 +91,33 @@
     padding: 0 0.3rem;
 }
 
+.padding-bottom {
+    padding-bottom: 0.5rem;
+}
+
 .horizontal-margin {
     margin: 0 0.5rem;
+}
+
+.big-horizontal-margin {
+    margin: 0 1.5rem;
 }
 
 .vertical-margin {
     margin: 0.5rem 0;
 }
 
+.stay-description {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
 .color-gray {
     color: gray;
+}
+
+.color-darkgray {
+    color: rgb(87, 86, 86);
 }
 
 .hostTypeWrapper {
@@ -97,3 +131,18 @@
 .ai-center {
     align-items: center !important;
 }
+
+.small-margin-right {
+    margin-right: 0.3rem;
+}
+
+.small-font-size {
+    font-size: 0.85rem;
+}
+
+
+/* <div class="stay-type-info"></div>
+<div class="enhanced-clean-info"></div>
+<div class="super-host-info"></div>
+<div class="cancellation-policy-info"></div>
+<div class="house-rules-info"></div> */
