@@ -48,8 +48,9 @@ function router() {
     break;
     case 'becomeAHost': {
         hideElements(...sectionsInMain,
-            allLocations, searchWrapper, searchDefaultText, searchSpecificsExpanded, searchBarAllLocations);
+            allLocations, searchSpecificsExpanded, searchBarAllLocations, targetStayContainer);
         showElements(hostYourHome);
+        showElementsFlex(searchDefaultText);
     }
     break;
     case 'login': {

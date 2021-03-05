@@ -1,6 +1,7 @@
 let loc = localStorage.getItem("chosenLocation") || '';
+let currentStays = JSON.parse(localStorage.getItem('displayedStays')) || staysManager.allStays;
 
-printAllLocationsPage(loc);
+printAllLocationsPage(loc, currentStays);
 
 let typeOfPlaceBtn = document.querySelector('.type-of-place-btn');
 let priceBtn = document.querySelector('.price-btn');
