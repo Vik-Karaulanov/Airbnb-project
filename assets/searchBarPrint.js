@@ -119,16 +119,54 @@ function printSearchBar(chosenLocation = '', expandedOrNormal) {
 
 function getReservationData() {
     let chosenLocation = document.querySelector('.searched-location-expanded .current-location');
+    chosenLocation.value = chosenLocation.value.slice(0, 1).toUpperCase() + chosenLocation.value.slice(1);
     let checkInDate = getById('checkInDate');
     let checkOutDate = getById('checkOutDate');
     let guestsNumber = getById('guestsNumber');
     let allElements = [chosenLocation, checkInDate, checkOutDate, guestsNumber];
+    let allCities = [...new Set(staysManager.allStays.map(el => el.location))];
+
+    let today = new Date();
+    let dd = today.getDate();
+    let mm = today.getMonth() + 1;
+    let yyyy = today.getFullYear();
+
+    if (dd < 10) dd = '0' + dd;
+    if (mm < 10) mm = '0' + mm;
+    today = yyyy + '-' + mm + '-' + dd;
+
+    if (!allCities.includes(chosenLocation.value)) {
+        chosenLocation.style.border = '2px solid red';
+    } else {
+        chosenLocation.style.border = 'none';
+    }
+    console.log(today > checkInDate.value);
+    if (today > checkInDate.value || checkInDate.value === '') {
+        checkInDate.style.border = '2px solid red';
+    } else {
+        checkInDate.style.border = 'none';
+    }
+
+    if (today > checkOutDate.value || checkOutDate.value === '' || checkInDate.value > checkOutDate.value) {
+        checkOutDate.style.border = '2px solid red';
+    } else {
+        checkOutDate.style.border = 'none';
+    }
+
+    if (guestsNumber.value < 1) {
+        guestsNumber.style.border = '2px solid red';
+    } else {
+        guestsNumber.style.border = 'none';
+    }
+
+    let isDataCorrect = true;
 
     allElements.forEach(el => {
-        if (el.value === '') {
-            el.style.border = '2px solid red';
-        } else el.style.border = 'none';
-    })
-    
-    return [chosenLocation.value, checkInDate.value, checkOutDate.value, guestsNumber.value];
+        if (el.style.border === '2px solid red') {
+            isDataCorrect = false;
+        }
+    });
+
+    if (isDataCorrect) return [chosenLocation.value, checkInDate.value, checkOutDate.value, guestsNumber.value];
+    else return false;
 }

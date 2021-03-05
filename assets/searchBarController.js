@@ -8,6 +8,14 @@ let isExpanded = false;
 let chosenLocation = localStorage.getItem('chosenLocation') || '';
 let logoField = document.querySelector('.logo')
 
+let locationInput = document.querySelector('.searched-location-expanded .current-location');
+let checkInInput = getById('checkInDate');
+let checkOutInput = getById('checkOutDate');
+let guestsinput = getById('guestsNumber');
+
+let inputArr = [locationInput, checkInInput, checkOutInput, guestsinput];
+console.log(inputArr);
+
 printSearchBar(chosenLocation);
 
 window.addEventListener('click', (ev) => {
@@ -19,11 +27,22 @@ window.addEventListener('click', (ev) => {
         isExpanded = printSearchBar(chosenLocation, 'expand');
     }
     if (ev.target.closest('.search-specifics-expanded .search-loop-wrapper') === searchLoop) {
+        localStorage.removeItem('searchFieldsValues');
         let searchInputValues = getReservationData();
-        if (!searchInputValues.some(el => !el)) {
+        if (searchInputValues) {
             localStorage.setItem('searchFieldsValues', `${searchInputValues}`);
             localStorage.setItem('chosenLocation', searchInputValues[0]);
             chosenLocation = localStorage.getItem('chosenLocation');
+            isExpanded = printSearchBar(chosenLocation, 'normalize');
+            window.location.hash = '#allLocations';
         }
     }
 });
+
+inputArr.forEach(el => {
+    el.addEventListener('keyup', (ev) => {
+        if (ev.keyCode === 13) {
+            searchLoop.click();
+        }
+    })
+})

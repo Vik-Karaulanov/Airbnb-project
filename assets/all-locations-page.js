@@ -4,6 +4,7 @@ function printAllLocationsPage(location, allStays = staysManager.allStays) {
     let info = document.querySelector('#allLocations .info');
     let staysContainer = document.querySelector('#allLocations .stays-container');
     let allStaysInLocation = allStays.filter(el => el.location === location);
+    localStorage.setItem('displayedStays', JSON.stringify(allStaysInLocation));
 
     staysContainer.innerHTML = '';
 
@@ -70,20 +71,23 @@ function printTypeOfPlacesOptions() {
 }
 
 function filterStays(stayKey, value, stays) {
-    return stays.filter(el => el[stayKey] === value);
-}
-
-function printSortByPriceOptions() {
-    let priceOrderContainer = document.querySelector('.price-order-container');
-    priceOrderContainer.innerHTML = '';
-    
-
+    if (value === "") {
+        localStorage.setItem('displayedStays', JSON.stringify(stays));
+        return stays;
+    } else {
+        let filteredStays = stays.filter(el => el[stayKey] === value);
+        localStorage.setItem('displayedStays', JSON.stringify(filteredStays));
+        return filteredStays;
+    }
 }
 
 function sortByPrice(sortDirection, stays) {
+    let sortedStays = stays;
     if (sortDirection === 'ascending') {
-        return stays.sort((a, b) => b.price - a.price);
+        sortedStays = stays.sort((a, b) => b.price - a.price)
     } else {
-        return stays.sort((a, b) => a.price - b.price);
+        sortedStays = stays.sort((a, b) => a.price - b.price)
     }
+    localStorage.setItem('displayedStays', JSON.stringify(sortedStays));
+    return sortedStays;
 }
