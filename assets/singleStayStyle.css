@@ -1,0 +1,99 @@
+#targetStayContainer {
+    margin-top: 6rem;
+    width: 100%;
+    padding: 0 7.5%;
+}
+
+.single-stay-title {
+    font-size: 1.75rem;
+}
+
+#targetStayContainer .general-info-and-like-btn img {
+    width: 1rem;
+    height: 1rem;
+}
+
+#targetStayWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.locationWrapper {
+    color: #616161;;
+}
+
+.stayImg {
+    border-radius: 0.75rem;
+}
+
+.title-for-stay {
+    font-size: 1.35rem;
+}
+
+.general-info-and-like-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.4rem;
+}
+
+.host-icon-container {
+    background-image: url('images/userProfilePicTest.webp');
+    background-position: center;
+    background-size: cover;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+}
+
+.stay-type-and-host-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-line {
+    border-bottom: lightgray 1px solid;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+.stay-specifications {
+
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.general-info-and-like-btn > div {
+    display: flex;
+}
+
+.horizontal-padding {
+    padding: 0 0.3rem;
+}
+
+.horizontal-margin {
+    margin: 0 0.5rem;
+}
+
+.vertical-margin {
+    margin: 0.5rem 0;
+}
+
+.color-gray {
+    color: gray;
+}
+
+.hostTypeWrapper {
+    display: flex;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.ai-center {
+    align-items: center !important;
+}

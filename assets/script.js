@@ -15,6 +15,7 @@ let searchDefaultText = document.querySelector('#littleSearchLabel .start-your-s
 let searchWrapper = document.querySelector('.search-wrapper');
 let loginBtn = document.querySelector('.login-container');
 let signup = getById('signup');
+let targetStayContainer = getById('targetStayContainer');
 
 let allLocations = getById('allLocations');
 
@@ -29,41 +30,42 @@ function router() {
 
     switch (currentPage) {
         case 'homePage': {
-            hideElements(allLocations, searchBarAllLocations, searchSpecificsExpanded, hostYourHome);
+            hideElements(allLocations, searchBarAllLocations, searchSpecificsExpanded, hostYourHome, targetStayContainer);
             showElements(...sectionsInMain);
             showElementsFlex(searchDefaultText);
         }
-            break;
-        case 'allLocations': {
-            hideElements(...sectionsInMain, searchDefaultText, searchSpecificsExpanded);
-            showElements(allLocations);
-            showElementsFlex(searchBarAllLocations);
-        }
-            break;
-        case 'targetLocation': {
+        break;
+    case 'allLocations': {
+        hideElements(...sectionsInMain, searchDefaultText, searchSpecificsExpanded, hostYourHome, targetStayContainer);
+        showElements(allLocations);
+        showElementsFlex(searchBarAllLocations);
+    }
+    break;
+    case 'targetLocation': {
+        hideElements(...sectionsInMain, allLocations, searchBarAllLocations, hostYourHome, searchSpecificsExpanded, searchDefaultText);
+        showElementsFlex(targetStayContainer, searchDefaultText);
+    }
+    break;
+    case 'becomeAHost': {
+        hideElements(...sectionsInMain,
+            allLocations, searchWrapper, searchDefaultText, searchSpecificsExpanded, searchBarAllLocations);
+        showElements(hostYourHome);
+    }
+    break;
+    case 'login': {
+        showElementsFlex(login);
+    }
+    break;
+    case 'errorPage': {
 
-        }
-            break;
-        case 'becomeAHost': {
-            hideElements(...sectionsInMain,
-                allLocations, searchWrapper, searchDefaultText, searchSpecificsExpanded, searchBarAllLocations);
-            showElements(hostYourHome);
-        }
-            break;
-        case 'login': {
-            showElementsFlex(login);
-        }
-            break;
-        case 'errorPage': {
-
-        }
-            break;
-        default: {
-            hideElements(allLocations, searchBarAllLocations, searchSpecificsExpanded);
-            showElements(...sectionsInMain, searchDefaultText);
-            showElementsFlex(searchDefaultText);
-        }
-            break;
+    }
+    break;
+    default: {
+        hideElements(allLocations, searchBarAllLocations, searchSpecificsExpanded, hostYourHome, targetStayContainer);
+        showElements(...sectionsInMain, searchDefaultText);
+        showElementsFlex(searchDefaultText);
+    }
+    break;
     }
 }
 // })();

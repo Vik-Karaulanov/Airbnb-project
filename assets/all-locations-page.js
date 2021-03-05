@@ -27,7 +27,7 @@ function printAllLocationsPage(location, allStays = staysManager.allStays) {
         let cardTitle = createEl('div', 'className', 'card-title');
         cardTitle.innerHTML = `${el.stayType} · ${el.location}`
         let stayTitle = createEl('div', 'className', 'stay-title');
-        stayTitle.innerHTML = el.title.slice(0, 33) + '...';
+        stayTitle.innerHTML = el.title.slice(0, 33);
 
         if (el.reviews === 0) {
             usersVotes.innerHTML === 'No reviews yet';
