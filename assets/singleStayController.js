@@ -5,8 +5,8 @@ let currentLocation = localStorage.getItem('chosenLocation');
 let allStaysInLoc = staysManager.allStays.filter(el => el.location === currentLocation);
 let currentStay = localStorage.getItem('selectedStay') || {};
 let currentStayTitle = '';
-
-printTargetStayPage(selectedStayContainer, JSON.parse(currentStay));
+if (localStorage.getItem('selectedStay')) printTargetStayPage(selectedStayContainer, JSON.parse(currentStay));
+else selectedStayContainer.innerHTML = 'No stay selected';
 
 window.addEventListener('click', (ev) => {
     let selectedStay = ev.target.closest('.new-card')

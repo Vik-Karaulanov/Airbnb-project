@@ -4,7 +4,7 @@
     padding: 0 7.5%;
 }
 
-.stay-title {
+.single-stay-title {
     font-size: 1.75rem;
 }
 
@@ -35,6 +35,31 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    line-height: 1.4rem;
+}
+
+.host-icon-container {
+    background-image: url('images/userProfilePicTest.webp');
+    background-position: center;
+    background-size: cover;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+}
+
+.stay-type-and-host-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-line {
+    border-bottom: lightgray 1px solid;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+.stay-specifications {
+
 }
 
 .underlined {
@@ -67,4 +92,8 @@
 
 .cursor-pointer {
     cursor: pointer;
+}
+
+.ai-center {
+    align-items: center !important;
 }
