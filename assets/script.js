@@ -29,7 +29,7 @@ function router() {
 
     switch (currentPage) {
         case 'homePage': {
-            hideElements(allLocations, searchBarAllLocations, searchSpecificsExpanded);
+            hideElements(allLocations, searchBarAllLocations, searchSpecificsExpanded, hostYourHome);
             showElements(...sectionsInMain, searchDefaultText);
         }
             break;

@@ -62,6 +62,8 @@ fieldset {
 fieldset legend {
     font-weight: 500;
     font-size: 1.3rem;
+    margin-left: 30px;
+    margin-bottom: 10px;
 }
 .active {
     background-color: lightgray;
@@ -69,6 +71,7 @@ fieldset legend {
 .content {
     display: none;
     flex-direction: column;
+    transition: all 1s ease;
 }
 button {
     border: 1px solid black;
@@ -93,6 +96,15 @@ button {
     height: 40px;
     font-size: 1.2rem;
     margin: 0 auto;
+    margin-top: 50px;
     background-color: rgb(255, 56, 92);
     border-radius: 16px;
+}
+.collapsible {
+    height: 35px;
+    border-radius: 16px;
+}
+
+#description {
+    width: 350px;
 }
