@@ -108,3 +108,7 @@ button {
 #description {
     width: 350px;
 }
+
+.wrong {
+    border-color: red;
+}

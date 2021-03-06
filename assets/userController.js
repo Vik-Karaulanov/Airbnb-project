@@ -59,6 +59,7 @@
         }
         if (e.target != loginBtnIcon && e.target.parentNode != loginBtnIcon) {
             hideElements(headerProfileMenu1, headerProfileMenu2);
+            
         }
     });
 
