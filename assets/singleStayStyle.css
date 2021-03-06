@@ -87,6 +87,29 @@
     display: flex;
 }
 
+.amenities-info-container {
+    padding: 2rem 0;
+}
+
+.ametinies-title {
+    padding-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.amenities-info > div > div{
+    display: flex;
+    padding: 1rem 1rem 1rem 0;
+    align-items: center;
+}
+
+.amenities-info > div > div > div{
+    padding: 0 1rem;
+}
+
+.amenities-info img {
+    height: 1.5rem;
+}
+
 .horizontal-padding {
     padding: 0 0.3rem;
 }
