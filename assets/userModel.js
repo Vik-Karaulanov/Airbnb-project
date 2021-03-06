@@ -69,6 +69,8 @@ const userModel = (function () {
 
             if (user) {
                 window.localStorage.setItem('currentUser', JSON.stringify(user));
+                // render the page again
+                router();
             } else {
                 return false;
             }

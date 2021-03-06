@@ -77,6 +77,7 @@
         userModel.logoutUser();
         hideElements(headerProfileMenu2);
         defaultProfileImg.src = 'assets/images/default-profile-img.png';
+        location.hash = 'homePage';
     })
 
     menuLoginBtn.addEventListener('click', () => {
