@@ -159,8 +159,6 @@
         amenitiesObj['Parking and facilities'] = kitchenAndDining.map(el => el.value);
         amenitiesObj['Parking and facilities'] = parkingAndFacilities.map(el => el.value);
 
-        // console.log(amenitiesObj);
-
         stayObj['Amenities'] = amenitiesObj;
         // All house rules data
         let checkInData = getInputData('rules')[0].value;
@@ -188,6 +186,7 @@
     HYHFinalBtn.addEventListener('click', (e) => {
         e.preventDefault();
         if (areAllImagesRightSize) {
+            if (uploadImages.classList.contains('wrong')) uploadImages.classList.remove('wrong');
             let newStay = staysManager.addStay(getAllUserData());
             let user = userModel.currentLoggedUser;
             userModel.addStayToCurrentUser(user, newStay);
