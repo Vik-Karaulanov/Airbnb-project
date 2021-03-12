@@ -1,7 +1,7 @@
 let staysManager = (function () {
 
     class Stay {
-        constructor(title, location, images, description, host = 'TEST', rating = 0, reviews = 0, stayType, nonAvailableDates = 'TestData', guests, bedrooms, baths, beds, price, enhancedCleaning = false, cancellationPolicy = CANCELLATION_POLICY, houseRules, amenities) {
+        constructor(title, location, images, description, host = 'TEST', rating = 0, reviews = 0, stayType, nonAvailableDates = 'TestData', guests, bedrooms, beds, price, enhancedCleaning = false, cancellationPolicy = CANCELLATION_POLICY, houseRules, amenities) {
             this.title = title || 'Custom user place';
             this.location = location;
             this.images = images;
@@ -13,7 +13,6 @@ let staysManager = (function () {
             this.nonAvailableDates = nonAvailableDates;
             this.guests = guests;
             this.bedrooms = bedrooms;
-            this.baths = baths;
             this.beds = beds;
             this.price = price;
             this.enhancedCleaning = enhancedCleaning;
@@ -28,7 +27,7 @@ let staysManager = (function () {
             this.allStays = [];
         }
         addStay(obj = {}) {
-            let stay = new Stay(obj.title, obj.location, obj.images, obj.description, obj.host, obj.rating, obj.reviews, obj.stayType, obj.nonAvailableDates, obj.guests, obj.bedrooms, obj.baths, obj.beds, obj.price, obj.enhancedCleaning, obj.cancellationPolicy, obj.houseRules, obj.amenities);
+            let stay = new Stay(obj.title, obj.location, obj.images, obj.description, obj.host, obj.rating, obj.reviews, obj.stayType, obj.nonAvailableDates, obj.guests, obj.bedrooms, obj.beds, obj.price, obj.enhancedCleaning, obj.cancellationPolicy, obj.houseRules, obj.amenities);
             staysManager.allStays.push(stay);
             return stay;
         }

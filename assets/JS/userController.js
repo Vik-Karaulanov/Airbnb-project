@@ -1,9 +1,5 @@
 (function () {
 
-    const errIcon = `<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 2px; overflow: visible;" aria-label="Error indicator" role="img" focusable="false"><circle cx="16" cy="16" r="14" fill="none"></circle><path d="m16 8v10" fill="none"></path><circle cx="16" cy="22.5" fill="#000" r=".5"></circle></svg>`;
-
-
-
     let loginBtnIcon = document.querySelector('.login-container');
     let signup = getById('signup');
     let signupCountry = getById('country-select');
@@ -24,9 +20,9 @@
     let headerProfileMenu1 = getById('header-profile-menu1');
     let menuLoginBtn = getById('menuLoginBtn');
     let menuSignupBtn = getById('menuSignupBtn');
-    let menuHYHBtn = getById('menuHYHBtn');
+    // let menuHYHBtn = getById('menuHYHBtn');
     let headerProfileMenu2 = getById('header-profile-menu2');
-    let menuHYHBtn2 = getById('menuHYHBtn2');
+    // let menuHYHBtn2 = getById('menuHYHBtn2');
     let menuSignoutBtn = getById('menuSignoutBtn');
 
     function clearValues(...elements) {

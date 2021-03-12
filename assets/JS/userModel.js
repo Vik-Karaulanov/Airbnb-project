@@ -4,6 +4,7 @@ const userModel = (function () {
         constructor(firstName, lastName, email, password, country, profilePicture) {
             this.firstName = firstName;
             this.lastName = lastName;
+            this.fullName = `${firstName} ${lastName}`;
             this.email = email;
             this.password = password;
             this.country = country;
