@@ -43,8 +43,8 @@
     [becomeAHost, HTHBtnHeaderProfileMenu1, HTHBtnHeaderProfileMenu2].forEach(btn => {
         btn.addEventListener('click', () => {
             // if (userModel.currentLoggedUser !== 'Guest') {
-                window.location.hash = 'becomeAHost';
-                userNamePlaceholder.innerText = userModel.currentLoggedUser.firstName;
+            window.location.hash = 'becomeAHost';
+            userNamePlaceholder.innerText = userModel.currentLoggedUser.firstName;
             // }
             // else {
             //     showElementsFlex(login);
@@ -160,7 +160,7 @@
         amenitiesObj['Parking and facilities'] = kitchenAndDining.map(el => el.value);
         amenitiesObj['Parking and facilities'] = parkingAndFacilities.map(el => el.value);
 
-        stayObj['Amenities'] = amenitiesObj;
+        stayObj['amenities'] = amenitiesObj;
         // All house rules data
         let checkInData = getInputData('rules')[0].value;
         let checkOutData = getInputData('rules')[1].value;
@@ -180,7 +180,7 @@
         let images = Array.from(uploadImages.querySelectorAll('img'));
 
         stayObj['images'] = images.map(el => el.src);;
-        stayObj['host'] = userModel.currentLoggedUser;
+        stayObj['host'] = userModel.currentLoggedUser.fullName;
         return stayObj;
     }
 
@@ -188,8 +188,12 @@
         e.preventDefault();
         if (areAllImagesRightSize) {
             if (uploadImages.classList.contains('wrong')) uploadImages.classList.remove('wrong');
+
             let newStay = staysManager.addStay(getAllUserData());
             let user = userModel.currentLoggedUser;
+
+            console.log('stayOBJ', JSON.stringify(newStay));
+
             userModel.addStayToCurrentUser(user, newStay);
             setTimeout(() => {
                 let images = Array.from(getById('uploadImages').querySelectorAll('img'));
