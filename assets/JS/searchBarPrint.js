@@ -20,8 +20,10 @@ function printSearchBar(chosenLocation = '', expandedOrNormal) {
     let searchWrapper = document.querySelectorAll('.search-loop-wrapper');
 
     function expandSearchBar() {
-        showElementsFlex(searchSpecificsExpanded);
-        hideElements(startYourSearch, searchSpecificLocations);
+        // showElementsFlex(searchSpecificsExpanded);
+        // hideElements(startYourSearch, searchSpecificLocations);
+        showElementsStyle('flex', searchSpecificsExpanded);
+        showElementsStyle('none', startYourSearch, searchSpecificLocations);
 
         let normalDivWidth = 7;
         let locationDivWidth = 5;
@@ -66,11 +68,15 @@ function printSearchBar(chosenLocation = '', expandedOrNormal) {
 
     function normalizeSearchBar() {
         if (currentPage === 'allLocations') {
-            showElementsFlex(searchSpecificLocations);
-            hideElements(searchSpecificsExpanded);
+            // showElementsFlex(searchSpecificLocations);
+            // hideElements(searchSpecificsExpanded);
+            showElementsStyle('flex', searchSpecificLocations);
+            showElementsStyle('none', searchSpecificsExpanded);
         } else {
-            showElementsFlex(startYourSearch);
-            hideElements(searchSpecificsExpanded);
+            // showElementsFlex(startYourSearch);
+            // hideElements(searchSpecificsExpanded);
+            showElementsStyle('flex', startYourSearch);
+            showElementsStyle('none', searchSpecificsExpanded);
         }
         let normalDivWidth = 10;
         let locationDivWidth = 13;

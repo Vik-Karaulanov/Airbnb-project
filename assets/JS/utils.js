@@ -6,14 +6,18 @@ function createEl(type, prop, value) {
 function getById(id) {
     return document.getElementById(id);
 }
-function showElements(...elements) {
-    elements.forEach(el => el.style.display = 'block');
-}
-function showElementsFlex(...elements) {
-    elements.forEach(el => el.style.display = 'flex');
-}
-function hideElements(...elements) {
-    elements.forEach(el => el.style.display = 'none');
+// function showElements(...elements) {
+//     elements.forEach(el => el.style.display = 'block');
+// }
+// function showElementsFlex(...elements) {
+//     elements.forEach(el => el.style.display = 'flex');
+// }
+// function hideElements(...elements) {
+//     elements.forEach(el => el.style.display = 'none');
+// }
+
+function showElementsStyle(style, ...elements) {
+    elements.forEach(el => el.style.display = style);
 }
 
 function toggleDisplay(el, value) {
