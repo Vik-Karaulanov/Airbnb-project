@@ -1,1 +1,0 @@
-const CANCELLATION_POLICY = 'Non-refundable at this price. You can pay extra during checkout to make this reservation refundable until Feb 25.';

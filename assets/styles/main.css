@@ -3,7 +3,7 @@
 
 .go-near-section {
     width: 100%;
-    background-image: url(images/home-cover.webp);
+    background-image: url(../images/home-cover.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -297,19 +297,19 @@ explore-all-btn a:active {
 }
 
 #liveAnywhereContainer .general-card .pets-welcome {
-    background-image: url(images/pets-friendly-image.jpg);
+    background-image: url(../images/pets-friendly-image.jpg);
 }
 
 #liveAnywhereContainer .general-card .unique-stays {
-    background-image: url(images/unique-stays-image.jpg);
+    background-image: url(../images/unique-stays-image.jpg);
 }
 
 #liveAnywhereContainer .general-card .cabbins-and-cottages {
-    background-image: url(images/cabbins-and-cottages-image.jpg);
+    background-image: url(../images/cabbins-and-cottages-image.jpg);
 }
 
 #liveAnywhereContainer .general-card .entire-homes {
-    background-image: url(images/entire-home-image.jpg);
+    background-image: url(../images/entire-home-image.jpg);
 }
 
 #liveAnywhereContainer .general-card .place-title {
@@ -369,15 +369,15 @@ explore-all-btn a:active {
 
 
 #hostingTypesSection .hosting-type-card .host-your-home {
-    background-image: url(images/hosting-types/host-your-home.jpg);
+    background-image: url(../images/hosting-types/host-your-home.jpg);
 }
 
 #hostingTypesSection .hosting-type-card .host-online-exp {
-    background-image: url(images/hosting-types/host-online-exp.jpg);
+    background-image: url(../images/hosting-types/host-online-exp.jpg);
 }
 
 #hostingTypesSection .hosting-type-card .host-an-exp {
-    background-image: url(images/hosting-types/host-an-exp.jpg);
+    background-image: url(../images/hosting-types/host-an-exp.jpg);
 }
 
 #hostingTypesSection .hosting-type-card .hosting-type-title {

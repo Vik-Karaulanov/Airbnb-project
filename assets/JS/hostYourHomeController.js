@@ -66,7 +66,8 @@
             updateProgressBar(progress, step);
             alreadyOpened().forEach(el => {
                 el.classList.toggle('active');
-                hideElements(el.nextElementSibling);
+                // hideElements(el.nextElementSibling);
+                showElementsStyle('none', el.nextElementSibling);
             });
             step.classList.toggle('active');
             let content = step.nextElementSibling;

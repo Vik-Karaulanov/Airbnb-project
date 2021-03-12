@@ -85,12 +85,12 @@ optionsWrapper.addEventListener('change', (ev) => {
     }
 })
 
-ascendingPriceOption.addEventListener('click', () => {
+descendingPriceOption.addEventListener('click', () => {
     let ascendingPriceSoredStays = sortByPrice('ascending', JSON.parse(localStorage.getItem('displayedStays')));
     printAllLocationsPage(loc, ascendingPriceSoredStays);
 })
 
-descendingPriceOption.addEventListener('click', () => {
+ascendingPriceOption.addEventListener('click', () => {
     let descendingPriceSoredStays = sortByPrice('descending', JSON.parse(localStorage.getItem('displayedStays')));
     printAllLocationsPage(loc, descendingPriceSoredStays);
 })

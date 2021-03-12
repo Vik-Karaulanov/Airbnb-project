@@ -2,7 +2,7 @@
 
     const errIcon = `<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 2px; overflow: visible;" aria-label="Error indicator" role="img" focusable="false"><circle cx="16" cy="16" r="14" fill="none"></circle><path d="m16 8v10" fill="none"></path><circle cx="16" cy="22.5" fill="#000" r=".5"></circle></svg>`;
 
-    
+
 
     let loginBtnIcon = document.querySelector('.login-container');
     let signup = getById('signup');
@@ -37,8 +37,8 @@
         let messageSpan = errEl.querySelector('span');
         messageSpan.innerHTML = '';
         messageSpan.innerHTML = errMessage;
-        if (errMessage) showElementsFlex(errEl);
-        else hideElements(errEl);
+        if (errMessage) showElementsStyle('flex', errEl) //showElementsFlex(errEl);
+        else showElementsStyle('none', errEl) //hideElements(errEl);
     }
 
     if (userModel.isLoggedIn()) {
@@ -58,36 +58,45 @@
             }
         }
         if (e.target != loginBtnIcon && e.target.parentNode != loginBtnIcon) {
-            hideElements(headerProfileMenu1, headerProfileMenu2);
-            
+            // hideElements(headerProfileMenu1, headerProfileMenu2);
+            showElementsStyle('none', headerProfileMenu1, headerProfileMenu2);
+
         }
     });
 
     window.addEventListener('mousedown', (e) => {
 
         if (e.target === signup || e.target === signupCloseBtn) {
-            hideElements(signup);
+            // hideElements(signup);
+            showElementsStyle('none', signup);
         }
         if (e.target === login || e.target === loginCloseBtn) {
-            hideElements(login);
+            // hideElements(login);
+            showElementsStyle('none', login);
+
         }
     })
 
     menuSignoutBtn.addEventListener('click', () => {
         userModel.logoutUser();
-        hideElements(headerProfileMenu2);
+        // hideElements(headerProfileMenu2);
+        showElementsStyle('none', headerProfileMenu2);
         defaultProfileImg.src = 'assets/images/default-profile-img.png';
         location.hash = 'homePage';
     })
 
     menuLoginBtn.addEventListener('click', () => {
-        showElementsFlex(login);
-        hideElements(headerProfileMenu1);
+        // showElementsFlex(login);
+        // hideElements(headerProfileMenu1);
+        showElementsStyle('flex', login);
+        showElementsStyle('none', headerProfileMenu1);
     });
 
     menuSignupBtn.addEventListener('click', () => {
-        showElementsFlex(signup);
-        hideElements(headerProfileMenu1);
+        // showElementsFlex(signup);
+        // hideElements(headerProfileMenu1);
+        showElementsStyle('flex', signup);
+        showElementsStyle('none', headerProfileMenu1);
     });
 
     loginBtn.addEventListener('click', (e) => {
@@ -98,7 +107,8 @@
         if (userModel.validateEmail(email)) {
             appendError(error, '');
             if (userModel.loginUser(email, password)) {
-                hideElements(login);
+                // hideElements(login);
+                showElementsStyle('none', login);
                 defaultProfileImg.src = userModel.currentLoggedUser.profilePicture;
                 clearValues(loginEmail, loginPassword);
             } else {
@@ -125,7 +135,7 @@
             'lastName': userModel.validateName(lastName),
             'email': userModel.validateEmail(email),
             'birthDate': userModel.validateBirthDate(birthDate),
-            'password' : userModel.validatePassword(password),
+            'password': userModel.validatePassword(password),
         }
 
         if (!(Object.values(allFormFields).every(el => !!el))) {
@@ -145,11 +155,11 @@
         } else {
             let user = userModel.registerUser(firstName, lastName, email, password, country);
             if (user) {
-                hideElements(signup);
+                // hideElements(signup);
+                showElementsStyle('none', signup);
                 userModel.loginUser(email, password);
             } else appendError(error, 'user with that email already exists!')
         }
-
 
     })
 
