@@ -265,7 +265,7 @@ let stays = [
     },
     {
         "title": "Casa De Pesho",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/4.png", "assets/images/stays-images/21.png", "assets/images/stays-images/42.png", "assets/images/stays-images/5.png", "assets/images/stays-images/41.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Genadi Popov",
@@ -298,7 +298,7 @@ let stays = [
     },
     {
         "title": "Cute Attic Apartment",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/3.png", "assets/images/stays-images/41.png", "assets/images/stays-images/19.png", "assets/images/stays-images/6.png", "assets/images/stays-images/42.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Stamat Ignatov",
@@ -364,7 +364,7 @@ let stays = [
     },
     {
         "title": "Apartment Luxor",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/10.png", "assets/images/stays-images/42.png", "assets/images/stays-images/31.png", "assets/images/stays-images/26.png", "assets/images/stays-images/41.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Pavlina Zelenkova",
@@ -397,7 +397,7 @@ let stays = [
     },
     {
         "title": "Grande Palace",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/6.png", "assets/images/stays-images/42.png", "assets/images/stays-images/40.png", "assets/images/stays-images/24.png", "assets/images/stays-images/5.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Petyr Zahariev",
@@ -496,7 +496,7 @@ let stays = [
     },
     {
         "title": "Motzart Apartment",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/13.png", "assets/images/stays-images/4.png", "assets/images/stays-images/23.png", "assets/images/stays-images/26.png", "assets/images/stays-images/35.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Georgi Ivanov",
@@ -694,7 +694,7 @@ let stays = [
     },
     {
         "title": "Comfort rooms",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/31.png", "assets/images/stays-images/22.png", "assets/images/stays-images/29.png", "assets/images/stays-images/9.png", "assets/images/stays-images/14.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Dinka Geshova",
@@ -727,7 +727,7 @@ let stays = [
     },
     {
         "title": "Motzart Apartment",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/11.png", "assets/images/stays-images/41.png", "assets/images/stays-images/9.png", "assets/images/stays-images/41.png", "assets/images/stays-images/19.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Petur Iliev",
@@ -1057,7 +1057,7 @@ let stays = [
     },
     {
         "title": "Spacious Place",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/44.png", "assets/images/stays-images/7.png", "assets/images/stays-images/43.png", "assets/images/stays-images/19.png", "assets/images/stays-images/41.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Draganka Dinkova",
@@ -1090,7 +1090,7 @@ let stays = [
     },
     {
         "title": "Motzart Apartment",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/4.png", "assets/images/stays-images/41.png", "assets/images/stays-images/20.png", "assets/images/stays-images/26.png", "assets/images/stays-images/44.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Minka Harizanova",
@@ -1849,7 +1849,7 @@ let stays = [
     },
     {
         "title": "Spacious Place",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/9.png", "assets/images/stays-images/25.png", "assets/images/stays-images/29.png", "assets/images/stays-images/6.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Iliyan Vuchkov",
@@ -1948,7 +1948,7 @@ let stays = [
     },
     {
         "title": "Guest House Edelvais",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/23.png", "assets/images/stays-images/36.png", "assets/images/stays-images/19.png", "assets/images/stays-images/3.png", "assets/images/stays-images/5.png"],
         "description": "TOP LOCATION! BEST PRICE! The apartment is in the very heart of the city, only 300 m from the main city square. The apartment has been renovated in 2019 and is very clean.",
         "host": "Dinka Geshova",
@@ -2047,7 +2047,7 @@ let stays = [
     },
     {
         "title": "Apartment Luxor",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/14.png", "assets/images/stays-images/30.png", "assets/images/stays-images/25.png", "assets/images/stays-images/35.png", "assets/images/stays-images/37.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Ivanka Popova",
@@ -2311,7 +2311,7 @@ let stays = [
     },
     {
         "title": "Guest House Zoya",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/5.png", "assets/images/stays-images/11.png", "assets/images/stays-images/26.png", "assets/images/stays-images/23.png", "assets/images/stays-images/22.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Stamat Ignatov",
@@ -2377,7 +2377,7 @@ let stays = [
     },
     {
         "title": "Comfort rooms",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/21.png", "assets/images/stays-images/18.png", "assets/images/stays-images/21.png", "assets/images/stays-images/14.png", "assets/images/stays-images/34.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Georgi Ivanov",
@@ -2806,7 +2806,7 @@ let stays = [
     },
     {
         "title": "Apartment Luxor",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/25.png", "assets/images/stays-images/41.png", "assets/images/stays-images/12.png", "assets/images/stays-images/41.png", "assets/images/stays-images/2.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "John Kirilov",
@@ -2872,7 +2872,7 @@ let stays = [
     },
     {
         "title": "Apartment Luxor",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/27.png", "assets/images/stays-images/26.png", "assets/images/stays-images/34.png", "assets/images/stays-images/12.png", "assets/images/stays-images/6.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Petyr Zahariev",
@@ -3037,7 +3037,7 @@ let stays = [
     },
     {
         "title": "Casa De Pesho",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/1.png", "assets/images/stays-images/36.png", "assets/images/stays-images/32.png", "assets/images/stays-images/7.png", "assets/images/stays-images/13.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Haralampi Popov",
@@ -3235,7 +3235,7 @@ let stays = [
     },
     {
         "title": "Casa De Pesho",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/17.png", "assets/images/stays-images/19.png", "assets/images/stays-images/43.png", "assets/images/stays-images/4.png", "assets/images/stays-images/18.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Petyr Zahariev",
@@ -3301,7 +3301,7 @@ let stays = [
     },
     {
         "title": "Luxury Apartment with mountain view",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/26.png", "assets/images/stays-images/14.png", "assets/images/stays-images/6.png", "assets/images/stays-images/42.png", "assets/images/stays-images/6.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Danail Alexandrov",
@@ -3367,7 +3367,7 @@ let stays = [
     },
     {
         "title": "Apartment Luxor",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/21.png", "assets/images/stays-images/5.png", "assets/images/stays-images/12.png", "assets/images/stays-images/41.png", "assets/images/stays-images/33.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Petyr Zahariev",
@@ -4060,7 +4060,7 @@ let stays = [
     },
     {
         "title": "Casa De Pesho",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/23.png", "assets/images/stays-images/23.png", "assets/images/stays-images/40.png", "assets/images/stays-images/1.png", "assets/images/stays-images/25.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Haralampi Popov",
@@ -4489,7 +4489,7 @@ let stays = [
     },
     {
         "title": "Art Mesonette Salem",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/25.png", "assets/images/stays-images/14.png", "assets/images/stays-images/4.png", "assets/images/stays-images/45.png", "assets/images/stays-images/33.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Stamat Ignatov",
@@ -4654,7 +4654,7 @@ let stays = [
     },
     {
         "title": "Casa De Pesho",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/4.png", "assets/images/stays-images/17.png", "assets/images/stays-images/13.png", "assets/images/stays-images/14.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Petyr Zahariev",
@@ -5314,7 +5314,7 @@ let stays = [
     },
     {
         "title": "Motzart Apartment",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/9.png", "assets/images/stays-images/17.png", "assets/images/stays-images/10.png", "assets/images/stays-images/12.png", "assets/images/stays-images/12.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Gesho Vazov",
@@ -5446,7 +5446,7 @@ let stays = [
     },
     {
         "title": "Apartment Luxor",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/1.png", "assets/images/stays-images/4.png", "assets/images/stays-images/26.png", "assets/images/stays-images/6.png", "assets/images/stays-images/10.png"],
         "description": "The cozy studio apartment is located in the top center. Many of the major sights, galleries, museums, as well as hip restaurants and bars are within walking distance.",
         "host": "Hasan Uzunov",
@@ -5941,7 +5941,7 @@ let stays = [
     },
     {
         "title": "Art Mesonette Salem",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/26.png", "assets/images/stays-images/19.png", "assets/images/stays-images/13.png", "assets/images/stays-images/39.png", "assets/images/stays-images/12.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Georgi Ivanov",
@@ -6073,7 +6073,7 @@ let stays = [
     },
     {
         "title": "Hotel Panorama",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/21.png", "assets/images/stays-images/20.png", "assets/images/stays-images/21.png", "assets/images/stays-images/41.png", "assets/images/stays-images/12.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Georgi Ivanov",
@@ -6304,7 +6304,7 @@ let stays = [
     },
     {
         "title": "Motzart Apartment",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/41.png", "assets/images/stays-images/7.png", "assets/images/stays-images/8.png", "assets/images/stays-images/1.png", "assets/images/stays-images/42.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Dinka Geshova",
@@ -6436,7 +6436,7 @@ let stays = [
     },
     {
         "title": "Guest House Zoya",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/29.png", "assets/images/stays-images/22.png", "assets/images/stays-images/9.png", "assets/images/stays-images/36.png", "assets/images/stays-images/37.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Ivanka Popova",
@@ -6766,7 +6766,7 @@ let stays = [
     },
     {
         "title": "Luxorious Apartment",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/6.png", "assets/images/stays-images/33.png", "assets/images/stays-images/37.png", "assets/images/stays-images/9.png", "assets/images/stays-images/17.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Stamat Ignatov",
@@ -6931,7 +6931,7 @@ let stays = [
     },
     {
         "title": "Luxury Apartment with mountain view",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/4.png", "assets/images/stays-images/25.png", "assets/images/stays-images/29.png", "assets/images/stays-images/18.png", "assets/images/stays-images/43.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Georgi Ivanov",
@@ -7459,7 +7459,7 @@ let stays = [
     },
     {
         "title": "Luxorious Apartment",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/4.png", "assets/images/stays-images/38.png", "assets/images/stays-images/13.png", "assets/images/stays-images/25.png", "assets/images/stays-images/2.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Minka Harizanova",
@@ -7492,7 +7492,7 @@ let stays = [
     },
     {
         "title": "Casa De Pesho",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/34.png", "assets/images/stays-images/40.png", "assets/images/stays-images/17.png", "assets/images/stays-images/23.png", "assets/images/stays-images/16.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Draganka Dinkova",
@@ -7591,7 +7591,7 @@ let stays = [
     },
     {
         "title": "Mia Delux",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/40.png", "assets/images/stays-images/4.png", "assets/images/stays-images/11.png", "assets/images/stays-images/25.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Georgi Ivanov",
@@ -8119,7 +8119,7 @@ let stays = [
     },
     {
         "title": "Luxorious Apartment",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/22.png", "assets/images/stays-images/24.png", "assets/images/stays-images/42.png", "assets/images/stays-images/18.png", "assets/images/stays-images/38.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "John Kirilov",
@@ -8218,7 +8218,7 @@ let stays = [
     },
     {
         "title": "Casa De Pesho",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/42.png", "assets/images/stays-images/41.png", "assets/images/stays-images/6.png", "assets/images/stays-images/21.png", "assets/images/stays-images/44.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Pavlina Zelenkova",
@@ -8713,7 +8713,7 @@ let stays = [
     },
     {
         "title": "Spacious Place",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/23.png", "assets/images/stays-images/30.png", "assets/images/stays-images/40.png", "assets/images/stays-images/12.png", "assets/images/stays-images/15.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Gesho Vazov",
@@ -8779,7 +8779,7 @@ let stays = [
     },
     {
         "title": "Guest House Zoya",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/4.png", "assets/images/stays-images/33.png", "assets/images/stays-images/1.png", "assets/images/stays-images/12.png", "assets/images/stays-images/14.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Petur Iliev",
@@ -8845,7 +8845,7 @@ let stays = [
     },
     {
         "title": "Guest House Edelvais",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/10.png", "assets/images/stays-images/19.png", "assets/images/stays-images/14.png", "assets/images/stays-images/20.png", "assets/images/stays-images/33.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Gesho Vazov",
@@ -9472,7 +9472,7 @@ let stays = [
     },
     {
         "title": "Glorious Palace",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/3.png", "assets/images/stays-images/17.png", "assets/images/stays-images/19.png", "assets/images/stays-images/33.png", "assets/images/stays-images/26.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Gesho Vazov",
@@ -9604,7 +9604,7 @@ let stays = [
     },
     {
         "title": "Spacious Place",
-        "location": "Chernomorec",
+        "location": "Stara Zagora",
         "images": ["assets/images/stays-images/5.png", "assets/images/stays-images/39.png", "assets/images/stays-images/33.png", "assets/images/stays-images/14.png", "assets/images/stays-images/2.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Draganka Dinkova",
