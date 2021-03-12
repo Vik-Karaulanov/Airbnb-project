@@ -8,6 +8,10 @@
     font-size: 1.75rem;
 }
 
+#errorMessageP {
+    margin: 0 auto;
+}
+
 #targetStayContainer .general-info-and-like-btn img {
     height: 1rem;
     /* margin-right: 0.3rem; */
