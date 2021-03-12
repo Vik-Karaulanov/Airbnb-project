@@ -181,6 +181,8 @@
 
         stayObj['images'] = images.map(el => el.src);;
         stayObj['host'] = userModel.currentLoggedUser.fullName;
+
+        stayObj['id'] = staysManager.allStays.length + 1;
         return stayObj;
     }
 
@@ -191,8 +193,6 @@
 
             let newStay = staysManager.addStay(getAllUserData());
             let user = userModel.currentLoggedUser;
-
-            console.log('stayOBJ', JSON.stringify(newStay));
 
             userModel.addStayToCurrentUser(user, newStay);
             setTimeout(() => {

@@ -37,11 +37,19 @@ const userModel = (function () {
         new User('Detelina', 'Malinova', 'Detelina@asd.asd', 'Asd', 'Bulgaria', 'assets/images/profilePics/profilePic20.jpg'),
     ];
 
+    stays.forEach(stay => {
+        users.forEach(user => {
+            if (stay['host'] === user.fullName) {
+                user.stays.push(stay.id);
+            }
+        });
+    });
+
     let localStorageUsers = JSON.parse(window.localStorage.getItem('users')) || users;
     window.localStorage.setItem('users', JSON.stringify(localStorageUsers));
 
-    function updateLocalStorage(users) {
-        window.localStorage.setItem('users', JSON.stringify(users));
+    function updateLocalStorage(localStorageProp, users) {
+        window.localStorage.setItem(localStorageProp, JSON.stringify(users));
     };
 
     return {
@@ -73,7 +81,7 @@ const userModel = (function () {
             if (!localStorageUsers.find(user => user.email === email)) {
                 let newUser = new User(firstName, lastName, email, password, country);
                 localStorageUsers.push(newUser);
-                updateLocalStorage(localStorageUsers);
+                updateLocalStorage('users',localStorageUsers);
                 return newUser;
             } else return false;
         },
@@ -105,11 +113,13 @@ const userModel = (function () {
         addStayToCurrentUser(user, stay){
             let users = localStorageUsers.map(el => {
                 if (el.email === user.email) {
-                    el.stays.push(stay.title);
+                    el.stays.push(stay.id);
                 }
                 return el;
             });
-            updateLocalStorage(users);
+            user.stays.push(stay.id);
+            updateLocalStorage('users', users);
+            updateLocalStorage('currentUser', user);
         }
     }
 })();

@@ -11,8 +11,11 @@ function printTargetStayPage(container, chosenStay) {
     let hostName = chosenStay.host;
     let staysOfHost = staysManager.allStays.find(el => el.host === hostName);
     let staySpecificsContainer = document.querySelector('.stay-specifics-container');
+    let hostPic = userModel.localStorageUsers.find(user => user.fullName === hostName).profilePicture;
+    hostIconContainer.style.backgroundImage = `url(${hostPic})`;
 
     // TODO: hostIconContainer.addEventListener('click', ()=> staysOfHost to be printed);
+    hostIconContainer.addEventListener('click', () => {console.log(hostPic)});
 
     printSimpleSection(titleContainer, chosenStay.title);
     printSimpleSection(singleStayRating, chosenStay.rating);

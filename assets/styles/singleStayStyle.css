@@ -71,7 +71,7 @@
 
 .host-icon-container {
     position: relative;
-    background-image: url(../images/userProfilePicTest.webp);
+    /* background-image: url(../images/userProfilePicTest.webp); */
     background-position: center;
     background-size: cover;
     width: 3rem;

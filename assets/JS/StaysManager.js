@@ -24,17 +24,17 @@ let staysManager = (function () {
 
     class StaysManager {
         constructor() {
-            this.allStays = [];
+            this.allStays = JSON.parse(localStorage.getItem('allStays')) || stays;
         }
+        
         addStay(obj = {}) {
             let stay = new Stay(obj.title, obj.location, obj.images, obj.description, obj.host, obj.rating, obj.reviews, obj.stayType, obj.nonAvailableDates, obj.guests, obj.bedrooms, obj.beds, obj.price, obj.enhancedCleaning, obj.cancellationPolicy, obj.houseRules, obj.amenities);
             stay.id = this.allStays.length + 1;
             staysManager.allStays.push(stay);
+            localStorage.setItem('allStays', JSON.stringify(this.allStays));
             return stay;
         }
     }
     
     return new StaysManager();
 })();
-
-stays.forEach(el => staysManager.addStay(el));
