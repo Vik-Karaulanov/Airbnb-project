@@ -3,17 +3,25 @@ let allLocationsPage = getById('#allLocations');
 let selectedStayContainer = getById('targetStayContainer');
 let currentLocation = localStorage.getItem('chosenLocation');
 let allStaysInLoc = staysManager.allStays.filter(el => el.location === currentLocation);
-let currentStay = localStorage.getItem('selectedStay') || {};
-let currentStayTitle = '';
-if (localStorage.getItem('selectedStay')) printTargetStayPage(selectedStayContainer, JSON.parse(currentStay));
+let currentStay = staysManager.allStays.find(el => el.id === parseInt(localStorage.getItem('selectedStayId')));
+
+if (localStorage.getItem('selectedStayId')) printTargetStayPage(selectedStayContainer, currentStay);
 else selectedStayContainer.innerHTML = 'No stay selected';
 
 window.addEventListener('click', (ev) => {
     let selectedStay = ev.target.closest('.new-card')
     if (selectedStay) {
-        let currentStayTitle = selectedStay.querySelector('.stay-title').innerHTML;
-        currentStay = staysManager.allStays.find(el => el.title.startsWith(currentStayTitle));
-        localStorage.setItem('selectedStay', JSON.stringify(currentStay));
+        let currentStayId = parseInt(selectedStay.id);
+        staysManager.allStays.find(el => {
+            if(el.id === currentStayId) {
+                console.log(el);
+                return el;
+            }
+        })
+
+        currentStay = staysManager.allStays.find(el => el.id === currentStayId);
+
+        localStorage.setItem('selectedStayId', currentStayId);
 
         printTargetStayPage(selectedStayContainer, currentStay);
 

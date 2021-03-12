@@ -13,8 +13,9 @@ function printAllLocationsPage(location, allStays = staysManager.allStays) {
 
     allStaysInLocation.forEach(el => {
         let newCard = createEl('div', 'className', 'new-card');
+        newCard.id = el.id;
         let imgDiv = createEl('img', 'className', 'card-img');
-        imgDiv.src = `${el.images}`;
+        imgDiv.src = `${el.images[0]}`;
         let ratingSpan = createEl('span', 'className', 'rating-span');
         let starIcon = createEl('img', 'className', 'star-icon');
         starIcon.src = 'assets/images/icons/red-star.png';
