@@ -1,1 +1,3 @@
 const CANCELLATION_POLICY = 'Non-refundable at this price. You can pay extra during checkout to make this reservation refundable.';
+
+const errIcon = `<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 2px; overflow: visible;" aria-label="Error indicator" role="img" focusable="false"><circle cx="16" cy="16" r="14" fill="none"></circle><path d="m16 8v10" fill="none"></path><circle cx="16" cy="22.5" fill="#000" r=".5"></circle></svg>`;
