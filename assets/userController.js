@@ -59,6 +59,7 @@
         }
         if (e.target != loginBtnIcon && e.target.parentNode != loginBtnIcon) {
             hideElements(headerProfileMenu1, headerProfileMenu2);
+            
         }
     });
 
@@ -76,6 +77,7 @@
         userModel.logoutUser();
         hideElements(headerProfileMenu2);
         defaultProfileImg.src = 'assets/images/default-profile-img.png';
+        location.hash = 'homePage';
     })
 
     menuLoginBtn.addEventListener('click', () => {

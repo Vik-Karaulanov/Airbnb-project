@@ -19,13 +19,13 @@
     <link rel="stylesheet" href="assets/footer.css">
     <link rel="stylesheet" href="assets/all-locations-page.css">
     <link rel="stylesheet" href="assets/singleStayStyle.css">
+    <script src="assets/consts.js"></script>t
     <script src="assets/utils.js" defer></script>
     <script src="assets/stays.js" defer></script>
+    <script src="assets/router.js" defer></script>
     <script src="assets/userModel.js" defer></script>
     <script src="assets/userController.js" defer></script>
-    <script src="assets/Stay.js" defer></script>
     <script src="assets/StaysManager.js" defer></script>
-    <script src="assets/Host.js" defer></script>
     <script src="assets/singleStayPrint.js" defer></script>
     <script src="assets/singleStayController.js" defer></script>
     <script src="assets/searchBarPrint.js" defer></script>
@@ -654,7 +654,7 @@
                     </div>
                     <div id="progress"></div>
                 </div>
-                <div id="get-started">
+                <form id="get-started">
                     <h3 id="get-started-heading">Hi <span class="userName"></span>! Let's get started listing your
                         space.</h3>
                     <div id="step1">
@@ -1120,29 +1120,34 @@
                                 <legend>Property images</legend>
                                 <div>
                                     <input type="file" name="uploadImages" id="image1">
-                                    <img src="#" />
+                                    <img src=""/>
+                                    <span class="imgTooLarge"></span>
                                 </div>
                                 <div>
                                     <input type="file" name="uploadImages" id="image2">
-                                    <img src="" />
+                                    <img src=""/>
+                                    <span class="imgTooLarge"></span>
                                 </div>
                                 <div>
                                     <input type="file" name="uploadImages" id="image3">
-                                    <img src="#" />
+                                    <img src=""/>
+                                    <span class="imgTooLarge"></span>
                                 </div>
                                 <div>
                                     <input type="file" name="uploadImages" id="image4">
-                                    <img src="#" />
+                                    <img src=""/>
+                                    <span class="imgTooLarge"></span>
                                 </div>
                                 <div>
                                     <input type="file" name="uploadImages" id="image5">
-                                    <img src="#" />
+                                    <img src=""/>
+                                    <span class="imgTooLarge"></span>
                                 </div>
                             </fieldset>
                             <button id="HYH">Lest host your home!</button>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </main>

@@ -69,7 +69,8 @@ const userModel = (function () {
 
             if (user) {
                 window.localStorage.setItem('currentUser', JSON.stringify(user));
-                console.log(`lognah ${email} s parola ${password}`);
+                // render the page again
+                router();
             } else {
                 return false;
             }
@@ -82,5 +83,14 @@ const userModel = (function () {
                 '');
             window.localStorage.removeItem('currentUser');
         },
+        addStayToCurrentUser(user, stay){
+            let users = localStorageUsers.map(el => {
+                if (el.email === user.email) {
+                    el.stays.push(stay.title);
+                }
+                return el;
+            });
+            updateLocalStorage(users);
+        }
     }
 })();
