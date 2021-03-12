@@ -23,8 +23,35 @@
     color: #616161;;
 }
 
-.stayImg {
-    border-radius: 0.75rem;
+.images-container {
+    display: flex;
+}
+
+.top-right-border-rad {
+    border-radius: 0 0.75rem 0 0;
+}
+
+.bottom-right-border-rad {
+    border-radius: 0 0 0.75rem 0;
+}
+
+.stay-img {
+    margin: 0.25rem;
+    width: 48%;
+    height: auto;
+}
+
+.stay-first-img {
+    border-radius: 0.75rem 0 0 0.75rem;
+    margin: 0.25rem;
+    width: 50%;
+    height: auto;
+}
+
+.img-little-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
 }
 
 .title-for-stay {
@@ -91,7 +118,7 @@
     padding: 2rem 0;
 }
 
-.ametinies-title {
+.amenities-title {
     padding-bottom: 1rem;
     font-size: 1.25rem;
 }

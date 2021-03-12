@@ -2,7 +2,7 @@ let stays = [
     {
         "title": "Motzart Apartment",
         "location": "Velingrad",
-        "images": ["../images/stays-images/20.png", "../images/stays-images/40.png", "../images/stays-images/16.png", "../images/stays-images/33.png", "../images/stays-images/23.png"],
+        "images": ["assets/images/stays-images/20.png", "assets/images/stays-images/40.png", "assets/images/stays-images/16.png", "assets/images/stays-images/33.png", "assets/images/stays-images/23.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Petur Iliev",
         "rating": 4.82,
@@ -35,7 +35,7 @@ let stays = [
     {
         "title": "Cute Attic Apartment",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/35.png", "../images/stays-images/21.png", "../images/stays-images/17.png", "../images/stays-images/41.png", "../images/stays-images/4.png"],
+        "images": ["assets/images/stays-images/35.png", "assets/images/stays-images/21.png", "assets/images/stays-images/17.png", "assets/images/stays-images/41.png", "assets/images/stays-images/4.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Detelina Malinova",
         "rating": 4.9,
@@ -68,7 +68,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Velingrad",
-        "images": ["../images/stays-images/42.png", "../images/stays-images/5.png", "../images/stays-images/30.png", "../images/stays-images/18.png", "../images/stays-images/45.png"],
+        "images": ["assets/images/stays-images/42.png", "assets/images/stays-images/5.png", "assets/images/stays-images/30.png", "assets/images/stays-images/18.png", "assets/images/stays-images/45.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Petyr Zahariev",
         "rating": 2.68,
@@ -101,7 +101,7 @@ let stays = [
     {
         "title": "Casa De Pesho",
         "location": "Pernik",
-        "images": ["../images/stays-images/24.png", "../images/stays-images/41.png", "../images/stays-images/16.png", "../images/stays-images/22.png", "../images/stays-images/42.png"],
+        "images": ["assets/images/stays-images/24.png", "assets/images/stays-images/41.png", "assets/images/stays-images/16.png", "assets/images/stays-images/22.png", "assets/images/stays-images/42.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Stamat Ignatov",
         "rating": 2.45,
@@ -134,7 +134,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/28.png", "../images/stays-images/45.png", "../images/stays-images/41.png", "../images/stays-images/23.png", "../images/stays-images/6.png"],
+        "images": ["assets/images/stays-images/28.png", "assets/images/stays-images/45.png", "assets/images/stays-images/41.png", "assets/images/stays-images/23.png", "assets/images/stays-images/6.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Draganka Dinkova",
         "rating": 4.67,
@@ -167,7 +167,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/23.png", "../images/stays-images/1.png", "../images/stays-images/9.png", "../images/stays-images/20.png", "../images/stays-images/22.png"],
+        "images": ["assets/images/stays-images/23.png", "assets/images/stays-images/1.png", "assets/images/stays-images/9.png", "assets/images/stays-images/20.png", "assets/images/stays-images/22.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Zahari Pavlov",
         "rating": 2.19,
@@ -200,7 +200,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Pernik",
-        "images": ["../images/stays-images/4.png", "../images/stays-images/13.png", "../images/stays-images/14.png", "../images/stays-images/26.png", "../images/stays-images/14.png"],
+        "images": ["assets/images/stays-images/4.png", "assets/images/stays-images/13.png", "assets/images/stays-images/14.png", "assets/images/stays-images/26.png", "assets/images/stays-images/14.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Petyr Zahariev",
         "rating": 1.99,
@@ -233,7 +233,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Sofia",
-        "images": ["../images/stays-images/19.png", "../images/stays-images/33.png", "../images/stays-images/25.png", "../images/stays-images/17.png", "../images/stays-images/22.png"],
+        "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/33.png", "assets/images/stays-images/25.png", "assets/images/stays-images/17.png", "assets/images/stays-images/22.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Ivanka Popova",
         "rating": 2.13,
@@ -266,7 +266,7 @@ let stays = [
     {
         "title": "Casa De Pesho",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/4.png", "../images/stays-images/21.png", "../images/stays-images/42.png", "../images/stays-images/5.png", "../images/stays-images/41.png"],
+        "images": ["assets/images/stays-images/4.png", "assets/images/stays-images/21.png", "assets/images/stays-images/42.png", "assets/images/stays-images/5.png", "assets/images/stays-images/41.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Genadi Popov",
         "rating": 1.68,
@@ -299,7 +299,7 @@ let stays = [
     {
         "title": "Cute Attic Apartment",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/3.png", "../images/stays-images/41.png", "../images/stays-images/19.png", "../images/stays-images/6.png", "../images/stays-images/42.png"],
+        "images": ["assets/images/stays-images/3.png", "assets/images/stays-images/41.png", "assets/images/stays-images/19.png", "assets/images/stays-images/6.png", "assets/images/stays-images/42.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Stamat Ignatov",
         "rating": 3.49,
@@ -332,7 +332,7 @@ let stays = [
     {
         "title": "Hotel Panorama",
         "location": "Velingrad",
-        "images": ["../images/stays-images/21.png", "../images/stays-images/26.png", "../images/stays-images/43.png", "../images/stays-images/17.png", "../images/stays-images/28.png"],
+        "images": ["assets/images/stays-images/21.png", "assets/images/stays-images/26.png", "assets/images/stays-images/43.png", "assets/images/stays-images/17.png", "assets/images/stays-images/28.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Ivanka Popova",
         "rating": 1.6,
@@ -365,7 +365,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/10.png", "../images/stays-images/42.png", "../images/stays-images/31.png", "../images/stays-images/26.png", "../images/stays-images/41.png"],
+        "images": ["assets/images/stays-images/10.png", "assets/images/stays-images/42.png", "assets/images/stays-images/31.png", "assets/images/stays-images/26.png", "assets/images/stays-images/41.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Pavlina Zelenkova",
         "rating": 1.78,
@@ -398,7 +398,7 @@ let stays = [
     {
         "title": "Grande Palace",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/6.png", "../images/stays-images/42.png", "../images/stays-images/40.png", "../images/stays-images/24.png", "../images/stays-images/5.png"],
+        "images": ["assets/images/stays-images/6.png", "assets/images/stays-images/42.png", "assets/images/stays-images/40.png", "assets/images/stays-images/24.png", "assets/images/stays-images/5.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Petyr Zahariev",
         "rating": 2.15,
@@ -431,7 +431,7 @@ let stays = [
     {
         "title": "Comfort rooms",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/5.png", "../images/stays-images/17.png", "../images/stays-images/12.png", "../images/stays-images/4.png", "../images/stays-images/40.png"],
+        "images": ["assets/images/stays-images/5.png", "assets/images/stays-images/17.png", "assets/images/stays-images/12.png", "assets/images/stays-images/4.png", "assets/images/stays-images/40.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Zahari Pavlov",
         "rating": 2.67,
@@ -464,7 +464,7 @@ let stays = [
     {
         "title": "Motzart Apartment",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/1.png", "../images/stays-images/34.png", "../images/stays-images/2.png", "../images/stays-images/8.png", "../images/stays-images/37.png"],
+        "images": ["assets/images/stays-images/1.png", "assets/images/stays-images/34.png", "assets/images/stays-images/2.png", "assets/images/stays-images/8.png", "assets/images/stays-images/37.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Iliyan Vuchkov",
         "rating": 2.63,
@@ -497,7 +497,7 @@ let stays = [
     {
         "title": "Motzart Apartment",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/13.png", "../images/stays-images/4.png", "../images/stays-images/23.png", "../images/stays-images/26.png", "../images/stays-images/35.png"],
+        "images": ["assets/images/stays-images/13.png", "assets/images/stays-images/4.png", "assets/images/stays-images/23.png", "assets/images/stays-images/26.png", "assets/images/stays-images/35.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Georgi Ivanov",
         "rating": 2.84,
@@ -530,7 +530,7 @@ let stays = [
     {
         "title": "Grande Palace",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/25.png", "../images/stays-images/25.png", "../images/stays-images/34.png", "../images/stays-images/41.png", "../images/stays-images/21.png"],
+        "images": ["assets/images/stays-images/25.png", "assets/images/stays-images/25.png", "assets/images/stays-images/34.png", "assets/images/stays-images/41.png", "assets/images/stays-images/21.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Minka Harizanova",
         "rating": 3.15,
@@ -563,7 +563,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Velingrad",
-        "images": ["../images/stays-images/10.png", "../images/stays-images/1.png", "../images/stays-images/33.png", "../images/stays-images/7.png", "../images/stays-images/41.png"],
+        "images": ["assets/images/stays-images/10.png", "assets/images/stays-images/1.png", "assets/images/stays-images/33.png", "assets/images/stays-images/7.png", "assets/images/stays-images/41.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Ginka Strahilova",
         "rating": 3.5,
@@ -596,7 +596,7 @@ let stays = [
     {
         "title": "Grande Palace",
         "location": "Burgas",
-        "images": ["../images/stays-images/32.png", "../images/stays-images/13.png", "../images/stays-images/21.png", "../images/stays-images/1.png", "../images/stays-images/17.png"],
+        "images": ["assets/images/stays-images/32.png", "assets/images/stays-images/13.png", "assets/images/stays-images/21.png", "assets/images/stays-images/1.png", "assets/images/stays-images/17.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Haralampi Popov",
         "rating": 3.33,
@@ -629,7 +629,7 @@ let stays = [
     {
         "title": "Comfort rooms",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/26.png", "../images/stays-images/6.png", "../images/stays-images/23.png", "../images/stays-images/35.png", "../images/stays-images/12.png"],
+        "images": ["assets/images/stays-images/26.png", "assets/images/stays-images/6.png", "assets/images/stays-images/23.png", "assets/images/stays-images/35.png", "assets/images/stays-images/12.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "John Kirilov",
         "rating": 1.15,
@@ -662,7 +662,7 @@ let stays = [
     {
         "title": "Cute Attic Apartment",
         "location": "Sofia",
-        "images": ["../images/stays-images/39.png", "../images/stays-images/12.png", "../images/stays-images/32.png", "../images/stays-images/18.png", "../images/stays-images/30.png"],
+        "images": ["assets/images/stays-images/39.png", "assets/images/stays-images/12.png", "assets/images/stays-images/32.png", "assets/images/stays-images/18.png", "assets/images/stays-images/30.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Stamat Ignatov",
         "rating": 2.77,
@@ -695,7 +695,7 @@ let stays = [
     {
         "title": "Comfort rooms",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/31.png", "../images/stays-images/22.png", "../images/stays-images/29.png", "../images/stays-images/9.png", "../images/stays-images/14.png"],
+        "images": ["assets/images/stays-images/31.png", "assets/images/stays-images/22.png", "assets/images/stays-images/29.png", "assets/images/stays-images/9.png", "assets/images/stays-images/14.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Dinka Geshova",
         "rating": 4.52,
@@ -728,7 +728,7 @@ let stays = [
     {
         "title": "Motzart Apartment",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/11.png", "../images/stays-images/41.png", "../images/stays-images/9.png", "../images/stays-images/41.png", "../images/stays-images/19.png"],
+        "images": ["assets/images/stays-images/11.png", "assets/images/stays-images/41.png", "assets/images/stays-images/9.png", "assets/images/stays-images/41.png", "assets/images/stays-images/19.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Petur Iliev",
         "rating": 2.38,
@@ -761,7 +761,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/9.png", "../images/stays-images/34.png", "../images/stays-images/41.png", "../images/stays-images/25.png", "../images/stays-images/2.png"],
+        "images": ["assets/images/stays-images/9.png", "assets/images/stays-images/34.png", "assets/images/stays-images/41.png", "assets/images/stays-images/25.png", "assets/images/stays-images/2.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Hasan Uzunov",
         "rating": 4.06,
@@ -794,7 +794,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Varna",
-        "images": ["../images/stays-images/44.png", "../images/stays-images/40.png", "../images/stays-images/8.png", "../images/stays-images/35.png", "../images/stays-images/4.png"],
+        "images": ["assets/images/stays-images/44.png", "assets/images/stays-images/40.png", "assets/images/stays-images/8.png", "assets/images/stays-images/35.png", "assets/images/stays-images/4.png"],
         "description": "The cozy studio apartment is located in the top center. Many of the major sights, galleries, museums, as well as hip restaurants and bars are within walking distance.",
         "host": "John Kirilov",
         "rating": 2.43,
@@ -827,7 +827,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Pernik",
-        "images": ["../images/stays-images/5.png", "../images/stays-images/40.png", "../images/stays-images/17.png", "../images/stays-images/30.png", "../images/stays-images/43.png"],
+        "images": ["assets/images/stays-images/5.png", "assets/images/stays-images/40.png", "assets/images/stays-images/17.png", "assets/images/stays-images/30.png", "assets/images/stays-images/43.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Stamat Ignatov",
         "rating": 1.47,
@@ -860,7 +860,7 @@ let stays = [
     {
         "title": "Glorious Palace",
         "location": "Velingrad",
-        "images": ["../images/stays-images/43.png", "../images/stays-images/26.png", "../images/stays-images/26.png", "../images/stays-images/5.png", "../images/stays-images/42.png"],
+        "images": ["assets/images/stays-images/43.png", "assets/images/stays-images/26.png", "assets/images/stays-images/26.png", "assets/images/stays-images/5.png", "assets/images/stays-images/42.png"],
         "description": "TOP LOCATION! BEST PRICE! The apartment is in the very heart of the city, only 300 m from the main city square. The apartment has been renovated in 2019 and is very clean.",
         "host": "Minka Harizanova",
         "rating": 3.56,
@@ -893,7 +893,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/1.png", "../images/stays-images/4.png", "../images/stays-images/36.png", "../images/stays-images/39.png", "../images/stays-images/14.png"],
+        "images": ["assets/images/stays-images/1.png", "assets/images/stays-images/4.png", "assets/images/stays-images/36.png", "assets/images/stays-images/39.png", "assets/images/stays-images/14.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Detelina Malinova",
         "rating": 4.13,
@@ -926,7 +926,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Sofia",
-        "images": ["../images/stays-images/33.png", "../images/stays-images/5.png", "../images/stays-images/41.png", "../images/stays-images/3.png", "../images/stays-images/12.png"],
+        "images": ["assets/images/stays-images/33.png", "assets/images/stays-images/5.png", "assets/images/stays-images/41.png", "assets/images/stays-images/3.png", "assets/images/stays-images/12.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Genadi Popov",
         "rating": 3.11,
@@ -959,7 +959,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Pernik",
-        "images": ["../images/stays-images/24.png", "../images/stays-images/38.png", "../images/stays-images/23.png", "../images/stays-images/45.png", "../images/stays-images/42.png"],
+        "images": ["assets/images/stays-images/24.png", "assets/images/stays-images/38.png", "assets/images/stays-images/23.png", "assets/images/stays-images/45.png", "assets/images/stays-images/42.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Gesho Vazov",
         "rating": 2.33,
@@ -992,7 +992,7 @@ let stays = [
     {
         "title": "Hotel Panorama",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/41.png", "../images/stays-images/1.png", "../images/stays-images/21.png", "../images/stays-images/8.png", "../images/stays-images/19.png"],
+        "images": ["assets/images/stays-images/41.png", "assets/images/stays-images/1.png", "assets/images/stays-images/21.png", "assets/images/stays-images/8.png", "assets/images/stays-images/19.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Georgi Ivanov",
         "rating": 2.87,
@@ -1025,7 +1025,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Burgas",
-        "images": ["../images/stays-images/5.png", "../images/stays-images/17.png", "../images/stays-images/1.png", "../images/stays-images/2.png", "../images/stays-images/11.png"],
+        "images": ["assets/images/stays-images/5.png", "assets/images/stays-images/17.png", "assets/images/stays-images/1.png", "assets/images/stays-images/2.png", "assets/images/stays-images/11.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Detelina Malinova",
         "rating": 2.22,
@@ -1058,7 +1058,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/44.png", "../images/stays-images/7.png", "../images/stays-images/43.png", "../images/stays-images/19.png", "../images/stays-images/41.png"],
+        "images": ["assets/images/stays-images/44.png", "assets/images/stays-images/7.png", "assets/images/stays-images/43.png", "assets/images/stays-images/19.png", "assets/images/stays-images/41.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Draganka Dinkova",
         "rating": 2.61,
@@ -1091,7 +1091,7 @@ let stays = [
     {
         "title": "Motzart Apartment",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/4.png", "../images/stays-images/41.png", "../images/stays-images/20.png", "../images/stays-images/26.png", "../images/stays-images/44.png"],
+        "images": ["assets/images/stays-images/4.png", "assets/images/stays-images/41.png", "assets/images/stays-images/20.png", "assets/images/stays-images/26.png", "assets/images/stays-images/44.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Minka Harizanova",
         "rating": 4.97,
@@ -1124,7 +1124,7 @@ let stays = [
     {
         "title": "Casa De Pesho",
         "location": "Varna",
-        "images": ["../images/stays-images/40.png", "../images/stays-images/6.png", "../images/stays-images/17.png", "../images/stays-images/27.png", "../images/stays-images/18.png"],
+        "images": ["assets/images/stays-images/40.png", "assets/images/stays-images/6.png", "assets/images/stays-images/17.png", "assets/images/stays-images/27.png", "assets/images/stays-images/18.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Gesho Vazov",
         "rating": 5.0,
@@ -1157,7 +1157,7 @@ let stays = [
     {
         "title": "Hotel Panorama",
         "location": "Velingrad",
-        "images": ["../images/stays-images/32.png", "../images/stays-images/41.png", "../images/stays-images/19.png", "../images/stays-images/6.png", "../images/stays-images/41.png"],
+        "images": ["assets/images/stays-images/32.png", "assets/images/stays-images/41.png", "assets/images/stays-images/19.png", "assets/images/stays-images/6.png", "assets/images/stays-images/41.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Iliyan Vuchkov",
         "rating": 4.9,
@@ -1190,7 +1190,7 @@ let stays = [
     {
         "title": "Hotel Panorama",
         "location": "Velingrad",
-        "images": ["../images/stays-images/31.png", "../images/stays-images/19.png", "../images/stays-images/41.png", "../images/stays-images/24.png", "../images/stays-images/33.png"],
+        "images": ["assets/images/stays-images/31.png", "assets/images/stays-images/19.png", "assets/images/stays-images/41.png", "assets/images/stays-images/24.png", "assets/images/stays-images/33.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Draganka Dinkova",
         "rating": 3.28,
@@ -1223,7 +1223,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Burgas",
-        "images": ["../images/stays-images/6.png", "../images/stays-images/17.png", "../images/stays-images/34.png", "../images/stays-images/11.png", "../images/stays-images/28.png"],
+        "images": ["assets/images/stays-images/6.png", "assets/images/stays-images/17.png", "assets/images/stays-images/34.png", "assets/images/stays-images/11.png", "assets/images/stays-images/28.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Minka Harizanova",
         "rating": 1.55,
@@ -1256,7 +1256,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Sofia",
-        "images": ["../images/stays-images/2.png", "../images/stays-images/24.png", "../images/stays-images/38.png", "../images/stays-images/27.png", "../images/stays-images/28.png"],
+        "images": ["assets/images/stays-images/2.png", "assets/images/stays-images/24.png", "assets/images/stays-images/38.png", "assets/images/stays-images/27.png", "assets/images/stays-images/28.png"],
         "description": "The cozy studio apartment is located in the top center. Many of the major sights, galleries, museums, as well as hip restaurants and bars are within walking distance.",
         "host": "Danail Alexandrov",
         "rating": 4.58,
@@ -1289,7 +1289,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Velingrad",
-        "images": ["../images/stays-images/31.png", "../images/stays-images/41.png", "../images/stays-images/2.png", "../images/stays-images/26.png", "../images/stays-images/35.png"],
+        "images": ["assets/images/stays-images/31.png", "assets/images/stays-images/41.png", "assets/images/stays-images/2.png", "assets/images/stays-images/26.png", "assets/images/stays-images/35.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Dinka Geshova",
         "rating": 4.95,
@@ -1322,7 +1322,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Sofia",
-        "images": ["../images/stays-images/17.png", "../images/stays-images/10.png", "../images/stays-images/23.png", "../images/stays-images/8.png", "../images/stays-images/34.png"],
+        "images": ["assets/images/stays-images/17.png", "assets/images/stays-images/10.png", "assets/images/stays-images/23.png", "assets/images/stays-images/8.png", "assets/images/stays-images/34.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Danail Alexandrov",
         "rating": 1.36,
@@ -1355,7 +1355,7 @@ let stays = [
     {
         "title": "Glorious Palace",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/2.png", "../images/stays-images/6.png", "../images/stays-images/6.png", "../images/stays-images/12.png", "../images/stays-images/8.png"],
+        "images": ["assets/images/stays-images/2.png", "assets/images/stays-images/6.png", "assets/images/stays-images/6.png", "assets/images/stays-images/12.png", "assets/images/stays-images/8.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Draganka Dinkova",
         "rating": 4.38,
@@ -1388,7 +1388,7 @@ let stays = [
     {
         "title": "Comfort rooms",
         "location": "Varna",
-        "images": ["../images/stays-images/7.png", "../images/stays-images/43.png", "../images/stays-images/2.png", "../images/stays-images/9.png", "../images/stays-images/41.png"],
+        "images": ["assets/images/stays-images/7.png", "assets/images/stays-images/43.png", "assets/images/stays-images/2.png", "assets/images/stays-images/9.png", "assets/images/stays-images/41.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Petyr Zahariev",
         "rating": 3.34,
@@ -1421,7 +1421,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Sofia",
-        "images": ["../images/stays-images/26.png", "../images/stays-images/40.png", "../images/stays-images/35.png", "../images/stays-images/1.png", "../images/stays-images/43.png"],
+        "images": ["assets/images/stays-images/26.png", "assets/images/stays-images/40.png", "assets/images/stays-images/35.png", "assets/images/stays-images/1.png", "assets/images/stays-images/43.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Dinka Geshova",
         "rating": 3.94,
@@ -1454,7 +1454,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Varna",
-        "images": ["../images/stays-images/40.png", "../images/stays-images/26.png", "../images/stays-images/21.png", "../images/stays-images/23.png", "../images/stays-images/34.png"],
+        "images": ["assets/images/stays-images/40.png", "assets/images/stays-images/26.png", "assets/images/stays-images/21.png", "assets/images/stays-images/23.png", "assets/images/stays-images/34.png"],
         "description": "TOP LOCATION! BEST PRICE! The apartment is in the very heart of the city, only 300 m from the main city square. The apartment has been renovated in 2019 and is very clean.",
         "host": "Georgi Ivanov",
         "rating": 4.74,
@@ -1487,7 +1487,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Velingrad",
-        "images": ["../images/stays-images/42.png", "../images/stays-images/37.png", "../images/stays-images/23.png", "../images/stays-images/21.png", "../images/stays-images/17.png"],
+        "images": ["assets/images/stays-images/42.png", "assets/images/stays-images/37.png", "assets/images/stays-images/23.png", "assets/images/stays-images/21.png", "assets/images/stays-images/17.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Gesho Vazov",
         "rating": 1.51,
@@ -1520,7 +1520,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Varna",
-        "images": ["../images/stays-images/27.png", "../images/stays-images/12.png", "../images/stays-images/25.png", "../images/stays-images/5.png", "../images/stays-images/32.png"],
+        "images": ["assets/images/stays-images/27.png", "assets/images/stays-images/12.png", "assets/images/stays-images/25.png", "assets/images/stays-images/5.png", "assets/images/stays-images/32.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Haralampi Popov",
         "rating": 2.52,
@@ -1553,7 +1553,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Varna",
-        "images": ["../images/stays-images/18.png", "../images/stays-images/1.png", "../images/stays-images/34.png", "../images/stays-images/17.png", "../images/stays-images/23.png"],
+        "images": ["assets/images/stays-images/18.png", "assets/images/stays-images/1.png", "assets/images/stays-images/34.png", "assets/images/stays-images/17.png", "assets/images/stays-images/23.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Geran Malekov",
         "rating": 2.2,
@@ -1586,7 +1586,7 @@ let stays = [
     {
         "title": "Hotel Panorama",
         "location": "Varna",
-        "images": ["../images/stays-images/11.png", "../images/stays-images/12.png", "../images/stays-images/37.png", "../images/stays-images/6.png", "../images/stays-images/26.png"],
+        "images": ["assets/images/stays-images/11.png", "assets/images/stays-images/12.png", "assets/images/stays-images/37.png", "assets/images/stays-images/6.png", "assets/images/stays-images/26.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "John Kirilov",
         "rating": 4.26,
@@ -1619,7 +1619,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/20.png", "../images/stays-images/24.png", "../images/stays-images/36.png", "../images/stays-images/29.png", "../images/stays-images/26.png"],
+        "images": ["assets/images/stays-images/20.png", "assets/images/stays-images/24.png", "assets/images/stays-images/36.png", "assets/images/stays-images/29.png", "assets/images/stays-images/26.png"],
         "description": "TOP LOCATION! BEST PRICE! The apartment is in the very heart of the city, only 300 m from the main city square. The apartment has been renovated in 2019 and is very clean.",
         "host": "Zahari Pavlov",
         "rating": 3.09,
@@ -1652,7 +1652,7 @@ let stays = [
     {
         "title": "Cute Attic Apartment",
         "location": "Varna",
-        "images": ["../images/stays-images/7.png", "../images/stays-images/43.png", "../images/stays-images/29.png", "../images/stays-images/1.png", "../images/stays-images/41.png"],
+        "images": ["assets/images/stays-images/7.png", "assets/images/stays-images/43.png", "assets/images/stays-images/29.png", "assets/images/stays-images/1.png", "assets/images/stays-images/41.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Zahari Pavlov",
         "rating": 3.26,
@@ -1685,7 +1685,7 @@ let stays = [
     {
         "title": "Motzart Apartment",
         "location": "Pernik",
-        "images": ["../images/stays-images/1.png", "../images/stays-images/21.png", "../images/stays-images/26.png", "../images/stays-images/43.png", "../images/stays-images/12.png"],
+        "images": ["assets/images/stays-images/1.png", "assets/images/stays-images/21.png", "assets/images/stays-images/26.png", "assets/images/stays-images/43.png", "assets/images/stays-images/12.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Iliyan Vuchkov",
         "rating": 1.88,
@@ -1718,7 +1718,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Pernik",
-        "images": ["../images/stays-images/19.png", "../images/stays-images/6.png", "../images/stays-images/38.png", "../images/stays-images/19.png", "../images/stays-images/34.png"],
+        "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/6.png", "assets/images/stays-images/38.png", "assets/images/stays-images/19.png", "assets/images/stays-images/34.png"],
         "description": "TOP LOCATION! BEST PRICE! The apartment is in the very heart of the city, only 300 m from the main city square. The apartment has been renovated in 2019 and is very clean.",
         "host": "Haralampi Popov",
         "rating": 2.07,
@@ -1751,7 +1751,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Varna",
-        "images": ["../images/stays-images/42.png", "../images/stays-images/9.png", "../images/stays-images/18.png", "../images/stays-images/6.png", "../images/stays-images/17.png"],
+        "images": ["assets/images/stays-images/42.png", "assets/images/stays-images/9.png", "assets/images/stays-images/18.png", "assets/images/stays-images/6.png", "assets/images/stays-images/17.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Petyr Zahariev",
         "rating": 2.41,
@@ -1784,7 +1784,7 @@ let stays = [
     {
         "title": "Comfort rooms",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/14.png", "../images/stays-images/25.png", "../images/stays-images/25.png", "../images/stays-images/16.png", "../images/stays-images/6.png"],
+        "images": ["assets/images/stays-images/14.png", "assets/images/stays-images/25.png", "assets/images/stays-images/25.png", "assets/images/stays-images/16.png", "assets/images/stays-images/6.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Georgi Ivanov",
         "rating": 2.13,
@@ -1817,7 +1817,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Pernik",
-        "images": ["../images/stays-images/29.png", "../images/stays-images/6.png", "../images/stays-images/16.png", "../images/stays-images/21.png", "../images/stays-images/41.png"],
+        "images": ["assets/images/stays-images/29.png", "assets/images/stays-images/6.png", "assets/images/stays-images/16.png", "assets/images/stays-images/21.png", "assets/images/stays-images/41.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Stamat Ignatov",
         "rating": 1.47,
@@ -1850,7 +1850,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/19.png", "../images/stays-images/9.png", "../images/stays-images/25.png", "../images/stays-images/29.png", "../images/stays-images/6.png"],
+        "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/9.png", "assets/images/stays-images/25.png", "assets/images/stays-images/29.png", "assets/images/stays-images/6.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Iliyan Vuchkov",
         "rating": 4.02,
@@ -1883,7 +1883,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Pernik",
-        "images": ["../images/stays-images/35.png", "../images/stays-images/4.png", "../images/stays-images/22.png", "../images/stays-images/19.png", "../images/stays-images/13.png"],
+        "images": ["assets/images/stays-images/35.png", "assets/images/stays-images/4.png", "assets/images/stays-images/22.png", "assets/images/stays-images/19.png", "assets/images/stays-images/13.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Genadi Popov",
         "rating": 2.5,
@@ -1916,7 +1916,7 @@ let stays = [
     {
         "title": "Motzart Apartment",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/33.png", "../images/stays-images/22.png", "../images/stays-images/32.png", "../images/stays-images/21.png", "../images/stays-images/17.png"],
+        "images": ["assets/images/stays-images/33.png", "assets/images/stays-images/22.png", "assets/images/stays-images/32.png", "assets/images/stays-images/21.png", "assets/images/stays-images/17.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Petur Iliev",
         "rating": 2.26,
@@ -1949,7 +1949,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/23.png", "../images/stays-images/36.png", "../images/stays-images/19.png", "../images/stays-images/3.png", "../images/stays-images/5.png"],
+        "images": ["assets/images/stays-images/23.png", "assets/images/stays-images/36.png", "assets/images/stays-images/19.png", "assets/images/stays-images/3.png", "assets/images/stays-images/5.png"],
         "description": "TOP LOCATION! BEST PRICE! The apartment is in the very heart of the city, only 300 m from the main city square. The apartment has been renovated in 2019 and is very clean.",
         "host": "Dinka Geshova",
         "rating": 3.01,
@@ -1982,7 +1982,7 @@ let stays = [
     {
         "title": "Casa De Pesho",
         "location": "Velingrad",
-        "images": ["../images/stays-images/29.png", "../images/stays-images/19.png", "../images/stays-images/6.png", "../images/stays-images/41.png", "../images/stays-images/21.png"],
+        "images": ["assets/images/stays-images/29.png", "assets/images/stays-images/19.png", "assets/images/stays-images/6.png", "assets/images/stays-images/41.png", "assets/images/stays-images/21.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "John Kirilov",
         "rating": 1.23,
@@ -2015,7 +2015,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Pernik",
-        "images": ["../images/stays-images/40.png", "../images/stays-images/15.png", "../images/stays-images/12.png", "../images/stays-images/27.png", "../images/stays-images/2.png"],
+        "images": ["assets/images/stays-images/40.png", "assets/images/stays-images/15.png", "assets/images/stays-images/12.png", "assets/images/stays-images/27.png", "assets/images/stays-images/2.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Draganka Dinkova",
         "rating": 2.54,
@@ -2048,7 +2048,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/14.png", "../images/stays-images/30.png", "../images/stays-images/25.png", "../images/stays-images/35.png", "../images/stays-images/37.png"],
+        "images": ["assets/images/stays-images/14.png", "assets/images/stays-images/30.png", "assets/images/stays-images/25.png", "assets/images/stays-images/35.png", "assets/images/stays-images/37.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Ivanka Popova",
         "rating": 1.81,
@@ -2081,7 +2081,7 @@ let stays = [
     {
         "title": "Hotel Panorama",
         "location": "Burgas",
-        "images": ["../images/stays-images/19.png", "../images/stays-images/1.png", "../images/stays-images/13.png", "../images/stays-images/18.png", "../images/stays-images/5.png"],
+        "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/1.png", "assets/images/stays-images/13.png", "assets/images/stays-images/18.png", "assets/images/stays-images/5.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Detelina Malinova",
         "rating": 2.6,
@@ -2114,7 +2114,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Varna",
-        "images": ["../images/stays-images/7.png", "../images/stays-images/40.png", "../images/stays-images/40.png", "../images/stays-images/36.png", "../images/stays-images/8.png"],
+        "images": ["assets/images/stays-images/7.png", "assets/images/stays-images/40.png", "assets/images/stays-images/40.png", "assets/images/stays-images/36.png", "assets/images/stays-images/8.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Draganka Dinkova",
         "rating": 1.68,
@@ -2147,7 +2147,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/4.png", "../images/stays-images/14.png", "../images/stays-images/10.png", "../images/stays-images/4.png", "../images/stays-images/45.png"],
+        "images": ["assets/images/stays-images/4.png", "assets/images/stays-images/14.png", "assets/images/stays-images/10.png", "assets/images/stays-images/4.png", "assets/images/stays-images/45.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Zahari Pavlov",
         "rating": 3.78,
@@ -2180,7 +2180,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/33.png", "../images/stays-images/14.png", "../images/stays-images/36.png", "../images/stays-images/27.png", "../images/stays-images/1.png"],
+        "images": ["assets/images/stays-images/33.png", "assets/images/stays-images/14.png", "assets/images/stays-images/36.png", "assets/images/stays-images/27.png", "assets/images/stays-images/1.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Hasan Uzunov",
         "rating": 3.41,
@@ -2213,7 +2213,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/17.png", "../images/stays-images/33.png", "../images/stays-images/27.png", "../images/stays-images/26.png", "../images/stays-images/5.png"],
+        "images": ["assets/images/stays-images/17.png", "assets/images/stays-images/33.png", "assets/images/stays-images/27.png", "assets/images/stays-images/26.png", "assets/images/stays-images/5.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Hasan Uzunov",
         "rating": 3.54,
@@ -2246,7 +2246,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Velingrad",
-        "images": ["../images/stays-images/15.png", "../images/stays-images/34.png", "../images/stays-images/13.png", "../images/stays-images/21.png", "../images/stays-images/21.png"],
+        "images": ["assets/images/stays-images/15.png", "assets/images/stays-images/34.png", "assets/images/stays-images/13.png", "assets/images/stays-images/21.png", "assets/images/stays-images/21.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Geran Malekov",
         "rating": 4.88,
@@ -2279,7 +2279,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Varna",
-        "images": ["../images/stays-images/7.png", "../images/stays-images/31.png", "../images/stays-images/9.png", "../images/stays-images/35.png", "../images/stays-images/28.png"],
+        "images": ["assets/images/stays-images/7.png", "assets/images/stays-images/31.png", "assets/images/stays-images/9.png", "assets/images/stays-images/35.png", "assets/images/stays-images/28.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Zahari Pavlov",
         "rating": 4.91,
@@ -2312,7 +2312,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/5.png", "../images/stays-images/11.png", "../images/stays-images/26.png", "../images/stays-images/23.png", "../images/stays-images/22.png"],
+        "images": ["assets/images/stays-images/5.png", "assets/images/stays-images/11.png", "assets/images/stays-images/26.png", "assets/images/stays-images/23.png", "assets/images/stays-images/22.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Stamat Ignatov",
         "rating": 2.31,
@@ -2345,7 +2345,7 @@ let stays = [
     {
         "title": "Casa De Pesho",
         "location": "Pernik",
-        "images": ["../images/stays-images/33.png", "../images/stays-images/2.png", "../images/stays-images/20.png", "../images/stays-images/30.png", "../images/stays-images/26.png"],
+        "images": ["assets/images/stays-images/33.png", "assets/images/stays-images/2.png", "assets/images/stays-images/20.png", "assets/images/stays-images/30.png", "assets/images/stays-images/26.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Ginka Strahilova",
         "rating": 2.59,
@@ -2378,7 +2378,7 @@ let stays = [
     {
         "title": "Comfort rooms",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/21.png", "../images/stays-images/18.png", "../images/stays-images/21.png", "../images/stays-images/14.png", "../images/stays-images/34.png"],
+        "images": ["assets/images/stays-images/21.png", "assets/images/stays-images/18.png", "assets/images/stays-images/21.png", "assets/images/stays-images/14.png", "assets/images/stays-images/34.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Georgi Ivanov",
         "rating": 2.12,
@@ -2411,7 +2411,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Varna",
-        "images": ["../images/stays-images/43.png", "../images/stays-images/2.png", "../images/stays-images/7.png", "../images/stays-images/38.png", "../images/stays-images/43.png"],
+        "images": ["assets/images/stays-images/43.png", "assets/images/stays-images/2.png", "assets/images/stays-images/7.png", "assets/images/stays-images/38.png", "assets/images/stays-images/43.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Iliyan Vuchkov",
         "rating": 1.82,
@@ -2444,7 +2444,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Pernik",
-        "images": ["../images/stays-images/4.png", "../images/stays-images/41.png", "../images/stays-images/31.png", "../images/stays-images/25.png", "../images/stays-images/35.png"],
+        "images": ["assets/images/stays-images/4.png", "assets/images/stays-images/41.png", "assets/images/stays-images/31.png", "assets/images/stays-images/25.png", "assets/images/stays-images/35.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Draganka Dinkova",
         "rating": 1.58,
@@ -2477,7 +2477,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/9.png", "../images/stays-images/20.png", "../images/stays-images/41.png", "../images/stays-images/26.png", "../images/stays-images/21.png"],
+        "images": ["assets/images/stays-images/9.png", "assets/images/stays-images/20.png", "assets/images/stays-images/41.png", "assets/images/stays-images/26.png", "assets/images/stays-images/21.png"],
         "description": "The cozy studio apartment is located in the top center. Many of the major sights, galleries, museums, as well as hip restaurants and bars are within walking distance.",
         "host": "Zahari Pavlov",
         "rating": 2.63,
@@ -2510,7 +2510,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Pernik",
-        "images": ["../images/stays-images/6.png", "../images/stays-images/34.png", "../images/stays-images/31.png", "../images/stays-images/13.png", "../images/stays-images/36.png"],
+        "images": ["assets/images/stays-images/6.png", "assets/images/stays-images/34.png", "assets/images/stays-images/31.png", "assets/images/stays-images/13.png", "assets/images/stays-images/36.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Ginka Strahilova",
         "rating": 4.46,
@@ -2543,7 +2543,7 @@ let stays = [
     {
         "title": "Motzart Apartment",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/18.png", "../images/stays-images/17.png", "../images/stays-images/38.png", "../images/stays-images/45.png", "../images/stays-images/2.png"],
+        "images": ["assets/images/stays-images/18.png", "assets/images/stays-images/17.png", "assets/images/stays-images/38.png", "assets/images/stays-images/45.png", "assets/images/stays-images/2.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Pavlina Zelenkova",
         "rating": 2.52,
@@ -2576,7 +2576,7 @@ let stays = [
     {
         "title": "Hotel Panorama",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/26.png", "../images/stays-images/12.png", "../images/stays-images/15.png", "../images/stays-images/33.png", "../images/stays-images/30.png"],
+        "images": ["assets/images/stays-images/26.png", "assets/images/stays-images/12.png", "assets/images/stays-images/15.png", "assets/images/stays-images/33.png", "assets/images/stays-images/30.png"],
         "description": "TOP LOCATION! BEST PRICE! The apartment is in the very heart of the city, only 300 m from the main city square. The apartment has been renovated in 2019 and is very clean.",
         "host": "Geran Malekov",
         "rating": 4.89,
@@ -2609,7 +2609,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Velingrad",
-        "images": ["../images/stays-images/19.png", "../images/stays-images/25.png", "../images/stays-images/42.png", "../images/stays-images/19.png", "../images/stays-images/5.png"],
+        "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/25.png", "assets/images/stays-images/42.png", "assets/images/stays-images/19.png", "assets/images/stays-images/5.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Ginka Strahilova",
         "rating": 2.02,
@@ -2642,7 +2642,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Sofia",
-        "images": ["../images/stays-images/45.png", "../images/stays-images/29.png", "../images/stays-images/3.png", "../images/stays-images/21.png", "../images/stays-images/32.png"],
+        "images": ["assets/images/stays-images/45.png", "assets/images/stays-images/29.png", "assets/images/stays-images/3.png", "assets/images/stays-images/21.png", "assets/images/stays-images/32.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Georgi Ivanov",
         "rating": 3.26,
@@ -2675,7 +2675,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Sofia",
-        "images": ["../images/stays-images/19.png", "../images/stays-images/17.png", "../images/stays-images/43.png", "../images/stays-images/27.png", "../images/stays-images/17.png"],
+        "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/17.png", "assets/images/stays-images/43.png", "assets/images/stays-images/27.png", "assets/images/stays-images/17.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Haralampi Popov",
         "rating": 4.77,
@@ -2708,7 +2708,7 @@ let stays = [
     {
         "title": "Motzart Apartment",
         "location": "Pernik",
-        "images": ["../images/stays-images/20.png", "../images/stays-images/24.png", "../images/stays-images/12.png", "../images/stays-images/19.png", "../images/stays-images/8.png"],
+        "images": ["assets/images/stays-images/20.png", "assets/images/stays-images/24.png", "assets/images/stays-images/12.png", "assets/images/stays-images/19.png", "assets/images/stays-images/8.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Minka Harizanova",
         "rating": 4.11,
@@ -2741,7 +2741,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Varna",
-        "images": ["../images/stays-images/21.png", "../images/stays-images/21.png", "../images/stays-images/26.png", "../images/stays-images/6.png", "../images/stays-images/25.png"],
+        "images": ["assets/images/stays-images/21.png", "assets/images/stays-images/21.png", "assets/images/stays-images/26.png", "assets/images/stays-images/6.png", "assets/images/stays-images/25.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Geran Malekov",
         "rating": 1.74,
@@ -2774,7 +2774,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Velingrad",
-        "images": ["../images/stays-images/21.png", "../images/stays-images/25.png", "../images/stays-images/9.png", "../images/stays-images/35.png", "../images/stays-images/17.png"],
+        "images": ["assets/images/stays-images/21.png", "assets/images/stays-images/25.png", "assets/images/stays-images/9.png", "assets/images/stays-images/35.png", "assets/images/stays-images/17.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Zahari Pavlov",
         "rating": 2.18,
@@ -2807,7 +2807,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/25.png", "../images/stays-images/41.png", "../images/stays-images/12.png", "../images/stays-images/41.png", "../images/stays-images/2.png"],
+        "images": ["assets/images/stays-images/25.png", "assets/images/stays-images/41.png", "assets/images/stays-images/12.png", "assets/images/stays-images/41.png", "assets/images/stays-images/2.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "John Kirilov",
         "rating": 1.34,
@@ -2840,7 +2840,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Varna",
-        "images": ["../images/stays-images/39.png", "../images/stays-images/18.png", "../images/stays-images/27.png", "../images/stays-images/23.png", "../images/stays-images/30.png"],
+        "images": ["assets/images/stays-images/39.png", "assets/images/stays-images/18.png", "assets/images/stays-images/27.png", "assets/images/stays-images/23.png", "assets/images/stays-images/30.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Hasan Uzunov",
         "rating": 4.04,
@@ -2873,7 +2873,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/27.png", "../images/stays-images/26.png", "../images/stays-images/34.png", "../images/stays-images/12.png", "../images/stays-images/6.png"],
+        "images": ["assets/images/stays-images/27.png", "assets/images/stays-images/26.png", "assets/images/stays-images/34.png", "assets/images/stays-images/12.png", "assets/images/stays-images/6.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Petyr Zahariev",
         "rating": 1.07,
@@ -2906,7 +2906,7 @@ let stays = [
     {
         "title": "Comfort rooms",
         "location": "Velingrad",
-        "images": ["../images/stays-images/8.png", "../images/stays-images/9.png", "../images/stays-images/43.png", "../images/stays-images/21.png", "../images/stays-images/14.png"],
+        "images": ["assets/images/stays-images/8.png", "assets/images/stays-images/9.png", "assets/images/stays-images/43.png", "assets/images/stays-images/21.png", "assets/images/stays-images/14.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "John Kirilov",
         "rating": 4.27,
@@ -2939,7 +2939,7 @@ let stays = [
     {
         "title": "Glorious Palace",
         "location": "Pernik",
-        "images": ["../images/stays-images/6.png", "../images/stays-images/21.png", "../images/stays-images/45.png", "../images/stays-images/40.png", "../images/stays-images/29.png"],
+        "images": ["assets/images/stays-images/6.png", "assets/images/stays-images/21.png", "assets/images/stays-images/45.png", "assets/images/stays-images/40.png", "assets/images/stays-images/29.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Geran Malekov",
         "rating": 4.22,
@@ -2972,7 +2972,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/45.png", "../images/stays-images/17.png", "../images/stays-images/13.png", "../images/stays-images/34.png", "../images/stays-images/5.png"],
+        "images": ["assets/images/stays-images/45.png", "assets/images/stays-images/17.png", "assets/images/stays-images/13.png", "assets/images/stays-images/34.png", "assets/images/stays-images/5.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Detelina Malinova",
         "rating": 2.06,
@@ -3005,7 +3005,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Pernik",
-        "images": ["../images/stays-images/6.png", "../images/stays-images/21.png", "../images/stays-images/20.png", "../images/stays-images/6.png", "../images/stays-images/1.png"],
+        "images": ["assets/images/stays-images/6.png", "assets/images/stays-images/21.png", "assets/images/stays-images/20.png", "assets/images/stays-images/6.png", "assets/images/stays-images/1.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "John Kirilov",
         "rating": 4.1,
@@ -3038,7 +3038,7 @@ let stays = [
     {
         "title": "Casa De Pesho",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/1.png", "../images/stays-images/36.png", "../images/stays-images/32.png", "../images/stays-images/7.png", "../images/stays-images/13.png"],
+        "images": ["assets/images/stays-images/1.png", "assets/images/stays-images/36.png", "assets/images/stays-images/32.png", "assets/images/stays-images/7.png", "assets/images/stays-images/13.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Haralampi Popov",
         "rating": 1.48,
@@ -3071,7 +3071,7 @@ let stays = [
     {
         "title": "Casa De Pesho",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/35.png", "../images/stays-images/14.png", "../images/stays-images/42.png", "../images/stays-images/4.png", "../images/stays-images/26.png"],
+        "images": ["assets/images/stays-images/35.png", "assets/images/stays-images/14.png", "assets/images/stays-images/42.png", "assets/images/stays-images/4.png", "assets/images/stays-images/26.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Danail Alexandrov",
         "rating": 2.06,
@@ -3104,7 +3104,7 @@ let stays = [
     {
         "title": "Casa De Pesho",
         "location": "Pernik",
-        "images": ["../images/stays-images/25.png", "../images/stays-images/12.png", "../images/stays-images/17.png", "../images/stays-images/12.png", "../images/stays-images/29.png"],
+        "images": ["assets/images/stays-images/25.png", "assets/images/stays-images/12.png", "assets/images/stays-images/17.png", "assets/images/stays-images/12.png", "assets/images/stays-images/29.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Gesho Vazov",
         "rating": 3.34,
@@ -3137,7 +3137,7 @@ let stays = [
     {
         "title": "Casa De Pesho",
         "location": "Pernik",
-        "images": ["../images/stays-images/44.png", "../images/stays-images/18.png", "../images/stays-images/38.png", "../images/stays-images/12.png", "../images/stays-images/10.png"],
+        "images": ["assets/images/stays-images/44.png", "assets/images/stays-images/18.png", "assets/images/stays-images/38.png", "assets/images/stays-images/12.png", "assets/images/stays-images/10.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Gesho Vazov",
         "rating": 2.45,
@@ -3170,7 +3170,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/14.png", "../images/stays-images/16.png", "../images/stays-images/26.png", "../images/stays-images/26.png", "../images/stays-images/36.png"],
+        "images": ["assets/images/stays-images/14.png", "assets/images/stays-images/16.png", "assets/images/stays-images/26.png", "assets/images/stays-images/26.png", "assets/images/stays-images/36.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Geran Malekov",
         "rating": 4.77,
@@ -3203,7 +3203,7 @@ let stays = [
     {
         "title": "Comfort rooms",
         "location": "Sofia",
-        "images": ["../images/stays-images/22.png", "../images/stays-images/5.png", "../images/stays-images/8.png", "../images/stays-images/4.png", "../images/stays-images/25.png"],
+        "images": ["assets/images/stays-images/22.png", "assets/images/stays-images/5.png", "assets/images/stays-images/8.png", "assets/images/stays-images/4.png", "assets/images/stays-images/25.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Detelina Malinova",
         "rating": 3.42,
@@ -3236,7 +3236,7 @@ let stays = [
     {
         "title": "Casa De Pesho",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/17.png", "../images/stays-images/19.png", "../images/stays-images/43.png", "../images/stays-images/4.png", "../images/stays-images/18.png"],
+        "images": ["assets/images/stays-images/17.png", "assets/images/stays-images/19.png", "assets/images/stays-images/43.png", "assets/images/stays-images/4.png", "assets/images/stays-images/18.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Petyr Zahariev",
         "rating": 3.31,
@@ -3269,7 +3269,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/14.png", "../images/stays-images/34.png", "../images/stays-images/31.png", "../images/stays-images/8.png", "../images/stays-images/43.png"],
+        "images": ["assets/images/stays-images/14.png", "assets/images/stays-images/34.png", "assets/images/stays-images/31.png", "assets/images/stays-images/8.png", "assets/images/stays-images/43.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Ginka Strahilova",
         "rating": 4.89,
@@ -3302,7 +3302,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/26.png", "../images/stays-images/14.png", "../images/stays-images/6.png", "../images/stays-images/42.png", "../images/stays-images/6.png"],
+        "images": ["assets/images/stays-images/26.png", "assets/images/stays-images/14.png", "assets/images/stays-images/6.png", "assets/images/stays-images/42.png", "assets/images/stays-images/6.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Danail Alexandrov",
         "rating": 3.93,
@@ -3335,7 +3335,7 @@ let stays = [
     {
         "title": "Cute Attic Apartment",
         "location": "Varna",
-        "images": ["../images/stays-images/37.png", "../images/stays-images/19.png", "../images/stays-images/14.png", "../images/stays-images/18.png", "../images/stays-images/9.png"],
+        "images": ["assets/images/stays-images/37.png", "assets/images/stays-images/19.png", "assets/images/stays-images/14.png", "assets/images/stays-images/18.png", "assets/images/stays-images/9.png"],
         "description": "TOP LOCATION! BEST PRICE! The apartment is in the very heart of the city, only 300 m from the main city square. The apartment has been renovated in 2019 and is very clean.",
         "host": "Stamat Ignatov",
         "rating": 4.96,
@@ -3368,7 +3368,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/21.png", "../images/stays-images/5.png", "../images/stays-images/12.png", "../images/stays-images/41.png", "../images/stays-images/33.png"],
+        "images": ["assets/images/stays-images/21.png", "assets/images/stays-images/5.png", "assets/images/stays-images/12.png", "assets/images/stays-images/41.png", "assets/images/stays-images/33.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Petyr Zahariev",
         "rating": 1.13,
@@ -3401,7 +3401,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Burgas",
-        "images": ["../images/stays-images/19.png", "../images/stays-images/6.png", "../images/stays-images/36.png", "../images/stays-images/11.png", "../images/stays-images/8.png"],
+        "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/6.png", "assets/images/stays-images/36.png", "assets/images/stays-images/11.png", "assets/images/stays-images/8.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Petur Iliev",
         "rating": 1.75,
@@ -3434,7 +3434,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Varna",
-        "images": ["../images/stays-images/13.png", "../images/stays-images/33.png", "../images/stays-images/45.png", "../images/stays-images/19.png", "../images/stays-images/38.png"],
+        "images": ["assets/images/stays-images/13.png", "assets/images/stays-images/33.png", "assets/images/stays-images/45.png", "assets/images/stays-images/19.png", "assets/images/stays-images/38.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Dinka Geshova",
         "rating": 2.21,
@@ -3467,7 +3467,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Burgas",
-        "images": ["../images/stays-images/22.png", "../images/stays-images/8.png", "../images/stays-images/41.png", "../images/stays-images/29.png", "../images/stays-images/19.png"],
+        "images": ["assets/images/stays-images/22.png", "assets/images/stays-images/8.png", "assets/images/stays-images/41.png", "assets/images/stays-images/29.png", "assets/images/stays-images/19.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Draganka Dinkova",
         "rating": 3.23,
@@ -3500,7 +3500,7 @@ let stays = [
     {
         "title": "Glorious Palace",
         "location": "Pernik",
-        "images": ["../images/stays-images/19.png", "../images/stays-images/5.png", "../images/stays-images/35.png", "../images/stays-images/36.png", "../images/stays-images/45.png"],
+        "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/5.png", "assets/images/stays-images/35.png", "assets/images/stays-images/36.png", "assets/images/stays-images/45.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Hasan Uzunov",
         "rating": 3.22,
@@ -3533,7 +3533,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Varna",
-        "images": ["../images/stays-images/20.png", "../images/stays-images/14.png", "../images/stays-images/45.png", "../images/stays-images/4.png", "../images/stays-images/19.png"],
+        "images": ["assets/images/stays-images/20.png", "assets/images/stays-images/14.png", "assets/images/stays-images/45.png", "assets/images/stays-images/4.png", "assets/images/stays-images/19.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Petur Iliev",
         "rating": 4.36,
@@ -3566,7 +3566,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/40.png", "../images/stays-images/5.png", "../images/stays-images/42.png", "../images/stays-images/24.png", "../images/stays-images/42.png"],
+        "images": ["assets/images/stays-images/40.png", "assets/images/stays-images/5.png", "assets/images/stays-images/42.png", "assets/images/stays-images/24.png", "assets/images/stays-images/42.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Gesho Vazov",
         "rating": 4.94,
@@ -3599,7 +3599,7 @@ let stays = [
     {
         "title": "Cute Attic Apartment",
         "location": "Sofia",
-        "images": ["../images/stays-images/27.png", "../images/stays-images/7.png", "../images/stays-images/2.png", "../images/stays-images/11.png", "../images/stays-images/40.png"],
+        "images": ["assets/images/stays-images/27.png", "assets/images/stays-images/7.png", "assets/images/stays-images/2.png", "assets/images/stays-images/11.png", "assets/images/stays-images/40.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Pavlina Zelenkova",
         "rating": 4.83,
@@ -3632,7 +3632,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Pernik",
-        "images": ["../images/stays-images/12.png", "../images/stays-images/27.png", "../images/stays-images/22.png", "../images/stays-images/18.png", "../images/stays-images/18.png"],
+        "images": ["assets/images/stays-images/12.png", "assets/images/stays-images/27.png", "assets/images/stays-images/22.png", "assets/images/stays-images/18.png", "assets/images/stays-images/18.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Danail Alexandrov",
         "rating": 1.2,
@@ -3665,7 +3665,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Pernik",
-        "images": ["../images/stays-images/1.png", "../images/stays-images/45.png", "../images/stays-images/3.png", "../images/stays-images/10.png", "../images/stays-images/8.png"],
+        "images": ["assets/images/stays-images/1.png", "assets/images/stays-images/45.png", "assets/images/stays-images/3.png", "assets/images/stays-images/10.png", "assets/images/stays-images/8.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Ivanka Popova",
         "rating": 1.9,
@@ -3698,7 +3698,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Sofia",
-        "images": ["../images/stays-images/5.png", "../images/stays-images/41.png", "../images/stays-images/42.png", "../images/stays-images/12.png", "../images/stays-images/26.png"],
+        "images": ["assets/images/stays-images/5.png", "assets/images/stays-images/41.png", "assets/images/stays-images/42.png", "assets/images/stays-images/12.png", "assets/images/stays-images/26.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Genadi Popov",
         "rating": 4.83,
@@ -3731,7 +3731,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Velingrad",
-        "images": ["../images/stays-images/18.png", "../images/stays-images/25.png", "../images/stays-images/20.png", "../images/stays-images/43.png", "../images/stays-images/29.png"],
+        "images": ["assets/images/stays-images/18.png", "assets/images/stays-images/25.png", "assets/images/stays-images/20.png", "assets/images/stays-images/43.png", "assets/images/stays-images/29.png"],
         "description": "TOP LOCATION! BEST PRICE! The apartment is in the very heart of the city, only 300 m from the main city square. The apartment has been renovated in 2019 and is very clean.",
         "host": "Haralampi Popov",
         "rating": 3.16,
@@ -3764,7 +3764,7 @@ let stays = [
     {
         "title": "Cute Attic Apartment",
         "location": "Velingrad",
-        "images": ["../images/stays-images/43.png", "../images/stays-images/42.png", "../images/stays-images/12.png", "../images/stays-images/5.png", "../images/stays-images/5.png"],
+        "images": ["assets/images/stays-images/43.png", "assets/images/stays-images/42.png", "assets/images/stays-images/12.png", "assets/images/stays-images/5.png", "assets/images/stays-images/5.png"],
         "description": "TOP LOCATION! BEST PRICE! The apartment is in the very heart of the city, only 300 m from the main city square. The apartment has been renovated in 2019 and is very clean.",
         "host": "Haralampi Popov",
         "rating": 1.22,
@@ -3797,7 +3797,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/12.png", "../images/stays-images/42.png", "../images/stays-images/17.png", "../images/stays-images/14.png", "../images/stays-images/32.png"],
+        "images": ["assets/images/stays-images/12.png", "assets/images/stays-images/42.png", "assets/images/stays-images/17.png", "assets/images/stays-images/14.png", "assets/images/stays-images/32.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Hasan Uzunov",
         "rating": 4.14,
@@ -3830,7 +3830,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/13.png", "../images/stays-images/26.png", "../images/stays-images/5.png", "../images/stays-images/12.png", "../images/stays-images/42.png"],
+        "images": ["assets/images/stays-images/13.png", "assets/images/stays-images/26.png", "assets/images/stays-images/5.png", "assets/images/stays-images/12.png", "assets/images/stays-images/42.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Genadi Popov",
         "rating": 2.69,
@@ -3863,7 +3863,7 @@ let stays = [
     {
         "title": "Hotel Panorama",
         "location": "Velingrad",
-        "images": ["../images/stays-images/33.png", "../images/stays-images/19.png", "../images/stays-images/8.png", "../images/stays-images/6.png", "../images/stays-images/18.png"],
+        "images": ["assets/images/stays-images/33.png", "assets/images/stays-images/19.png", "assets/images/stays-images/8.png", "assets/images/stays-images/6.png", "assets/images/stays-images/18.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Danail Alexandrov",
         "rating": 2.68,
@@ -3896,7 +3896,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Sofia",
-        "images": ["../images/stays-images/14.png", "../images/stays-images/30.png", "../images/stays-images/35.png", "../images/stays-images/45.png", "../images/stays-images/11.png"],
+        "images": ["assets/images/stays-images/14.png", "assets/images/stays-images/30.png", "assets/images/stays-images/35.png", "assets/images/stays-images/45.png", "assets/images/stays-images/11.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Dinka Geshova",
         "rating": 4.84,
@@ -3929,7 +3929,7 @@ let stays = [
     {
         "title": "Comfort rooms",
         "location": "Sofia",
-        "images": ["../images/stays-images/37.png", "../images/stays-images/45.png", "../images/stays-images/16.png", "../images/stays-images/43.png", "../images/stays-images/30.png"],
+        "images": ["assets/images/stays-images/37.png", "assets/images/stays-images/45.png", "assets/images/stays-images/16.png", "assets/images/stays-images/43.png", "assets/images/stays-images/30.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Geran Malekov",
         "rating": 4.54,
@@ -3962,7 +3962,7 @@ let stays = [
     {
         "title": "Grande Palace",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/34.png", "../images/stays-images/26.png", "../images/stays-images/13.png", "../images/stays-images/34.png", "../images/stays-images/16.png"],
+        "images": ["assets/images/stays-images/34.png", "assets/images/stays-images/26.png", "assets/images/stays-images/13.png", "assets/images/stays-images/34.png", "assets/images/stays-images/16.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Iliyan Vuchkov",
         "rating": 4.45,
@@ -3995,7 +3995,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Burgas",
-        "images": ["../images/stays-images/45.png", "../images/stays-images/13.png", "../images/stays-images/33.png", "../images/stays-images/11.png", "../images/stays-images/6.png"],
+        "images": ["assets/images/stays-images/45.png", "assets/images/stays-images/13.png", "assets/images/stays-images/33.png", "assets/images/stays-images/11.png", "assets/images/stays-images/6.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Ginka Strahilova",
         "rating": 1.66,
@@ -4028,7 +4028,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Burgas",
-        "images": ["../images/stays-images/12.png", "../images/stays-images/19.png", "../images/stays-images/22.png", "../images/stays-images/38.png", "../images/stays-images/6.png"],
+        "images": ["assets/images/stays-images/12.png", "assets/images/stays-images/19.png", "assets/images/stays-images/22.png", "assets/images/stays-images/38.png", "assets/images/stays-images/6.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Draganka Dinkova",
         "rating": 3.68,
@@ -4061,7 +4061,7 @@ let stays = [
     {
         "title": "Casa De Pesho",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/23.png", "../images/stays-images/23.png", "../images/stays-images/40.png", "../images/stays-images/1.png", "../images/stays-images/25.png"],
+        "images": ["assets/images/stays-images/23.png", "assets/images/stays-images/23.png", "assets/images/stays-images/40.png", "assets/images/stays-images/1.png", "assets/images/stays-images/25.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Haralampi Popov",
         "rating": 1.39,
@@ -4094,7 +4094,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Sofia",
-        "images": ["../images/stays-images/23.png", "../images/stays-images/17.png", "../images/stays-images/41.png", "../images/stays-images/26.png", "../images/stays-images/34.png"],
+        "images": ["assets/images/stays-images/23.png", "assets/images/stays-images/17.png", "assets/images/stays-images/41.png", "assets/images/stays-images/26.png", "assets/images/stays-images/34.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Danail Alexandrov",
         "rating": 2.52,
@@ -4127,7 +4127,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/38.png", "../images/stays-images/15.png", "../images/stays-images/22.png", "../images/stays-images/33.png", "../images/stays-images/26.png"],
+        "images": ["assets/images/stays-images/38.png", "assets/images/stays-images/15.png", "assets/images/stays-images/22.png", "assets/images/stays-images/33.png", "assets/images/stays-images/26.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Genadi Popov",
         "rating": 3.65,
@@ -4160,7 +4160,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Varna",
-        "images": ["../images/stays-images/29.png", "../images/stays-images/39.png", "../images/stays-images/9.png", "../images/stays-images/36.png", "../images/stays-images/26.png"],
+        "images": ["assets/images/stays-images/29.png", "assets/images/stays-images/39.png", "assets/images/stays-images/9.png", "assets/images/stays-images/36.png", "assets/images/stays-images/26.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Haralampi Popov",
         "rating": 1.72,
@@ -4193,7 +4193,7 @@ let stays = [
     {
         "title": "Comfort rooms",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/29.png", "../images/stays-images/38.png", "../images/stays-images/5.png", "../images/stays-images/28.png", "../images/stays-images/40.png"],
+        "images": ["assets/images/stays-images/29.png", "assets/images/stays-images/38.png", "assets/images/stays-images/5.png", "assets/images/stays-images/28.png", "assets/images/stays-images/40.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Minka Harizanova",
         "rating": 2.63,
@@ -4226,7 +4226,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Burgas",
-        "images": ["../images/stays-images/25.png", "../images/stays-images/28.png", "../images/stays-images/14.png", "../images/stays-images/40.png", "../images/stays-images/34.png"],
+        "images": ["assets/images/stays-images/25.png", "assets/images/stays-images/28.png", "assets/images/stays-images/14.png", "assets/images/stays-images/40.png", "assets/images/stays-images/34.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Zahari Pavlov",
         "rating": 3.28,
@@ -4259,7 +4259,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Sofia",
-        "images": ["../images/stays-images/26.png", "../images/stays-images/19.png", "../images/stays-images/31.png", "../images/stays-images/40.png", "../images/stays-images/22.png"],
+        "images": ["assets/images/stays-images/26.png", "assets/images/stays-images/19.png", "assets/images/stays-images/31.png", "assets/images/stays-images/40.png", "assets/images/stays-images/22.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Danail Alexandrov",
         "rating": 2.58,
@@ -4292,7 +4292,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Burgas",
-        "images": ["../images/stays-images/14.png", "../images/stays-images/9.png", "../images/stays-images/30.png", "../images/stays-images/34.png", "../images/stays-images/14.png"],
+        "images": ["assets/images/stays-images/14.png", "assets/images/stays-images/9.png", "assets/images/stays-images/30.png", "assets/images/stays-images/34.png", "assets/images/stays-images/14.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Genadi Popov",
         "rating": 3.06,
@@ -4325,7 +4325,7 @@ let stays = [
     {
         "title": "Glorious Palace",
         "location": "Varna",
-        "images": ["../images/stays-images/33.png", "../images/stays-images/10.png", "../images/stays-images/17.png", "../images/stays-images/20.png", "../images/stays-images/41.png"],
+        "images": ["assets/images/stays-images/33.png", "assets/images/stays-images/10.png", "assets/images/stays-images/17.png", "assets/images/stays-images/20.png", "assets/images/stays-images/41.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Minka Harizanova",
         "rating": 1.74,
@@ -4358,7 +4358,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/43.png", "../images/stays-images/30.png", "../images/stays-images/6.png", "../images/stays-images/18.png", "../images/stays-images/25.png"],
+        "images": ["assets/images/stays-images/43.png", "assets/images/stays-images/30.png", "assets/images/stays-images/6.png", "assets/images/stays-images/18.png", "assets/images/stays-images/25.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Stamat Ignatov",
         "rating": 2.79,
@@ -4391,7 +4391,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Sofia",
-        "images": ["../images/stays-images/43.png", "../images/stays-images/35.png", "../images/stays-images/25.png", "../images/stays-images/39.png", "../images/stays-images/44.png"],
+        "images": ["assets/images/stays-images/43.png", "assets/images/stays-images/35.png", "assets/images/stays-images/25.png", "assets/images/stays-images/39.png", "assets/images/stays-images/44.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Minka Harizanova",
         "rating": 1.12,
@@ -4424,7 +4424,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Sofia",
-        "images": ["../images/stays-images/4.png", "../images/stays-images/15.png", "../images/stays-images/19.png", "../images/stays-images/41.png", "../images/stays-images/8.png"],
+        "images": ["assets/images/stays-images/4.png", "assets/images/stays-images/15.png", "assets/images/stays-images/19.png", "assets/images/stays-images/41.png", "assets/images/stays-images/8.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Genadi Popov",
         "rating": 2.74,
@@ -4457,7 +4457,7 @@ let stays = [
     {
         "title": "Glorious Palace",
         "location": "Velingrad",
-        "images": ["../images/stays-images/2.png", "../images/stays-images/26.png", "../images/stays-images/12.png", "../images/stays-images/22.png", "../images/stays-images/20.png"],
+        "images": ["assets/images/stays-images/2.png", "assets/images/stays-images/26.png", "assets/images/stays-images/12.png", "assets/images/stays-images/22.png", "assets/images/stays-images/20.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Genadi Popov",
         "rating": 3.06,
@@ -4490,7 +4490,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/25.png", "../images/stays-images/14.png", "../images/stays-images/4.png", "../images/stays-images/45.png", "../images/stays-images/33.png"],
+        "images": ["assets/images/stays-images/25.png", "assets/images/stays-images/14.png", "assets/images/stays-images/4.png", "assets/images/stays-images/45.png", "assets/images/stays-images/33.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Stamat Ignatov",
         "rating": 1.32,
@@ -4523,7 +4523,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Burgas",
-        "images": ["../images/stays-images/41.png", "../images/stays-images/26.png", "../images/stays-images/40.png", "../images/stays-images/19.png", "../images/stays-images/17.png"],
+        "images": ["assets/images/stays-images/41.png", "assets/images/stays-images/26.png", "assets/images/stays-images/40.png", "assets/images/stays-images/19.png", "assets/images/stays-images/17.png"],
         "description": "The cozy studio apartment is located in the top center. Many of the major sights, galleries, museums, as well as hip restaurants and bars are within walking distance.",
         "host": "Iliyan Vuchkov",
         "rating": 3.55,
@@ -4556,7 +4556,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/13.png", "../images/stays-images/42.png", "../images/stays-images/1.png", "../images/stays-images/14.png", "../images/stays-images/41.png"],
+        "images": ["assets/images/stays-images/13.png", "assets/images/stays-images/42.png", "assets/images/stays-images/1.png", "assets/images/stays-images/14.png", "assets/images/stays-images/41.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Ivanka Popova",
         "rating": 4.13,
@@ -4589,7 +4589,7 @@ let stays = [
     {
         "title": "Glorious Palace",
         "location": "Pernik",
-        "images": ["../images/stays-images/17.png", "../images/stays-images/9.png", "../images/stays-images/6.png", "../images/stays-images/23.png", "../images/stays-images/26.png"],
+        "images": ["assets/images/stays-images/17.png", "assets/images/stays-images/9.png", "assets/images/stays-images/6.png", "assets/images/stays-images/23.png", "assets/images/stays-images/26.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Ivanka Popova",
         "rating": 3.84,
@@ -4622,7 +4622,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Sofia",
-        "images": ["../images/stays-images/39.png", "../images/stays-images/23.png", "../images/stays-images/14.png", "../images/stays-images/19.png", "../images/stays-images/17.png"],
+        "images": ["assets/images/stays-images/39.png", "assets/images/stays-images/23.png", "assets/images/stays-images/14.png", "assets/images/stays-images/19.png", "assets/images/stays-images/17.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Detelina Malinova",
         "rating": 2.97,
@@ -4655,7 +4655,7 @@ let stays = [
     {
         "title": "Casa De Pesho",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/19.png", "../images/stays-images/4.png", "../images/stays-images/17.png", "../images/stays-images/13.png", "../images/stays-images/14.png"],
+        "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/4.png", "assets/images/stays-images/17.png", "assets/images/stays-images/13.png", "assets/images/stays-images/14.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Petyr Zahariev",
         "rating": 4.93,
@@ -4688,7 +4688,7 @@ let stays = [
     {
         "title": "Grande Palace",
         "location": "Sofia",
-        "images": ["../images/stays-images/32.png", "../images/stays-images/5.png", "../images/stays-images/41.png", "../images/stays-images/45.png", "../images/stays-images/23.png"],
+        "images": ["assets/images/stays-images/32.png", "assets/images/stays-images/5.png", "assets/images/stays-images/41.png", "assets/images/stays-images/45.png", "assets/images/stays-images/23.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Minka Harizanova",
         "rating": 2.54,
@@ -4721,7 +4721,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/26.png", "../images/stays-images/45.png", "../images/stays-images/44.png", "../images/stays-images/24.png", "../images/stays-images/12.png"],
+        "images": ["assets/images/stays-images/26.png", "assets/images/stays-images/45.png", "assets/images/stays-images/44.png", "assets/images/stays-images/24.png", "assets/images/stays-images/12.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Genadi Popov",
         "rating": 3.55,
@@ -4754,7 +4754,7 @@ let stays = [
     {
         "title": "Cute Attic Apartment",
         "location": "Pernik",
-        "images": ["../images/stays-images/22.png", "../images/stays-images/10.png", "../images/stays-images/45.png", "../images/stays-images/23.png", "../images/stays-images/6.png"],
+        "images": ["assets/images/stays-images/22.png", "assets/images/stays-images/10.png", "assets/images/stays-images/45.png", "assets/images/stays-images/23.png", "assets/images/stays-images/6.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Zahari Pavlov",
         "rating": 1.91,
@@ -4787,7 +4787,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/18.png", "../images/stays-images/5.png", "../images/stays-images/2.png", "../images/stays-images/22.png", "../images/stays-images/18.png"],
+        "images": ["assets/images/stays-images/18.png", "assets/images/stays-images/5.png", "assets/images/stays-images/2.png", "assets/images/stays-images/22.png", "assets/images/stays-images/18.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Gesho Vazov",
         "rating": 3.36,
@@ -4820,7 +4820,7 @@ let stays = [
     {
         "title": "Grande Palace",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/32.png", "../images/stays-images/34.png", "../images/stays-images/12.png", "../images/stays-images/9.png", "../images/stays-images/19.png"],
+        "images": ["assets/images/stays-images/32.png", "assets/images/stays-images/34.png", "assets/images/stays-images/12.png", "assets/images/stays-images/9.png", "assets/images/stays-images/19.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Zahari Pavlov",
         "rating": 1.85,
@@ -4853,7 +4853,7 @@ let stays = [
     {
         "title": "Motzart Apartment",
         "location": "Burgas",
-        "images": ["../images/stays-images/45.png", "../images/stays-images/25.png", "../images/stays-images/17.png", "../images/stays-images/8.png", "../images/stays-images/33.png"],
+        "images": ["assets/images/stays-images/45.png", "assets/images/stays-images/25.png", "assets/images/stays-images/17.png", "assets/images/stays-images/8.png", "assets/images/stays-images/33.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Minka Harizanova",
         "rating": 4.6,
@@ -4886,7 +4886,7 @@ let stays = [
     {
         "title": "Comfort rooms",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/1.png", "../images/stays-images/27.png", "../images/stays-images/4.png", "../images/stays-images/20.png", "../images/stays-images/31.png"],
+        "images": ["assets/images/stays-images/1.png", "assets/images/stays-images/27.png", "assets/images/stays-images/4.png", "assets/images/stays-images/20.png", "assets/images/stays-images/31.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Petur Iliev",
         "rating": 2.5,
@@ -4919,7 +4919,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Burgas",
-        "images": ["../images/stays-images/20.png", "../images/stays-images/36.png", "../images/stays-images/15.png", "../images/stays-images/4.png", "../images/stays-images/3.png"],
+        "images": ["assets/images/stays-images/20.png", "assets/images/stays-images/36.png", "assets/images/stays-images/15.png", "assets/images/stays-images/4.png", "assets/images/stays-images/3.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Pavlina Zelenkova",
         "rating": 3.7,
@@ -4952,7 +4952,7 @@ let stays = [
     {
         "title": "Motzart Apartment",
         "location": "Pernik",
-        "images": ["../images/stays-images/20.png", "../images/stays-images/2.png", "../images/stays-images/34.png", "../images/stays-images/25.png", "../images/stays-images/21.png"],
+        "images": ["assets/images/stays-images/20.png", "assets/images/stays-images/2.png", "assets/images/stays-images/34.png", "assets/images/stays-images/25.png", "assets/images/stays-images/21.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Genadi Popov",
         "rating": 1.07,
@@ -4985,7 +4985,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Varna",
-        "images": ["../images/stays-images/1.png", "../images/stays-images/19.png", "../images/stays-images/41.png", "../images/stays-images/4.png", "../images/stays-images/29.png"],
+        "images": ["assets/images/stays-images/1.png", "assets/images/stays-images/19.png", "assets/images/stays-images/41.png", "assets/images/stays-images/4.png", "assets/images/stays-images/29.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Petyr Zahariev",
         "rating": 3.69,
@@ -5018,7 +5018,7 @@ let stays = [
     {
         "title": "Hotel Panorama",
         "location": "Varna",
-        "images": ["../images/stays-images/19.png", "../images/stays-images/39.png", "../images/stays-images/9.png", "../images/stays-images/4.png", "../images/stays-images/24.png"],
+        "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/39.png", "assets/images/stays-images/9.png", "assets/images/stays-images/4.png", "assets/images/stays-images/24.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Petur Iliev",
         "rating": 3.07,
@@ -5051,7 +5051,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/36.png", "../images/stays-images/5.png", "../images/stays-images/9.png", "../images/stays-images/38.png", "../images/stays-images/4.png"],
+        "images": ["assets/images/stays-images/36.png", "assets/images/stays-images/5.png", "assets/images/stays-images/9.png", "assets/images/stays-images/38.png", "assets/images/stays-images/4.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Dinka Geshova",
         "rating": 2.67,
@@ -5084,7 +5084,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Varna",
-        "images": ["../images/stays-images/7.png", "../images/stays-images/44.png", "../images/stays-images/23.png", "../images/stays-images/33.png", "../images/stays-images/2.png"],
+        "images": ["assets/images/stays-images/7.png", "assets/images/stays-images/44.png", "assets/images/stays-images/23.png", "assets/images/stays-images/33.png", "assets/images/stays-images/2.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Geran Malekov",
         "rating": 4.56,
@@ -5117,7 +5117,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Pernik",
-        "images": ["../images/stays-images/4.png", "../images/stays-images/26.png", "../images/stays-images/41.png", "../images/stays-images/30.png", "../images/stays-images/12.png"],
+        "images": ["assets/images/stays-images/4.png", "assets/images/stays-images/26.png", "assets/images/stays-images/41.png", "assets/images/stays-images/30.png", "assets/images/stays-images/12.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Stamat Ignatov",
         "rating": 2.77,
@@ -5150,7 +5150,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/5.png", "../images/stays-images/25.png", "../images/stays-images/31.png", "../images/stays-images/10.png", "../images/stays-images/20.png"],
+        "images": ["assets/images/stays-images/5.png", "assets/images/stays-images/25.png", "assets/images/stays-images/31.png", "assets/images/stays-images/10.png", "assets/images/stays-images/20.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Hasan Uzunov",
         "rating": 4.55,
@@ -5183,7 +5183,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Sofia",
-        "images": ["../images/stays-images/28.png", "../images/stays-images/18.png", "../images/stays-images/29.png", "../images/stays-images/24.png", "../images/stays-images/39.png"],
+        "images": ["assets/images/stays-images/28.png", "assets/images/stays-images/18.png", "assets/images/stays-images/29.png", "assets/images/stays-images/24.png", "assets/images/stays-images/39.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Petyr Zahariev",
         "rating": 1.98,
@@ -5216,7 +5216,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Velingrad",
-        "images": ["../images/stays-images/2.png", "../images/stays-images/25.png", "../images/stays-images/12.png", "../images/stays-images/11.png", "../images/stays-images/18.png"],
+        "images": ["assets/images/stays-images/2.png", "assets/images/stays-images/25.png", "assets/images/stays-images/12.png", "assets/images/stays-images/11.png", "assets/images/stays-images/18.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Georgi Ivanov",
         "rating": 1.26,
@@ -5249,7 +5249,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Varna",
-        "images": ["../images/stays-images/26.png", "../images/stays-images/38.png", "../images/stays-images/26.png", "../images/stays-images/22.png", "../images/stays-images/8.png"],
+        "images": ["assets/images/stays-images/26.png", "assets/images/stays-images/38.png", "assets/images/stays-images/26.png", "assets/images/stays-images/22.png", "assets/images/stays-images/8.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Danail Alexandrov",
         "rating": 1.01,
@@ -5282,7 +5282,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Burgas",
-        "images": ["../images/stays-images/7.png", "../images/stays-images/45.png", "../images/stays-images/38.png", "../images/stays-images/14.png", "../images/stays-images/29.png"],
+        "images": ["assets/images/stays-images/7.png", "assets/images/stays-images/45.png", "assets/images/stays-images/38.png", "assets/images/stays-images/14.png", "assets/images/stays-images/29.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Hasan Uzunov",
         "rating": 1.85,
@@ -5315,7 +5315,7 @@ let stays = [
     {
         "title": "Motzart Apartment",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/9.png", "../images/stays-images/17.png", "../images/stays-images/10.png", "../images/stays-images/12.png", "../images/stays-images/12.png"],
+        "images": ["assets/images/stays-images/9.png", "assets/images/stays-images/17.png", "assets/images/stays-images/10.png", "assets/images/stays-images/12.png", "assets/images/stays-images/12.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Gesho Vazov",
         "rating": 1.86,
@@ -5348,7 +5348,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Varna",
-        "images": ["../images/stays-images/12.png", "../images/stays-images/12.png", "../images/stays-images/25.png", "../images/stays-images/23.png", "../images/stays-images/6.png"],
+        "images": ["assets/images/stays-images/12.png", "assets/images/stays-images/12.png", "assets/images/stays-images/25.png", "assets/images/stays-images/23.png", "assets/images/stays-images/6.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Haralampi Popov",
         "rating": 1.62,
@@ -5381,7 +5381,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Sofia",
-        "images": ["../images/stays-images/37.png", "../images/stays-images/12.png", "../images/stays-images/15.png", "../images/stays-images/34.png", "../images/stays-images/45.png"],
+        "images": ["assets/images/stays-images/37.png", "assets/images/stays-images/12.png", "assets/images/stays-images/15.png", "assets/images/stays-images/34.png", "assets/images/stays-images/45.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Petur Iliev",
         "rating": 3.03,
@@ -5414,7 +5414,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Velingrad",
-        "images": ["../images/stays-images/23.png", "../images/stays-images/35.png", "../images/stays-images/40.png", "../images/stays-images/21.png", "../images/stays-images/42.png"],
+        "images": ["assets/images/stays-images/23.png", "assets/images/stays-images/35.png", "assets/images/stays-images/40.png", "assets/images/stays-images/21.png", "assets/images/stays-images/42.png"],
         "description": "The cozy studio apartment is located in the top center. Many of the major sights, galleries, museums, as well as hip restaurants and bars are within walking distance.",
         "host": "Pavlina Zelenkova",
         "rating": 1.54,
@@ -5447,7 +5447,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/1.png", "../images/stays-images/4.png", "../images/stays-images/26.png", "../images/stays-images/6.png", "../images/stays-images/10.png"],
+        "images": ["assets/images/stays-images/1.png", "assets/images/stays-images/4.png", "assets/images/stays-images/26.png", "assets/images/stays-images/6.png", "assets/images/stays-images/10.png"],
         "description": "The cozy studio apartment is located in the top center. Many of the major sights, galleries, museums, as well as hip restaurants and bars are within walking distance.",
         "host": "Hasan Uzunov",
         "rating": 1.58,
@@ -5480,7 +5480,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Pernik",
-        "images": ["../images/stays-images/19.png", "../images/stays-images/31.png", "../images/stays-images/18.png", "../images/stays-images/14.png", "../images/stays-images/4.png"],
+        "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/31.png", "assets/images/stays-images/18.png", "assets/images/stays-images/14.png", "assets/images/stays-images/4.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Petyr Zahariev",
         "rating": 4.29,
@@ -5513,7 +5513,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Velingrad",
-        "images": ["../images/stays-images/4.png", "../images/stays-images/2.png", "../images/stays-images/29.png", "../images/stays-images/41.png", "../images/stays-images/20.png"],
+        "images": ["assets/images/stays-images/4.png", "assets/images/stays-images/2.png", "assets/images/stays-images/29.png", "assets/images/stays-images/41.png", "assets/images/stays-images/20.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Geran Malekov",
         "rating": 4.91,
@@ -5546,7 +5546,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Velingrad",
-        "images": ["../images/stays-images/8.png", "../images/stays-images/30.png", "../images/stays-images/7.png", "../images/stays-images/5.png", "../images/stays-images/2.png"],
+        "images": ["assets/images/stays-images/8.png", "assets/images/stays-images/30.png", "assets/images/stays-images/7.png", "assets/images/stays-images/5.png", "assets/images/stays-images/2.png"],
         "description": "The cozy studio apartment is located in the top center. Many of the major sights, galleries, museums, as well as hip restaurants and bars are within walking distance.",
         "host": "Geran Malekov",
         "rating": 3.34,
@@ -5579,7 +5579,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Velingrad",
-        "images": ["../images/stays-images/22.png", "../images/stays-images/44.png", "../images/stays-images/26.png", "../images/stays-images/17.png", "../images/stays-images/14.png"],
+        "images": ["assets/images/stays-images/22.png", "assets/images/stays-images/44.png", "assets/images/stays-images/26.png", "assets/images/stays-images/17.png", "assets/images/stays-images/14.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Petur Iliev",
         "rating": 1.66,
@@ -5612,7 +5612,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Velingrad",
-        "images": ["../images/stays-images/34.png", "../images/stays-images/41.png", "../images/stays-images/42.png", "../images/stays-images/25.png", "../images/stays-images/21.png"],
+        "images": ["assets/images/stays-images/34.png", "assets/images/stays-images/41.png", "assets/images/stays-images/42.png", "assets/images/stays-images/25.png", "assets/images/stays-images/21.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Ginka Strahilova",
         "rating": 2.24,
@@ -5645,7 +5645,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Pernik",
-        "images": ["../images/stays-images/30.png", "../images/stays-images/29.png", "../images/stays-images/22.png", "../images/stays-images/42.png", "../images/stays-images/17.png"],
+        "images": ["assets/images/stays-images/30.png", "assets/images/stays-images/29.png", "assets/images/stays-images/22.png", "assets/images/stays-images/42.png", "assets/images/stays-images/17.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Petur Iliev",
         "rating": 3.17,
@@ -5678,7 +5678,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Sofia",
-        "images": ["../images/stays-images/6.png", "../images/stays-images/21.png", "../images/stays-images/25.png", "../images/stays-images/34.png", "../images/stays-images/25.png"],
+        "images": ["assets/images/stays-images/6.png", "assets/images/stays-images/21.png", "assets/images/stays-images/25.png", "assets/images/stays-images/34.png", "assets/images/stays-images/25.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Dinka Geshova",
         "rating": 4.66,
@@ -5711,7 +5711,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Sofia",
-        "images": ["../images/stays-images/22.png", "../images/stays-images/7.png", "../images/stays-images/38.png", "../images/stays-images/13.png", "../images/stays-images/29.png"],
+        "images": ["assets/images/stays-images/22.png", "assets/images/stays-images/7.png", "assets/images/stays-images/38.png", "assets/images/stays-images/13.png", "assets/images/stays-images/29.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Draganka Dinkova",
         "rating": 4.74,
@@ -5744,7 +5744,7 @@ let stays = [
     {
         "title": "Grande Palace",
         "location": "Velingrad",
-        "images": ["../images/stays-images/42.png", "../images/stays-images/22.png", "../images/stays-images/25.png", "../images/stays-images/13.png", "../images/stays-images/14.png"],
+        "images": ["assets/images/stays-images/42.png", "assets/images/stays-images/22.png", "assets/images/stays-images/25.png", "assets/images/stays-images/13.png", "assets/images/stays-images/14.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Danail Alexandrov",
         "rating": 3.33,
@@ -5777,7 +5777,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Varna",
-        "images": ["../images/stays-images/21.png", "../images/stays-images/14.png", "../images/stays-images/25.png", "../images/stays-images/13.png", "../images/stays-images/5.png"],
+        "images": ["assets/images/stays-images/21.png", "assets/images/stays-images/14.png", "assets/images/stays-images/25.png", "assets/images/stays-images/13.png", "assets/images/stays-images/5.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Ginka Strahilova",
         "rating": 1.33,
@@ -5810,7 +5810,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/33.png", "../images/stays-images/35.png", "../images/stays-images/1.png", "../images/stays-images/25.png", "../images/stays-images/12.png"],
+        "images": ["assets/images/stays-images/33.png", "assets/images/stays-images/35.png", "assets/images/stays-images/1.png", "assets/images/stays-images/25.png", "assets/images/stays-images/12.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Genadi Popov",
         "rating": 3.84,
@@ -5843,7 +5843,7 @@ let stays = [
     {
         "title": "Hotel Panorama",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/28.png", "../images/stays-images/42.png", "../images/stays-images/36.png", "../images/stays-images/1.png", "../images/stays-images/41.png"],
+        "images": ["assets/images/stays-images/28.png", "assets/images/stays-images/42.png", "assets/images/stays-images/36.png", "assets/images/stays-images/1.png", "assets/images/stays-images/41.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Geran Malekov",
         "rating": 2.52,
@@ -5876,7 +5876,7 @@ let stays = [
     {
         "title": "Motzart Apartment",
         "location": "Varna",
-        "images": ["../images/stays-images/16.png", "../images/stays-images/5.png", "../images/stays-images/14.png", "../images/stays-images/20.png", "../images/stays-images/8.png"],
+        "images": ["assets/images/stays-images/16.png", "assets/images/stays-images/5.png", "assets/images/stays-images/14.png", "assets/images/stays-images/20.png", "assets/images/stays-images/8.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Zahari Pavlov",
         "rating": 3.93,
@@ -5909,7 +5909,7 @@ let stays = [
     {
         "title": "Comfort rooms",
         "location": "Burgas",
-        "images": ["../images/stays-images/26.png", "../images/stays-images/41.png", "../images/stays-images/9.png", "../images/stays-images/22.png", "../images/stays-images/43.png"],
+        "images": ["assets/images/stays-images/26.png", "assets/images/stays-images/41.png", "assets/images/stays-images/9.png", "assets/images/stays-images/22.png", "assets/images/stays-images/43.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Detelina Malinova",
         "rating": 4.67,
@@ -5942,7 +5942,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/26.png", "../images/stays-images/19.png", "../images/stays-images/13.png", "../images/stays-images/39.png", "../images/stays-images/12.png"],
+        "images": ["assets/images/stays-images/26.png", "assets/images/stays-images/19.png", "assets/images/stays-images/13.png", "assets/images/stays-images/39.png", "assets/images/stays-images/12.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Georgi Ivanov",
         "rating": 3.77,
@@ -5975,7 +5975,7 @@ let stays = [
     {
         "title": "Grande Palace",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/26.png", "../images/stays-images/29.png", "../images/stays-images/4.png", "../images/stays-images/25.png", "../images/stays-images/11.png"],
+        "images": ["assets/images/stays-images/26.png", "assets/images/stays-images/29.png", "assets/images/stays-images/4.png", "assets/images/stays-images/25.png", "assets/images/stays-images/11.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Gesho Vazov",
         "rating": 3.51,
@@ -6008,7 +6008,7 @@ let stays = [
     {
         "title": "Glorious Palace",
         "location": "Varna",
-        "images": ["../images/stays-images/28.png", "../images/stays-images/4.png", "../images/stays-images/29.png", "../images/stays-images/21.png", "../images/stays-images/19.png"],
+        "images": ["assets/images/stays-images/28.png", "assets/images/stays-images/4.png", "assets/images/stays-images/29.png", "assets/images/stays-images/21.png", "assets/images/stays-images/19.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Hasan Uzunov",
         "rating": 1.41,
@@ -6041,7 +6041,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Pernik",
-        "images": ["../images/stays-images/25.png", "../images/stays-images/11.png", "../images/stays-images/5.png", "../images/stays-images/8.png", "../images/stays-images/16.png"],
+        "images": ["assets/images/stays-images/25.png", "assets/images/stays-images/11.png", "assets/images/stays-images/5.png", "assets/images/stays-images/8.png", "assets/images/stays-images/16.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Ginka Strahilova",
         "rating": 3.64,
@@ -6074,7 +6074,7 @@ let stays = [
     {
         "title": "Hotel Panorama",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/21.png", "../images/stays-images/20.png", "../images/stays-images/21.png", "../images/stays-images/41.png", "../images/stays-images/12.png"],
+        "images": ["assets/images/stays-images/21.png", "assets/images/stays-images/20.png", "assets/images/stays-images/21.png", "assets/images/stays-images/41.png", "assets/images/stays-images/12.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Georgi Ivanov",
         "rating": 3.58,
@@ -6107,7 +6107,7 @@ let stays = [
     {
         "title": "Glorious Palace",
         "location": "Burgas",
-        "images": ["../images/stays-images/16.png", "../images/stays-images/30.png", "../images/stays-images/9.png", "../images/stays-images/37.png", "../images/stays-images/14.png"],
+        "images": ["assets/images/stays-images/16.png", "assets/images/stays-images/30.png", "assets/images/stays-images/9.png", "assets/images/stays-images/37.png", "assets/images/stays-images/14.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Detelina Malinova",
         "rating": 3.32,
@@ -6140,7 +6140,7 @@ let stays = [
     {
         "title": "Casa De Pesho",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/41.png", "../images/stays-images/5.png", "../images/stays-images/19.png", "../images/stays-images/34.png", "../images/stays-images/6.png"],
+        "images": ["assets/images/stays-images/41.png", "assets/images/stays-images/5.png", "assets/images/stays-images/19.png", "assets/images/stays-images/34.png", "assets/images/stays-images/6.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Petyr Zahariev",
         "rating": 3.68,
@@ -6173,7 +6173,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Sofia",
-        "images": ["../images/stays-images/29.png", "../images/stays-images/1.png", "../images/stays-images/8.png", "../images/stays-images/12.png", "../images/stays-images/9.png"],
+        "images": ["assets/images/stays-images/29.png", "assets/images/stays-images/1.png", "assets/images/stays-images/8.png", "assets/images/stays-images/12.png", "assets/images/stays-images/9.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Draganka Dinkova",
         "rating": 4.91,
@@ -6206,7 +6206,7 @@ let stays = [
     {
         "title": "Glorious Palace",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/1.png", "../images/stays-images/21.png", "../images/stays-images/5.png", "../images/stays-images/6.png", "../images/stays-images/14.png"],
+        "images": ["assets/images/stays-images/1.png", "assets/images/stays-images/21.png", "assets/images/stays-images/5.png", "assets/images/stays-images/6.png", "assets/images/stays-images/14.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Dinka Geshova",
         "rating": 2.35,
@@ -6239,7 +6239,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Varna",
-        "images": ["../images/stays-images/40.png", "../images/stays-images/28.png", "../images/stays-images/21.png", "../images/stays-images/17.png", "../images/stays-images/13.png"],
+        "images": ["assets/images/stays-images/40.png", "assets/images/stays-images/28.png", "assets/images/stays-images/21.png", "assets/images/stays-images/17.png", "assets/images/stays-images/13.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Petyr Zahariev",
         "rating": 3.03,
@@ -6272,7 +6272,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Velingrad",
-        "images": ["../images/stays-images/17.png", "../images/stays-images/14.png", "../images/stays-images/18.png", "../images/stays-images/25.png", "../images/stays-images/3.png"],
+        "images": ["assets/images/stays-images/17.png", "assets/images/stays-images/14.png", "assets/images/stays-images/18.png", "assets/images/stays-images/25.png", "assets/images/stays-images/3.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Petur Iliev",
         "rating": 1.32,
@@ -6305,7 +6305,7 @@ let stays = [
     {
         "title": "Motzart Apartment",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/41.png", "../images/stays-images/7.png", "../images/stays-images/8.png", "../images/stays-images/1.png", "../images/stays-images/42.png"],
+        "images": ["assets/images/stays-images/41.png", "assets/images/stays-images/7.png", "assets/images/stays-images/8.png", "assets/images/stays-images/1.png", "assets/images/stays-images/42.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Dinka Geshova",
         "rating": 2.68,
@@ -6338,7 +6338,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Sofia",
-        "images": ["../images/stays-images/38.png", "../images/stays-images/1.png", "../images/stays-images/40.png", "../images/stays-images/26.png", "../images/stays-images/4.png"],
+        "images": ["assets/images/stays-images/38.png", "assets/images/stays-images/1.png", "assets/images/stays-images/40.png", "assets/images/stays-images/26.png", "assets/images/stays-images/4.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "John Kirilov",
         "rating": 2.52,
@@ -6371,7 +6371,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Pernik",
-        "images": ["../images/stays-images/42.png", "../images/stays-images/20.png", "../images/stays-images/4.png", "../images/stays-images/3.png", "../images/stays-images/4.png"],
+        "images": ["assets/images/stays-images/42.png", "assets/images/stays-images/20.png", "assets/images/stays-images/4.png", "assets/images/stays-images/3.png", "assets/images/stays-images/4.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Genadi Popov",
         "rating": 1.19,
@@ -6404,7 +6404,7 @@ let stays = [
     {
         "title": "Cute Attic Apartment",
         "location": "Burgas",
-        "images": ["../images/stays-images/11.png", "../images/stays-images/8.png", "../images/stays-images/25.png", "../images/stays-images/5.png", "../images/stays-images/2.png"],
+        "images": ["assets/images/stays-images/11.png", "assets/images/stays-images/8.png", "assets/images/stays-images/25.png", "assets/images/stays-images/5.png", "assets/images/stays-images/2.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Dinka Geshova",
         "rating": 1.03,
@@ -6437,7 +6437,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/29.png", "../images/stays-images/22.png", "../images/stays-images/9.png", "../images/stays-images/36.png", "../images/stays-images/37.png"],
+        "images": ["assets/images/stays-images/29.png", "assets/images/stays-images/22.png", "assets/images/stays-images/9.png", "assets/images/stays-images/36.png", "assets/images/stays-images/37.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Ivanka Popova",
         "rating": 2.76,
@@ -6470,7 +6470,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Pernik",
-        "images": ["../images/stays-images/44.png", "../images/stays-images/41.png", "../images/stays-images/40.png", "../images/stays-images/34.png", "../images/stays-images/10.png"],
+        "images": ["assets/images/stays-images/44.png", "assets/images/stays-images/41.png", "assets/images/stays-images/40.png", "assets/images/stays-images/34.png", "assets/images/stays-images/10.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Georgi Ivanov",
         "rating": 2.64,
@@ -6503,7 +6503,7 @@ let stays = [
     {
         "title": "Grande Palace",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/2.png", "../images/stays-images/23.png", "../images/stays-images/19.png", "../images/stays-images/10.png", "../images/stays-images/13.png"],
+        "images": ["assets/images/stays-images/2.png", "assets/images/stays-images/23.png", "assets/images/stays-images/19.png", "assets/images/stays-images/10.png", "assets/images/stays-images/13.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Dinka Geshova",
         "rating": 3.02,
@@ -6536,7 +6536,7 @@ let stays = [
     {
         "title": "Cute Attic Apartment",
         "location": "Sofia",
-        "images": ["../images/stays-images/29.png", "../images/stays-images/25.png", "../images/stays-images/5.png", "../images/stays-images/27.png", "../images/stays-images/28.png"],
+        "images": ["assets/images/stays-images/29.png", "assets/images/stays-images/25.png", "assets/images/stays-images/5.png", "assets/images/stays-images/27.png", "assets/images/stays-images/28.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Ivanka Popova",
         "rating": 2.22,
@@ -6569,7 +6569,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Burgas",
-        "images": ["../images/stays-images/45.png", "../images/stays-images/5.png", "../images/stays-images/28.png", "../images/stays-images/14.png", "../images/stays-images/26.png"],
+        "images": ["assets/images/stays-images/45.png", "assets/images/stays-images/5.png", "assets/images/stays-images/28.png", "assets/images/stays-images/14.png", "assets/images/stays-images/26.png"],
         "description": "TOP LOCATION! BEST PRICE! The apartment is in the very heart of the city, only 300 m from the main city square. The apartment has been renovated in 2019 and is very clean.",
         "host": "Dinka Geshova",
         "rating": 4.15,
@@ -6602,7 +6602,7 @@ let stays = [
     {
         "title": "Cute Attic Apartment",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/13.png", "../images/stays-images/38.png", "../images/stays-images/29.png", "../images/stays-images/30.png", "../images/stays-images/14.png"],
+        "images": ["assets/images/stays-images/13.png", "assets/images/stays-images/38.png", "assets/images/stays-images/29.png", "assets/images/stays-images/30.png", "assets/images/stays-images/14.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Hasan Uzunov",
         "rating": 2.18,
@@ -6635,7 +6635,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/5.png", "../images/stays-images/12.png", "../images/stays-images/38.png", "../images/stays-images/15.png", "../images/stays-images/26.png"],
+        "images": ["assets/images/stays-images/5.png", "assets/images/stays-images/12.png", "assets/images/stays-images/38.png", "assets/images/stays-images/15.png", "assets/images/stays-images/26.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Stamat Ignatov",
         "rating": 3.19,
@@ -6668,7 +6668,7 @@ let stays = [
     {
         "title": "Casa De Pesho",
         "location": "Burgas",
-        "images": ["../images/stays-images/45.png", "../images/stays-images/6.png", "../images/stays-images/14.png", "../images/stays-images/5.png", "../images/stays-images/32.png"],
+        "images": ["assets/images/stays-images/45.png", "assets/images/stays-images/6.png", "assets/images/stays-images/14.png", "assets/images/stays-images/5.png", "assets/images/stays-images/32.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Petur Iliev",
         "rating": 2.02,
@@ -6701,7 +6701,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Burgas",
-        "images": ["../images/stays-images/37.png", "../images/stays-images/36.png", "../images/stays-images/32.png", "../images/stays-images/45.png", "../images/stays-images/38.png"],
+        "images": ["assets/images/stays-images/37.png", "assets/images/stays-images/36.png", "assets/images/stays-images/32.png", "assets/images/stays-images/45.png", "assets/images/stays-images/38.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Georgi Ivanov",
         "rating": 4.41,
@@ -6734,7 +6734,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Sofia",
-        "images": ["../images/stays-images/19.png", "../images/stays-images/34.png", "../images/stays-images/26.png", "../images/stays-images/42.png", "../images/stays-images/20.png"],
+        "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/34.png", "assets/images/stays-images/26.png", "assets/images/stays-images/42.png", "assets/images/stays-images/20.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Iliyan Vuchkov",
         "rating": 1.96,
@@ -6767,7 +6767,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/6.png", "../images/stays-images/33.png", "../images/stays-images/37.png", "../images/stays-images/9.png", "../images/stays-images/17.png"],
+        "images": ["assets/images/stays-images/6.png", "assets/images/stays-images/33.png", "assets/images/stays-images/37.png", "assets/images/stays-images/9.png", "assets/images/stays-images/17.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Stamat Ignatov",
         "rating": 1.24,
@@ -6800,7 +6800,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Velingrad",
-        "images": ["../images/stays-images/17.png", "../images/stays-images/14.png", "../images/stays-images/38.png", "../images/stays-images/27.png", "../images/stays-images/28.png"],
+        "images": ["assets/images/stays-images/17.png", "assets/images/stays-images/14.png", "assets/images/stays-images/38.png", "assets/images/stays-images/27.png", "assets/images/stays-images/28.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Geran Malekov",
         "rating": 3.04,
@@ -6833,7 +6833,7 @@ let stays = [
     {
         "title": "Hotel Panorama",
         "location": "Sofia",
-        "images": ["../images/stays-images/42.png", "../images/stays-images/43.png", "../images/stays-images/29.png", "../images/stays-images/40.png", "../images/stays-images/12.png"],
+        "images": ["assets/images/stays-images/42.png", "assets/images/stays-images/43.png", "assets/images/stays-images/29.png", "assets/images/stays-images/40.png", "assets/images/stays-images/12.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Hasan Uzunov",
         "rating": 1.51,
@@ -6866,7 +6866,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Velingrad",
-        "images": ["../images/stays-images/34.png", "../images/stays-images/12.png", "../images/stays-images/42.png", "../images/stays-images/21.png", "../images/stays-images/38.png"],
+        "images": ["assets/images/stays-images/34.png", "assets/images/stays-images/12.png", "assets/images/stays-images/42.png", "assets/images/stays-images/21.png", "assets/images/stays-images/38.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Ginka Strahilova",
         "rating": 4.56,
@@ -6899,7 +6899,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Pernik",
-        "images": ["../images/stays-images/9.png", "../images/stays-images/26.png", "../images/stays-images/27.png", "../images/stays-images/23.png", "../images/stays-images/40.png"],
+        "images": ["assets/images/stays-images/9.png", "assets/images/stays-images/26.png", "assets/images/stays-images/27.png", "assets/images/stays-images/23.png", "assets/images/stays-images/40.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Draganka Dinkova",
         "rating": 2.92,
@@ -6932,7 +6932,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/4.png", "../images/stays-images/25.png", "../images/stays-images/29.png", "../images/stays-images/18.png", "../images/stays-images/43.png"],
+        "images": ["assets/images/stays-images/4.png", "assets/images/stays-images/25.png", "assets/images/stays-images/29.png", "assets/images/stays-images/18.png", "assets/images/stays-images/43.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Georgi Ivanov",
         "rating": 2.51,
@@ -6965,7 +6965,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/32.png", "../images/stays-images/45.png", "../images/stays-images/1.png", "../images/stays-images/35.png", "../images/stays-images/40.png"],
+        "images": ["assets/images/stays-images/32.png", "assets/images/stays-images/45.png", "assets/images/stays-images/1.png", "assets/images/stays-images/35.png", "assets/images/stays-images/40.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Dinka Geshova",
         "rating": 1.76,
@@ -6998,7 +6998,7 @@ let stays = [
     {
         "title": "Cute Attic Apartment",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/17.png", "../images/stays-images/5.png", "../images/stays-images/42.png", "../images/stays-images/20.png", "../images/stays-images/14.png"],
+        "images": ["assets/images/stays-images/17.png", "assets/images/stays-images/5.png", "assets/images/stays-images/42.png", "assets/images/stays-images/20.png", "assets/images/stays-images/14.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Georgi Ivanov",
         "rating": 1.67,
@@ -7031,7 +7031,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Burgas",
-        "images": ["../images/stays-images/18.png", "../images/stays-images/14.png", "../images/stays-images/45.png", "../images/stays-images/21.png", "../images/stays-images/34.png"],
+        "images": ["assets/images/stays-images/18.png", "assets/images/stays-images/14.png", "assets/images/stays-images/45.png", "assets/images/stays-images/21.png", "assets/images/stays-images/34.png"],
         "description": "The cozy studio apartment is located in the top center. Many of the major sights, galleries, museums, as well as hip restaurants and bars are within walking distance.",
         "host": "Zahari Pavlov",
         "rating": 4.72,
@@ -7064,7 +7064,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Varna",
-        "images": ["../images/stays-images/5.png", "../images/stays-images/12.png", "../images/stays-images/45.png", "../images/stays-images/7.png", "../images/stays-images/45.png"],
+        "images": ["assets/images/stays-images/5.png", "assets/images/stays-images/12.png", "assets/images/stays-images/45.png", "assets/images/stays-images/7.png", "assets/images/stays-images/45.png"],
         "description": "The cozy studio apartment is located in the top center. Many of the major sights, galleries, museums, as well as hip restaurants and bars are within walking distance.",
         "host": "Hasan Uzunov",
         "rating": 3.85,
@@ -7097,7 +7097,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/28.png", "../images/stays-images/37.png", "../images/stays-images/9.png", "../images/stays-images/14.png", "../images/stays-images/43.png"],
+        "images": ["assets/images/stays-images/28.png", "assets/images/stays-images/37.png", "assets/images/stays-images/9.png", "assets/images/stays-images/14.png", "assets/images/stays-images/43.png"],
         "description": "TOP LOCATION! BEST PRICE! The apartment is in the very heart of the city, only 300 m from the main city square. The apartment has been renovated in 2019 and is very clean.",
         "host": "Haralampi Popov",
         "rating": 1.81,
@@ -7130,7 +7130,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Burgas",
-        "images": ["../images/stays-images/4.png", "../images/stays-images/25.png", "../images/stays-images/18.png", "../images/stays-images/6.png", "../images/stays-images/19.png"],
+        "images": ["assets/images/stays-images/4.png", "assets/images/stays-images/25.png", "assets/images/stays-images/18.png", "assets/images/stays-images/6.png", "assets/images/stays-images/19.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Minka Harizanova",
         "rating": 4.0,
@@ -7163,7 +7163,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Velingrad",
-        "images": ["../images/stays-images/4.png", "../images/stays-images/5.png", "../images/stays-images/7.png", "../images/stays-images/22.png", "../images/stays-images/31.png"],
+        "images": ["assets/images/stays-images/4.png", "assets/images/stays-images/5.png", "assets/images/stays-images/7.png", "assets/images/stays-images/22.png", "assets/images/stays-images/31.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Genadi Popov",
         "rating": 2.07,
@@ -7196,7 +7196,7 @@ let stays = [
     {
         "title": "Casa De Pesho",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/14.png", "../images/stays-images/18.png", "../images/stays-images/10.png", "../images/stays-images/28.png", "../images/stays-images/41.png"],
+        "images": ["assets/images/stays-images/14.png", "assets/images/stays-images/18.png", "assets/images/stays-images/10.png", "assets/images/stays-images/28.png", "assets/images/stays-images/41.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Ginka Strahilova",
         "rating": 4.35,
@@ -7229,7 +7229,7 @@ let stays = [
     {
         "title": "Cute Attic Apartment",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/42.png", "../images/stays-images/28.png", "../images/stays-images/2.png", "../images/stays-images/6.png", "../images/stays-images/26.png"],
+        "images": ["assets/images/stays-images/42.png", "assets/images/stays-images/28.png", "assets/images/stays-images/2.png", "assets/images/stays-images/6.png", "assets/images/stays-images/26.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Pavlina Zelenkova",
         "rating": 3.23,
@@ -7262,7 +7262,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/34.png", "../images/stays-images/41.png", "../images/stays-images/38.png", "../images/stays-images/45.png", "../images/stays-images/37.png"],
+        "images": ["assets/images/stays-images/34.png", "assets/images/stays-images/41.png", "assets/images/stays-images/38.png", "assets/images/stays-images/45.png", "assets/images/stays-images/37.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Stamat Ignatov",
         "rating": 2.66,
@@ -7295,7 +7295,7 @@ let stays = [
     {
         "title": "Grande Palace",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/15.png", "../images/stays-images/35.png", "../images/stays-images/21.png", "../images/stays-images/41.png", "../images/stays-images/2.png"],
+        "images": ["assets/images/stays-images/15.png", "assets/images/stays-images/35.png", "assets/images/stays-images/21.png", "assets/images/stays-images/41.png", "assets/images/stays-images/2.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Hasan Uzunov",
         "rating": 3.28,
@@ -7328,7 +7328,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Velingrad",
-        "images": ["../images/stays-images/41.png", "../images/stays-images/12.png", "../images/stays-images/29.png", "../images/stays-images/19.png", "../images/stays-images/45.png"],
+        "images": ["assets/images/stays-images/41.png", "assets/images/stays-images/12.png", "assets/images/stays-images/29.png", "assets/images/stays-images/19.png", "assets/images/stays-images/45.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Ginka Strahilova",
         "rating": 1.1,
@@ -7361,7 +7361,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Velingrad",
-        "images": ["../images/stays-images/30.png", "../images/stays-images/15.png", "../images/stays-images/21.png", "../images/stays-images/23.png", "../images/stays-images/38.png"],
+        "images": ["assets/images/stays-images/30.png", "assets/images/stays-images/15.png", "assets/images/stays-images/21.png", "assets/images/stays-images/23.png", "assets/images/stays-images/38.png"],
         "description": "TOP LOCATION! BEST PRICE! The apartment is in the very heart of the city, only 300 m from the main city square. The apartment has been renovated in 2019 and is very clean.",
         "host": "Hasan Uzunov",
         "rating": 2.85,
@@ -7394,7 +7394,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Sofia",
-        "images": ["../images/stays-images/34.png", "../images/stays-images/18.png", "../images/stays-images/19.png", "../images/stays-images/14.png", "../images/stays-images/25.png"],
+        "images": ["assets/images/stays-images/34.png", "assets/images/stays-images/18.png", "assets/images/stays-images/19.png", "assets/images/stays-images/14.png", "assets/images/stays-images/25.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Genadi Popov",
         "rating": 4.58,
@@ -7427,7 +7427,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Burgas",
-        "images": ["../images/stays-images/23.png", "../images/stays-images/41.png", "../images/stays-images/30.png", "../images/stays-images/6.png", "../images/stays-images/25.png"],
+        "images": ["assets/images/stays-images/23.png", "assets/images/stays-images/41.png", "assets/images/stays-images/30.png", "assets/images/stays-images/6.png", "assets/images/stays-images/25.png"],
         "description": "TOP LOCATION! BEST PRICE! The apartment is in the very heart of the city, only 300 m from the main city square. The apartment has been renovated in 2019 and is very clean.",
         "host": "Minka Harizanova",
         "rating": 3.91,
@@ -7460,7 +7460,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/4.png", "../images/stays-images/38.png", "../images/stays-images/13.png", "../images/stays-images/25.png", "../images/stays-images/2.png"],
+        "images": ["assets/images/stays-images/4.png", "assets/images/stays-images/38.png", "assets/images/stays-images/13.png", "assets/images/stays-images/25.png", "assets/images/stays-images/2.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Minka Harizanova",
         "rating": 4.07,
@@ -7493,7 +7493,7 @@ let stays = [
     {
         "title": "Casa De Pesho",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/34.png", "../images/stays-images/40.png", "../images/stays-images/17.png", "../images/stays-images/23.png", "../images/stays-images/16.png"],
+        "images": ["assets/images/stays-images/34.png", "assets/images/stays-images/40.png", "assets/images/stays-images/17.png", "assets/images/stays-images/23.png", "assets/images/stays-images/16.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Draganka Dinkova",
         "rating": 2.44,
@@ -7526,7 +7526,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Velingrad",
-        "images": ["../images/stays-images/41.png", "../images/stays-images/41.png", "../images/stays-images/10.png", "../images/stays-images/34.png", "../images/stays-images/12.png"],
+        "images": ["assets/images/stays-images/41.png", "assets/images/stays-images/41.png", "assets/images/stays-images/10.png", "assets/images/stays-images/34.png", "assets/images/stays-images/12.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Haralampi Popov",
         "rating": 4.41,
@@ -7559,7 +7559,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/23.png", "../images/stays-images/24.png", "../images/stays-images/40.png", "../images/stays-images/29.png", "../images/stays-images/10.png"],
+        "images": ["assets/images/stays-images/23.png", "assets/images/stays-images/24.png", "assets/images/stays-images/40.png", "assets/images/stays-images/29.png", "assets/images/stays-images/10.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Ivanka Popova",
         "rating": 2.21,
@@ -7592,7 +7592,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/19.png", "../images/stays-images/40.png", "../images/stays-images/4.png", "../images/stays-images/11.png", "../images/stays-images/25.png"],
+        "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/40.png", "assets/images/stays-images/4.png", "assets/images/stays-images/11.png", "assets/images/stays-images/25.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Georgi Ivanov",
         "rating": 2.11,
@@ -7625,7 +7625,7 @@ let stays = [
     {
         "title": "Hotel Panorama",
         "location": "Velingrad",
-        "images": ["../images/stays-images/42.png", "../images/stays-images/45.png", "../images/stays-images/32.png", "../images/stays-images/2.png", "../images/stays-images/19.png"],
+        "images": ["assets/images/stays-images/42.png", "assets/images/stays-images/45.png", "assets/images/stays-images/32.png", "assets/images/stays-images/2.png", "assets/images/stays-images/19.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Hasan Uzunov",
         "rating": 3.96,
@@ -7658,7 +7658,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Pernik",
-        "images": ["../images/stays-images/45.png", "../images/stays-images/6.png", "../images/stays-images/19.png", "../images/stays-images/2.png", "../images/stays-images/8.png"],
+        "images": ["assets/images/stays-images/45.png", "assets/images/stays-images/6.png", "assets/images/stays-images/19.png", "assets/images/stays-images/2.png", "assets/images/stays-images/8.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Genadi Popov",
         "rating": 1.53,
@@ -7691,7 +7691,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/6.png", "../images/stays-images/41.png", "../images/stays-images/7.png", "../images/stays-images/15.png", "../images/stays-images/8.png"],
+        "images": ["assets/images/stays-images/6.png", "assets/images/stays-images/41.png", "assets/images/stays-images/7.png", "assets/images/stays-images/15.png", "assets/images/stays-images/8.png"],
         "description": "The cozy studio apartment is located in the top center. Many of the major sights, galleries, museums, as well as hip restaurants and bars are within walking distance.",
         "host": "Iliyan Vuchkov",
         "rating": 4.18,
@@ -7724,7 +7724,7 @@ let stays = [
     {
         "title": "Cute Attic Apartment",
         "location": "Sofia",
-        "images": ["../images/stays-images/2.png", "../images/stays-images/4.png", "../images/stays-images/17.png", "../images/stays-images/34.png", "../images/stays-images/20.png"],
+        "images": ["assets/images/stays-images/2.png", "assets/images/stays-images/4.png", "assets/images/stays-images/17.png", "assets/images/stays-images/34.png", "assets/images/stays-images/20.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Minka Harizanova",
         "rating": 1.97,
@@ -7757,7 +7757,7 @@ let stays = [
     {
         "title": "Motzart Apartment",
         "location": "Varna",
-        "images": ["../images/stays-images/5.png", "../images/stays-images/21.png", "../images/stays-images/4.png", "../images/stays-images/27.png", "../images/stays-images/44.png"],
+        "images": ["assets/images/stays-images/5.png", "assets/images/stays-images/21.png", "assets/images/stays-images/4.png", "assets/images/stays-images/27.png", "assets/images/stays-images/44.png"],
         "description": "The cozy studio apartment is located in the top center. Many of the major sights, galleries, museums, as well as hip restaurants and bars are within walking distance.",
         "host": "Haralampi Popov",
         "rating": 3.76,
@@ -7790,7 +7790,7 @@ let stays = [
     {
         "title": "Cute Attic Apartment",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/13.png", "../images/stays-images/43.png", "../images/stays-images/16.png", "../images/stays-images/34.png", "../images/stays-images/29.png"],
+        "images": ["assets/images/stays-images/13.png", "assets/images/stays-images/43.png", "assets/images/stays-images/16.png", "assets/images/stays-images/34.png", "assets/images/stays-images/29.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Pavlina Zelenkova",
         "rating": 3.39,
@@ -7823,7 +7823,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Varna",
-        "images": ["../images/stays-images/25.png", "../images/stays-images/30.png", "../images/stays-images/6.png", "../images/stays-images/2.png", "../images/stays-images/21.png"],
+        "images": ["assets/images/stays-images/25.png", "assets/images/stays-images/30.png", "assets/images/stays-images/6.png", "assets/images/stays-images/2.png", "assets/images/stays-images/21.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Danail Alexandrov",
         "rating": 3.59,
@@ -7856,7 +7856,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Varna",
-        "images": ["../images/stays-images/18.png", "../images/stays-images/3.png", "../images/stays-images/11.png", "../images/stays-images/14.png", "../images/stays-images/29.png"],
+        "images": ["assets/images/stays-images/18.png", "assets/images/stays-images/3.png", "assets/images/stays-images/11.png", "assets/images/stays-images/14.png", "assets/images/stays-images/29.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Petyr Zahariev",
         "rating": 1.18,
@@ -7889,7 +7889,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/18.png", "../images/stays-images/12.png", "../images/stays-images/29.png", "../images/stays-images/32.png", "../images/stays-images/13.png"],
+        "images": ["assets/images/stays-images/18.png", "assets/images/stays-images/12.png", "assets/images/stays-images/29.png", "assets/images/stays-images/32.png", "assets/images/stays-images/13.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Genadi Popov",
         "rating": 2.42,
@@ -7922,7 +7922,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/9.png", "../images/stays-images/13.png", "../images/stays-images/29.png", "../images/stays-images/23.png", "../images/stays-images/22.png"],
+        "images": ["assets/images/stays-images/9.png", "assets/images/stays-images/13.png", "assets/images/stays-images/29.png", "assets/images/stays-images/23.png", "assets/images/stays-images/22.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Gesho Vazov",
         "rating": 1.38,
@@ -7955,7 +7955,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Varna",
-        "images": ["../images/stays-images/41.png", "../images/stays-images/29.png", "../images/stays-images/16.png", "../images/stays-images/40.png", "../images/stays-images/17.png"],
+        "images": ["assets/images/stays-images/41.png", "assets/images/stays-images/29.png", "assets/images/stays-images/16.png", "assets/images/stays-images/40.png", "assets/images/stays-images/17.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Dinka Geshova",
         "rating": 3.74,
@@ -7988,7 +7988,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Varna",
-        "images": ["../images/stays-images/24.png", "../images/stays-images/41.png", "../images/stays-images/40.png", "../images/stays-images/21.png", "../images/stays-images/40.png"],
+        "images": ["assets/images/stays-images/24.png", "assets/images/stays-images/41.png", "assets/images/stays-images/40.png", "assets/images/stays-images/21.png", "assets/images/stays-images/40.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Ginka Strahilova",
         "rating": 1.61,
@@ -8021,7 +8021,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Pernik",
-        "images": ["../images/stays-images/10.png", "../images/stays-images/1.png", "../images/stays-images/30.png", "../images/stays-images/4.png", "../images/stays-images/15.png"],
+        "images": ["assets/images/stays-images/10.png", "assets/images/stays-images/1.png", "assets/images/stays-images/30.png", "assets/images/stays-images/4.png", "assets/images/stays-images/15.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "John Kirilov",
         "rating": 1.79,
@@ -8054,7 +8054,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Sofia",
-        "images": ["../images/stays-images/21.png", "../images/stays-images/38.png", "../images/stays-images/42.png", "../images/stays-images/39.png", "../images/stays-images/18.png"],
+        "images": ["assets/images/stays-images/21.png", "assets/images/stays-images/38.png", "assets/images/stays-images/42.png", "assets/images/stays-images/39.png", "assets/images/stays-images/18.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Haralampi Popov",
         "rating": 1.71,
@@ -8087,7 +8087,7 @@ let stays = [
     {
         "title": "Casa De Pesho",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/34.png", "../images/stays-images/19.png", "../images/stays-images/19.png", "../images/stays-images/26.png", "../images/stays-images/10.png"],
+        "images": ["assets/images/stays-images/34.png", "assets/images/stays-images/19.png", "assets/images/stays-images/19.png", "assets/images/stays-images/26.png", "assets/images/stays-images/10.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Gesho Vazov",
         "rating": 1.21,
@@ -8120,7 +8120,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/22.png", "../images/stays-images/24.png", "../images/stays-images/42.png", "../images/stays-images/18.png", "../images/stays-images/38.png"],
+        "images": ["assets/images/stays-images/22.png", "assets/images/stays-images/24.png", "assets/images/stays-images/42.png", "assets/images/stays-images/18.png", "assets/images/stays-images/38.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "John Kirilov",
         "rating": 1.27,
@@ -8153,7 +8153,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Sveti Vlas",
-        "images": ["../images/stays-images/42.png", "../images/stays-images/21.png", "../images/stays-images/19.png", "../images/stays-images/9.png", "../images/stays-images/6.png"],
+        "images": ["assets/images/stays-images/42.png", "assets/images/stays-images/21.png", "assets/images/stays-images/19.png", "assets/images/stays-images/9.png", "assets/images/stays-images/6.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Pavlina Zelenkova",
         "rating": 4.99,
@@ -8186,7 +8186,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Varna",
-        "images": ["../images/stays-images/34.png", "../images/stays-images/20.png", "../images/stays-images/6.png", "../images/stays-images/29.png", "../images/stays-images/8.png"],
+        "images": ["assets/images/stays-images/34.png", "assets/images/stays-images/20.png", "assets/images/stays-images/6.png", "assets/images/stays-images/29.png", "assets/images/stays-images/8.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Ivanka Popova",
         "rating": 1.44,
@@ -8219,7 +8219,7 @@ let stays = [
     {
         "title": "Casa De Pesho",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/42.png", "../images/stays-images/41.png", "../images/stays-images/6.png", "../images/stays-images/21.png", "../images/stays-images/44.png"],
+        "images": ["assets/images/stays-images/42.png", "assets/images/stays-images/41.png", "assets/images/stays-images/6.png", "assets/images/stays-images/21.png", "assets/images/stays-images/44.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Pavlina Zelenkova",
         "rating": 2.47,
@@ -8252,7 +8252,7 @@ let stays = [
     {
         "title": "Grande Palace",
         "location": "Sofia",
-        "images": ["../images/stays-images/19.png", "../images/stays-images/33.png", "../images/stays-images/26.png", "../images/stays-images/19.png", "../images/stays-images/7.png"],
+        "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/33.png", "assets/images/stays-images/26.png", "assets/images/stays-images/19.png", "assets/images/stays-images/7.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Stamat Ignatov",
         "rating": 2.45,
@@ -8285,7 +8285,7 @@ let stays = [
     {
         "title": "Comfort rooms",
         "location": "Burgas",
-        "images": ["../images/stays-images/17.png", "../images/stays-images/26.png", "../images/stays-images/41.png", "../images/stays-images/34.png", "../images/stays-images/16.png"],
+        "images": ["assets/images/stays-images/17.png", "assets/images/stays-images/26.png", "assets/images/stays-images/41.png", "assets/images/stays-images/34.png", "assets/images/stays-images/16.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Ginka Strahilova",
         "rating": 2.82,
@@ -8318,7 +8318,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Sofia",
-        "images": ["../images/stays-images/30.png", "../images/stays-images/17.png", "../images/stays-images/32.png", "../images/stays-images/15.png", "../images/stays-images/6.png"],
+        "images": ["assets/images/stays-images/30.png", "assets/images/stays-images/17.png", "assets/images/stays-images/32.png", "assets/images/stays-images/15.png", "assets/images/stays-images/6.png"],
         "description": "TOP LOCATION! BEST PRICE! The apartment is in the very heart of the city, only 300 m from the main city square. The apartment has been renovated in 2019 and is very clean.",
         "host": "Stamat Ignatov",
         "rating": 4.88,
@@ -8351,7 +8351,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Velingrad",
-        "images": ["../images/stays-images/28.png", "../images/stays-images/7.png", "../images/stays-images/37.png", "../images/stays-images/31.png", "../images/stays-images/2.png"],
+        "images": ["assets/images/stays-images/28.png", "assets/images/stays-images/7.png", "assets/images/stays-images/37.png", "assets/images/stays-images/31.png", "assets/images/stays-images/2.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Hasan Uzunov",
         "rating": 2.11,
@@ -8384,7 +8384,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/40.png", "../images/stays-images/41.png", "../images/stays-images/19.png", "../images/stays-images/26.png", "../images/stays-images/4.png"],
+        "images": ["assets/images/stays-images/40.png", "assets/images/stays-images/41.png", "assets/images/stays-images/19.png", "assets/images/stays-images/26.png", "assets/images/stays-images/4.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Georgi Ivanov",
         "rating": 2.48,
@@ -8417,7 +8417,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Sofia",
-        "images": ["../images/stays-images/41.png", "../images/stays-images/15.png", "../images/stays-images/41.png", "../images/stays-images/19.png", "../images/stays-images/20.png"],
+        "images": ["assets/images/stays-images/41.png", "assets/images/stays-images/15.png", "assets/images/stays-images/41.png", "assets/images/stays-images/19.png", "assets/images/stays-images/20.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Pavlina Zelenkova",
         "rating": 3.09,
@@ -8450,7 +8450,7 @@ let stays = [
     {
         "title": "Cute Attic Apartment",
         "location": "Burgas",
-        "images": ["../images/stays-images/41.png", "../images/stays-images/36.png", "../images/stays-images/8.png", "../images/stays-images/6.png", "../images/stays-images/4.png"],
+        "images": ["assets/images/stays-images/41.png", "assets/images/stays-images/36.png", "assets/images/stays-images/8.png", "assets/images/stays-images/6.png", "assets/images/stays-images/4.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Detelina Malinova",
         "rating": 3.54,
@@ -8483,7 +8483,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/19.png", "../images/stays-images/43.png", "../images/stays-images/20.png", "../images/stays-images/42.png", "../images/stays-images/17.png"],
+        "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/43.png", "assets/images/stays-images/20.png", "assets/images/stays-images/42.png", "assets/images/stays-images/17.png"],
         "description": "TOP LOCATION! BEST PRICE! The apartment is in the very heart of the city, only 300 m from the main city square. The apartment has been renovated in 2019 and is very clean.",
         "host": "Ginka Strahilova",
         "rating": 3.3,
@@ -8516,7 +8516,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Sofia",
-        "images": ["../images/stays-images/43.png", "../images/stays-images/26.png", "../images/stays-images/17.png", "../images/stays-images/2.png", "../images/stays-images/21.png"],
+        "images": ["assets/images/stays-images/43.png", "assets/images/stays-images/26.png", "assets/images/stays-images/17.png", "assets/images/stays-images/2.png", "assets/images/stays-images/21.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Petyr Zahariev",
         "rating": 3.7,
@@ -8549,7 +8549,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Varna",
-        "images": ["../images/stays-images/27.png", "../images/stays-images/11.png", "../images/stays-images/36.png", "../images/stays-images/6.png", "../images/stays-images/18.png"],
+        "images": ["assets/images/stays-images/27.png", "assets/images/stays-images/11.png", "assets/images/stays-images/36.png", "assets/images/stays-images/6.png", "assets/images/stays-images/18.png"],
         "description": "TOP LOCATION! BEST PRICE! The apartment is in the very heart of the city, only 300 m from the main city square. The apartment has been renovated in 2019 and is very clean.",
         "host": "Genadi Popov",
         "rating": 3.78,
@@ -8582,7 +8582,7 @@ let stays = [
     {
         "title": "Glorious Palace",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/6.png", "../images/stays-images/14.png", "../images/stays-images/17.png", "../images/stays-images/45.png", "../images/stays-images/27.png"],
+        "images": ["assets/images/stays-images/6.png", "assets/images/stays-images/14.png", "assets/images/stays-images/17.png", "assets/images/stays-images/45.png", "assets/images/stays-images/27.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Ivanka Popova",
         "rating": 3.82,
@@ -8615,7 +8615,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Sofia",
-        "images": ["../images/stays-images/26.png", "../images/stays-images/25.png", "../images/stays-images/13.png", "../images/stays-images/26.png", "../images/stays-images/38.png"],
+        "images": ["assets/images/stays-images/26.png", "assets/images/stays-images/25.png", "assets/images/stays-images/13.png", "assets/images/stays-images/26.png", "assets/images/stays-images/38.png"],
         "description": "TOP LOCATION! BEST PRICE! The apartment is in the very heart of the city, only 300 m from the main city square. The apartment has been renovated in 2019 and is very clean.",
         "host": "Gesho Vazov",
         "rating": 1.85,
@@ -8648,7 +8648,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Velingrad",
-        "images": ["../images/stays-images/13.png", "../images/stays-images/29.png", "../images/stays-images/8.png", "../images/stays-images/38.png", "../images/stays-images/41.png"],
+        "images": ["assets/images/stays-images/13.png", "assets/images/stays-images/29.png", "assets/images/stays-images/8.png", "assets/images/stays-images/38.png", "assets/images/stays-images/41.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Ivanka Popova",
         "rating": 4.4,
@@ -8681,7 +8681,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Sofia",
-        "images": ["../images/stays-images/40.png", "../images/stays-images/16.png", "../images/stays-images/20.png", "../images/stays-images/2.png", "../images/stays-images/22.png"],
+        "images": ["assets/images/stays-images/40.png", "assets/images/stays-images/16.png", "assets/images/stays-images/20.png", "assets/images/stays-images/2.png", "assets/images/stays-images/22.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Draganka Dinkova",
         "rating": 4.25,
@@ -8714,7 +8714,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/23.png", "../images/stays-images/30.png", "../images/stays-images/40.png", "../images/stays-images/12.png", "../images/stays-images/15.png"],
+        "images": ["assets/images/stays-images/23.png", "assets/images/stays-images/30.png", "assets/images/stays-images/40.png", "assets/images/stays-images/12.png", "assets/images/stays-images/15.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Gesho Vazov",
         "rating": 4.25,
@@ -8747,7 +8747,7 @@ let stays = [
     {
         "title": "Glorious Palace",
         "location": "Velingrad",
-        "images": ["../images/stays-images/42.png", "../images/stays-images/34.png", "../images/stays-images/40.png", "../images/stays-images/20.png", "../images/stays-images/37.png"],
+        "images": ["assets/images/stays-images/42.png", "assets/images/stays-images/34.png", "assets/images/stays-images/40.png", "assets/images/stays-images/20.png", "assets/images/stays-images/37.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Stamat Ignatov",
         "rating": 4.99,
@@ -8780,7 +8780,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/4.png", "../images/stays-images/33.png", "../images/stays-images/1.png", "../images/stays-images/12.png", "../images/stays-images/14.png"],
+        "images": ["assets/images/stays-images/4.png", "assets/images/stays-images/33.png", "assets/images/stays-images/1.png", "assets/images/stays-images/12.png", "assets/images/stays-images/14.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Petur Iliev",
         "rating": 1.82,
@@ -8813,7 +8813,7 @@ let stays = [
     {
         "title": "Motzart Apartment",
         "location": "Sofia",
-        "images": ["../images/stays-images/38.png", "../images/stays-images/34.png", "../images/stays-images/13.png", "../images/stays-images/22.png", "../images/stays-images/20.png"],
+        "images": ["assets/images/stays-images/38.png", "assets/images/stays-images/34.png", "assets/images/stays-images/13.png", "assets/images/stays-images/22.png", "assets/images/stays-images/20.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Hasan Uzunov",
         "rating": 2.46,
@@ -8846,7 +8846,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/10.png", "../images/stays-images/19.png", "../images/stays-images/14.png", "../images/stays-images/20.png", "../images/stays-images/33.png"],
+        "images": ["assets/images/stays-images/10.png", "assets/images/stays-images/19.png", "assets/images/stays-images/14.png", "assets/images/stays-images/20.png", "assets/images/stays-images/33.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Gesho Vazov",
         "rating": 4.71,
@@ -8879,7 +8879,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/22.png", "../images/stays-images/12.png", "../images/stays-images/18.png", "../images/stays-images/3.png", "../images/stays-images/41.png"],
+        "images": ["assets/images/stays-images/22.png", "assets/images/stays-images/12.png", "assets/images/stays-images/18.png", "assets/images/stays-images/3.png", "assets/images/stays-images/41.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Detelina Malinova",
         "rating": 2.81,
@@ -8912,7 +8912,7 @@ let stays = [
     {
         "title": "Motzart Apartment",
         "location": "Pernik",
-        "images": ["../images/stays-images/31.png", "../images/stays-images/36.png", "../images/stays-images/39.png", "../images/stays-images/43.png", "../images/stays-images/16.png"],
+        "images": ["assets/images/stays-images/31.png", "assets/images/stays-images/36.png", "assets/images/stays-images/39.png", "assets/images/stays-images/43.png", "assets/images/stays-images/16.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Draganka Dinkova",
         "rating": 2.76,
@@ -8945,7 +8945,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Varna",
-        "images": ["../images/stays-images/25.png", "../images/stays-images/13.png", "../images/stays-images/4.png", "../images/stays-images/21.png", "../images/stays-images/43.png"],
+        "images": ["assets/images/stays-images/25.png", "assets/images/stays-images/13.png", "assets/images/stays-images/4.png", "assets/images/stays-images/21.png", "assets/images/stays-images/43.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Georgi Ivanov",
         "rating": 4.28,
@@ -8978,7 +8978,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Pernik",
-        "images": ["../images/stays-images/34.png", "../images/stays-images/22.png", "../images/stays-images/30.png", "../images/stays-images/14.png", "../images/stays-images/2.png"],
+        "images": ["assets/images/stays-images/34.png", "assets/images/stays-images/22.png", "assets/images/stays-images/30.png", "assets/images/stays-images/14.png", "assets/images/stays-images/2.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Draganka Dinkova",
         "rating": 4.3,
@@ -9011,7 +9011,7 @@ let stays = [
     {
         "title": "Comfort rooms",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/5.png", "../images/stays-images/6.png", "../images/stays-images/42.png", "../images/stays-images/33.png", "../images/stays-images/20.png"],
+        "images": ["assets/images/stays-images/5.png", "assets/images/stays-images/6.png", "assets/images/stays-images/42.png", "assets/images/stays-images/33.png", "assets/images/stays-images/20.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
         "host": "Geran Malekov",
         "rating": 2.47,
@@ -9044,7 +9044,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Velingrad",
-        "images": ["../images/stays-images/5.png", "../images/stays-images/1.png", "../images/stays-images/20.png", "../images/stays-images/18.png", "../images/stays-images/2.png"],
+        "images": ["assets/images/stays-images/5.png", "assets/images/stays-images/1.png", "assets/images/stays-images/20.png", "assets/images/stays-images/18.png", "assets/images/stays-images/2.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Minka Harizanova",
         "rating": 2.21,
@@ -9077,7 +9077,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Burgas",
-        "images": ["../images/stays-images/26.png", "../images/stays-images/6.png", "../images/stays-images/38.png", "../images/stays-images/2.png", "../images/stays-images/17.png"],
+        "images": ["assets/images/stays-images/26.png", "assets/images/stays-images/6.png", "assets/images/stays-images/38.png", "assets/images/stays-images/2.png", "assets/images/stays-images/17.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Ginka Strahilova",
         "rating": 1.84,
@@ -9110,7 +9110,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Burgas",
-        "images": ["../images/stays-images/26.png", "../images/stays-images/19.png", "../images/stays-images/21.png", "../images/stays-images/40.png", "../images/stays-images/2.png"],
+        "images": ["assets/images/stays-images/26.png", "assets/images/stays-images/19.png", "assets/images/stays-images/21.png", "assets/images/stays-images/40.png", "assets/images/stays-images/2.png"],
         "description": "The apartment is recently renovated and offers all utilities needed for a pleasant stay in the SPA capital of the Balkans. It is close to supermarkets and on walking distance to swimming pools and shops.",
         "host": "Detelina Malinova",
         "rating": 3.5,
@@ -9143,7 +9143,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Varna",
-        "images": ["../images/stays-images/18.png", "../images/stays-images/5.png", "../images/stays-images/43.png", "../images/stays-images/6.png", "../images/stays-images/31.png"],
+        "images": ["assets/images/stays-images/18.png", "assets/images/stays-images/5.png", "assets/images/stays-images/43.png", "assets/images/stays-images/6.png", "assets/images/stays-images/31.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Detelina Malinova",
         "rating": 2.36,
@@ -9176,7 +9176,7 @@ let stays = [
     {
         "title": "Hotel Panorama",
         "location": "Pernik",
-        "images": ["../images/stays-images/25.png", "../images/stays-images/28.png", "../images/stays-images/5.png", "../images/stays-images/12.png", "../images/stays-images/3.png"],
+        "images": ["assets/images/stays-images/25.png", "assets/images/stays-images/28.png", "assets/images/stays-images/5.png", "assets/images/stays-images/12.png", "assets/images/stays-images/3.png"],
         "description": "TOP LOCATION! BEST PRICE! The apartment is in the very heart of the city, only 300 m from the main city square. The apartment has been renovated in 2019 and is very clean.",
         "host": "Geran Malekov",
         "rating": 4.4,
@@ -9209,7 +9209,7 @@ let stays = [
     {
         "title": "Cute Attic Apartment",
         "location": "Sofia",
-        "images": ["../images/stays-images/12.png", "../images/stays-images/8.png", "../images/stays-images/2.png", "../images/stays-images/43.png", "../images/stays-images/41.png"],
+        "images": ["assets/images/stays-images/12.png", "assets/images/stays-images/8.png", "assets/images/stays-images/2.png", "assets/images/stays-images/43.png", "assets/images/stays-images/41.png"],
         "description": "The cozy studio apartment is located in the top center. Many of the major sights, galleries, museums, as well as hip restaurants and bars are within walking distance.",
         "host": "Genadi Popov",
         "rating": 4.74,
@@ -9242,7 +9242,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/8.png", "../images/stays-images/12.png", "../images/stays-images/3.png", "../images/stays-images/29.png", "../images/stays-images/1.png"],
+        "images": ["assets/images/stays-images/8.png", "assets/images/stays-images/12.png", "assets/images/stays-images/3.png", "assets/images/stays-images/29.png", "assets/images/stays-images/1.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Draganka Dinkova",
         "rating": 4.62,
@@ -9275,7 +9275,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Varna",
-        "images": ["../images/stays-images/19.png", "../images/stays-images/31.png", "../images/stays-images/13.png", "../images/stays-images/25.png", "../images/stays-images/5.png"],
+        "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/31.png", "assets/images/stays-images/13.png", "assets/images/stays-images/25.png", "assets/images/stays-images/5.png"],
         "description": "The cozy studio apartment is located in the top center. Many of the major sights, galleries, museums, as well as hip restaurants and bars are within walking distance.",
         "host": "Ivanka Popova",
         "rating": 4.96,
@@ -9308,7 +9308,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Burgas",
-        "images": ["../images/stays-images/26.png", "../images/stays-images/17.png", "../images/stays-images/12.png", "../images/stays-images/33.png", "../images/stays-images/19.png"],
+        "images": ["assets/images/stays-images/26.png", "assets/images/stays-images/17.png", "assets/images/stays-images/12.png", "assets/images/stays-images/33.png", "assets/images/stays-images/19.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Petur Iliev",
         "rating": 2.43,
@@ -9341,7 +9341,7 @@ let stays = [
     {
         "title": "Glorious Palace",
         "location": "Sofia",
-        "images": ["../images/stays-images/14.png", "../images/stays-images/44.png", "../images/stays-images/43.png", "../images/stays-images/15.png", "../images/stays-images/13.png"],
+        "images": ["assets/images/stays-images/14.png", "assets/images/stays-images/44.png", "assets/images/stays-images/43.png", "assets/images/stays-images/15.png", "assets/images/stays-images/13.png"],
         "description": "The cozy studio apartment is located in the top center. Many of the major sights, galleries, museums, as well as hip restaurants and bars are within walking distance.",
         "host": "Minka Harizanova",
         "rating": 4.09,
@@ -9374,7 +9374,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Sofia",
-        "images": ["../images/stays-images/40.png", "../images/stays-images/30.png", "../images/stays-images/40.png", "../images/stays-images/45.png", "../images/stays-images/25.png"],
+        "images": ["assets/images/stays-images/40.png", "assets/images/stays-images/30.png", "assets/images/stays-images/40.png", "assets/images/stays-images/45.png", "assets/images/stays-images/25.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "John Kirilov",
         "rating": 4.32,
@@ -9407,7 +9407,7 @@ let stays = [
     {
         "title": "Comfort rooms",
         "location": "Velingrad",
-        "images": ["../images/stays-images/34.png", "../images/stays-images/4.png", "../images/stays-images/15.png", "../images/stays-images/34.png", "../images/stays-images/43.png"],
+        "images": ["assets/images/stays-images/34.png", "assets/images/stays-images/4.png", "assets/images/stays-images/15.png", "assets/images/stays-images/34.png", "assets/images/stays-images/43.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Minka Harizanova",
         "rating": 3.46,
@@ -9440,7 +9440,7 @@ let stays = [
     {
         "title": "Luxury Apartment with mountain view",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/9.png", "../images/stays-images/23.png", "../images/stays-images/20.png", "../images/stays-images/41.png", "../images/stays-images/37.png"],
+        "images": ["assets/images/stays-images/9.png", "assets/images/stays-images/23.png", "assets/images/stays-images/20.png", "assets/images/stays-images/41.png", "assets/images/stays-images/37.png"],
         "description": "Fresh, cozy and comfortable studio, situated in a convenient location with metro (Red line) stop Konstantin Velichkov, just 5 minutes walk from the apartment.",
         "host": "Stamat Ignatov",
         "rating": 1.77,
@@ -9473,7 +9473,7 @@ let stays = [
     {
         "title": "Glorious Palace",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/3.png", "../images/stays-images/17.png", "../images/stays-images/19.png", "../images/stays-images/33.png", "../images/stays-images/26.png"],
+        "images": ["assets/images/stays-images/3.png", "assets/images/stays-images/17.png", "assets/images/stays-images/19.png", "assets/images/stays-images/33.png", "assets/images/stays-images/26.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Gesho Vazov",
         "rating": 1.81,
@@ -9506,7 +9506,7 @@ let stays = [
     {
         "title": "Grande Palace",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/3.png", "../images/stays-images/13.png", "../images/stays-images/28.png", "../images/stays-images/39.png", "../images/stays-images/19.png"],
+        "images": ["assets/images/stays-images/3.png", "assets/images/stays-images/13.png", "assets/images/stays-images/28.png", "assets/images/stays-images/39.png", "assets/images/stays-images/19.png"],
         "description": "Brand new luxury furnished apartment on with a great mountain view, located in a communicative area with connection to the center.",
         "host": "Petur Iliev",
         "rating": 1.03,
@@ -9539,7 +9539,7 @@ let stays = [
     {
         "title": "Guest House Edelvais",
         "location": "Pernik",
-        "images": ["../images/stays-images/27.png", "../images/stays-images/25.png", "../images/stays-images/17.png", "../images/stays-images/33.png", "../images/stays-images/12.png"],
+        "images": ["assets/images/stays-images/27.png", "assets/images/stays-images/25.png", "assets/images/stays-images/17.png", "assets/images/stays-images/33.png", "assets/images/stays-images/12.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Hasan Uzunov",
         "rating": 1.62,
@@ -9572,7 +9572,7 @@ let stays = [
     {
         "title": "Motzart Apartment",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/1.png", "../images/stays-images/20.png", "../images/stays-images/28.png", "../images/stays-images/37.png", "../images/stays-images/10.png"],
+        "images": ["assets/images/stays-images/1.png", "assets/images/stays-images/20.png", "assets/images/stays-images/28.png", "assets/images/stays-images/37.png", "assets/images/stays-images/10.png"],
         "description": "The great combination of coziness, a spectacular view, attention to detail and a superb location. You get to enjoy a double living with a chill area and a kitchen/dining area, a classy bathroom and a nice little bedroom with a balcony to enjoy your morning coffee.",
         "host": "Georgi Ivanov",
         "rating": 4.16,
@@ -9605,7 +9605,7 @@ let stays = [
     {
         "title": "Spacious Place",
         "location": "Chernomorec",
-        "images": ["../images/stays-images/5.png", "../images/stays-images/39.png", "../images/stays-images/33.png", "../images/stays-images/14.png", "../images/stays-images/2.png"],
+        "images": ["assets/images/stays-images/5.png", "assets/images/stays-images/39.png", "assets/images/stays-images/33.png", "assets/images/stays-images/14.png", "assets/images/stays-images/2.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "Draganka Dinkova",
         "rating": 4.21,
@@ -9638,7 +9638,7 @@ let stays = [
     {
         "title": "Apartment Luxor",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/27.png", "../images/stays-images/41.png", "../images/stays-images/23.png", "../images/stays-images/44.png", "../images/stays-images/6.png"],
+        "images": ["assets/images/stays-images/27.png", "assets/images/stays-images/41.png", "assets/images/stays-images/23.png", "assets/images/stays-images/44.png", "assets/images/stays-images/6.png"],
         "description": "The cozy studio apartment is located in the top center. Many of the major sights, galleries, museums, as well as hip restaurants and bars are within walking distance.",
         "host": "Gesho Vazov",
         "rating": 1.86,
@@ -9671,7 +9671,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Burgas",
-        "images": ["../images/stays-images/14.png", "../images/stays-images/14.png", "../images/stays-images/10.png", "../images/stays-images/37.png", "../images/stays-images/6.png"],
+        "images": ["assets/images/stays-images/14.png", "assets/images/stays-images/14.png", "assets/images/stays-images/10.png", "assets/images/stays-images/37.png", "assets/images/stays-images/6.png"],
         "description": "The cozy studio apartment is located in the top center. Many of the major sights, galleries, museums, as well as hip restaurants and bars are within walking distance.",
         "host": "Ivanka Popova",
         "rating": 1.15,
@@ -9704,7 +9704,7 @@ let stays = [
     {
         "title": "Mia Delux",
         "location": "Velingrad",
-        "images": ["../images/stays-images/31.png", "../images/stays-images/12.png", "../images/stays-images/34.png", "../images/stays-images/36.png", "../images/stays-images/9.png"],
+        "images": ["assets/images/stays-images/31.png", "assets/images/stays-images/12.png", "assets/images/stays-images/34.png", "assets/images/stays-images/36.png", "assets/images/stays-images/9.png"],
         "description": "High quality bed linens, foam mattresses, high speed WIFI and a stunning view of the city will make your stay a one to remember.",
         "host": "Ivanka Popova",
         "rating": 2.41,
@@ -9737,7 +9737,7 @@ let stays = [
     {
         "title": "Art Mesonette Salem",
         "location": "Burgas",
-        "images": ["../images/stays-images/6.png", "../images/stays-images/25.png", "../images/stays-images/23.png", "../images/stays-images/35.png", "../images/stays-images/19.png"],
+        "images": ["assets/images/stays-images/6.png", "assets/images/stays-images/25.png", "assets/images/stays-images/23.png", "assets/images/stays-images/35.png", "assets/images/stays-images/19.png"],
         "description": "This is a very quiet and comfortable separate apartment on the ground floor of a house with a magical garden situated in one of the most beautiful southern neighbourhoods.",
         "host": "John Kirilov",
         "rating": 3.38,
@@ -9770,7 +9770,7 @@ let stays = [
     {
         "title": "Guest House Zoya",
         "location": "Sofia",
-        "images": ["../images/stays-images/5.png", "../images/stays-images/14.png", "../images/stays-images/12.png", "../images/stays-images/23.png", "../images/stays-images/33.png"],
+        "images": ["assets/images/stays-images/5.png", "assets/images/stays-images/14.png", "assets/images/stays-images/12.png", "assets/images/stays-images/23.png", "assets/images/stays-images/33.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Zahari Pavlov",
         "rating": 4.62,
@@ -9803,7 +9803,7 @@ let stays = [
     {
         "title": "Hotel Panorama",
         "location": "Sinemorec",
-        "images": ["../images/stays-images/10.png", "../images/stays-images/28.png", "../images/stays-images/23.png", "../images/stays-images/21.png", "../images/stays-images/32.png"],
+        "images": ["assets/images/stays-images/10.png", "assets/images/stays-images/28.png", "assets/images/stays-images/23.png", "assets/images/stays-images/21.png", "assets/images/stays-images/32.png"],
         "description": "The cozy studio apartment is located in the top center. Many of the major sights, galleries, museums, as well as hip restaurants and bars are within walking distance.",
         "host": "Draganka Dinkova",
         "rating": 3.94,
@@ -9836,7 +9836,7 @@ let stays = [
     {
         "title": "Luxorious Apartment",
         "location": "Velingrad",
-        "images": ["../images/stays-images/19.png", "../images/stays-images/2.png", "../images/stays-images/7.png", "../images/stays-images/17.png", "../images/stays-images/41.png"],
+        "images": ["assets/images/stays-images/19.png", "assets/images/stays-images/2.png", "assets/images/stays-images/7.png", "assets/images/stays-images/17.png", "assets/images/stays-images/41.png"],
         "description": "A mountain place surrounded by forest but accessible by car. Excellent restaurant. Friendly atmosphere.",
         "host": "Petyr Zahariev",
         "rating": 4.46,
@@ -9869,7 +9869,7 @@ let stays = [
     {
         "title": "Hotel Panorama",
         "location": "Varna",
-        "images": ["../images/stays-images/30.png", "../images/stays-images/23.png", "../images/stays-images/17.png", "../images/stays-images/37.png", "../images/stays-images/1.png"],
+        "images": ["assets/images/stays-images/30.png", "assets/images/stays-images/23.png", "assets/images/stays-images/17.png", "assets/images/stays-images/37.png", "assets/images/stays-images/1.png"],
         "description": "Offers luxury experience and stunning views over the mountains. Super relaxing and quiet! In 10min walking distance from the forest.",
         "host": "Georgi Ivanov",
         "rating": 3.18,
