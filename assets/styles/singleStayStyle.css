@@ -196,6 +196,14 @@
     font-size: 0.85rem;
 }
 
+.amenity-info-not-included  {
+    /* text-decoration: line-through; */
+    /* color: lightgray; */
+    color: red;
+}
+.amenity-icon-not-included {
+    filter: opacity(0.2);
+}
 
 /* <div class="stay-type-info"></div>
 <div class="enhanced-clean-info"></div>

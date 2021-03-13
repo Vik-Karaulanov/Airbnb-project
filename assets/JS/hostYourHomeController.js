@@ -138,11 +138,11 @@
         let description = getById('description').value;
 
         stayObj["stayType"] = propertyType;
-        stayObj["guests"] = numberOfGuests;
-        stayObj["bedrooms"] = numberOfBedrooms;
-        stayObj["beds"] = numberOfBeds;
+        stayObj["guests"] = parseInt(numberOfGuests);
+        stayObj["bedrooms"] = parseInt(numberOfBedrooms);
+        stayObj["beds"] = parseInt(numberOfBeds);
         stayObj["title"] = title;
-        stayObj["price"] = pricePerNight;
+        stayObj["price"] = parseInt(pricePerNight);
         stayObj["description"] = description;
 
         // All amenities data

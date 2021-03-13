@@ -9,13 +9,43 @@ function printTargetStayPage(container, chosenStay) {
     let spaceArrangement = document.querySelector('.space-arrangement');
     let hostIconContainer = document.querySelector('.host-icon-container');
     let hostName = chosenStay.host;
-    let staysOfHost = staysManager.allStays.find(el => el.host === hostName);
+    let staysOfHost = staysManager.allStays.filter(el => el.host === hostName);
     let staySpecificsContainer = document.querySelector('.stay-specifics-container');
+    let amenitiesInfoContainer = document.querySelector('.amenities-info-container');
     let hostPic = userModel.localStorageUsers.find(user => user.fullName === hostName).profilePicture;
     hostIconContainer.style.backgroundImage = `url(${hostPic})`;
+    let stayDescription = document.querySelector('.stay-description');
+    stayDescription.innerHTML = chosenStay.description;
+
+    // selecting all Amenities icons + labels (wifi-info);
+
+
+    for (let key in chosenStay.amenities){
+        chosenStay.amenities[key].forEach(item => {
+            let info = (item.replaceAll(' ','-') + '-info').toLowerCase();
+            console.log(info);
+            setItemToUnavailable(info)
+        })
+    };
+
+    function setItemToUnavailable(elClass) {
+        let label = document.querySelector(`.${elClass}`) ?? false;
+        if (label) {
+            let icon = label.previousElementSibling;
+            label.classList.add('amenity-info-not-included');
+            icon.classList.add('amenity-icon-not-included');
+        } else console.log('nqma takova');
+    }
+
+
+
+
+
+
+    
 
     // TODO: hostIconContainer.addEventListener('click', ()=> staysOfHost to be printed);
-    hostIconContainer.addEventListener('click', () => {console.log(hostPic)});
+    hostIconContainer.addEventListener('click', () => {console.log(staysOfHost)});
 
     printSimpleSection(titleContainer, chosenStay.title);
     printSimpleSection(singleStayRating, chosenStay.rating);
