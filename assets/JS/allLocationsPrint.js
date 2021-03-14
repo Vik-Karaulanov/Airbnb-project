@@ -92,3 +92,15 @@ function sortByPrice(sortDirection, stays) {
     localStorage.setItem('displayedStays', JSON.stringify(sortedStays));
     return sortedStays;
 }
+
+function filterByAvailability(date1, date2, stays) {
+    let startDate =  new Date(date1).getTime();
+    let endDate =  new Date(date2).getTime();
+
+    return stays.filter(stay => {
+        let stayStartDate = new Date(stay.nonAvailableDates.split(' – ')[0]).getTime();
+        let endStartDate = new Date(stay.nonAvailableDates.split(' – ')[1]).getTime();
+        if ((endDate <= stayStartDate) || (startDate >= endStartDate)) return stay;
+    });
+    
+}

@@ -52,7 +52,13 @@ window.addEventListener('click', (ev) => {
         if (localStorage.getItem('searchFieldsValues')) {
             let searchInputsValues = localStorage.getItem('searchFieldsValues').split(',');
             loc = searchInputsValues[0];
+            let startDate = searchInputsValues[1];
+            let endDate = searchInputsValues[2];
+            
             cuurentStays = staysManager.allStays.filter(el => el.location === loc);
+
+            cuurentStays = filterByAvailability(startDate, endDate, cuurentStays);
+            
             userSearchedStays = filterStays('guests', Number(searchInputsValues[3]), cuurentStays);
             localStorage.setItem('displayedStays', userSearchedStays)
             printAllLocationsPage(loc, userSearchedStays)
