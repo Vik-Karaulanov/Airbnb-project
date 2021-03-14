@@ -4,6 +4,7 @@ function printAllLocationsPage(location, allStays = staysManager.allStays) {
     let info = document.querySelector('#allLocations .info');
     let staysContainer = document.querySelector('#allLocations .stays-container');
     let allStaysInLocation = allStays.filter(el => el.location === location);
+    
     localStorage.setItem('displayedStays', JSON.stringify(allStaysInLocation));
 
     staysContainer.innerHTML = '';

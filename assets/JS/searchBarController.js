@@ -20,6 +20,7 @@ printSearchBar(chosenLocation);
 
 window.addEventListener('click', (ev) => {
     chosenLocation = localStorage.getItem('chosenLocation');
+    // Пооправи този if
     if ((ev.target.closest('main') === mainSection || ev.target.closest('#footer') === footerSection || ev.target.closest('.logo') === logoField) && isExpanded === true) {
         isExpanded = printSearchBar(chosenLocation, 'normalize');
     }
@@ -38,6 +39,11 @@ window.addEventListener('click', (ev) => {
         }
     }
 });
+
+window.addEventListener('hashchange', () => {
+    if (isExpanded) isExpanded = printSearchBar(chosenLocation, 'normalize');
+});
+
 
 inputArr.forEach(el => {
     el.addEventListener('keyup', (ev) => {

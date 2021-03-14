@@ -88,9 +88,18 @@
 	margin: 0 0.75rem;
 }
 
-/* #littleSearchLabel {
-	
+#likeBtn {
+	cursor: pointer;
+}
+
+/* #likeBtn img:hover {
+	content:url("../images/icons/hollow-heart2-hovered.png");
 } */
+
+#littleSearchLabel .search-specifics-expanded input {
+	border-radius: 1rem;
+	padding: 0.2rem 0.5rem;
+}
 
 #littleSearchLabel div {
 	padding-left: 1rem;
