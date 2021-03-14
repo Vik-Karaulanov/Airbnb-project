@@ -43,6 +43,7 @@
     margin: 0.25rem;
     width: 48%;
     height: auto;
+    max-height: 12rem;
 }
 
 .stay-first-img {
@@ -50,6 +51,7 @@
     margin: 0.25rem;
     width: 50%;
     height: auto;
+    max-height: 24rem;
 }
 
 .img-little-div {

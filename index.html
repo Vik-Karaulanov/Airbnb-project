@@ -284,7 +284,7 @@
                         </div>
                     </div>
                     <div id="likeBtn" class="ai-center">
-                        <img src="assets/images/icons/hollow-heart2.png" alt="like button" class="horizontal-margin">
+                        <img src="assets/images/icons/hollow-heart2.png" alt="like button" class="horizontal-margin" id="heartIcon">
                         <span class="underlined">Save</span>
                     </div>
                 </div>
@@ -308,13 +308,13 @@
                         <img src="assets/images/icons/house-icon.png" alt="stay type icon">
                         <div>
                             <div class="stay-type-info padding-bottom">Apartment for you</div>
-                            <div class="color-gray small-font-size">You’ll have the apartment to yourself.</div>
+                            <div class="color-gray small-font-size" id="stayTypeMoreInfo">You’ll have the apartment to yourself.</div>
                         </div>
                     </div>
-                    <div>
+                    <div id="enhancedCleaning">
                         <img src="assets/images/icons/clean2.png" alt="stay type icon">
                         <div>
-                            <div class="enhanced-clean-info padding-bottom">This is a house</div>
+                            <div class="enhanced-clean-info padding-bottom">Enhanced Clean</div>
                             <div class="color-gray small-font-size">This host committed to Airbnb's 5-step enhanced
                                 cleaning process.</div>
                         </div>
@@ -322,28 +322,28 @@
                     <div>
                         <img src="assets/images/icons/super-host-icon.png" alt="stay type icon">
                         <div>
-                            <div class="super-host-info padding-bottom"></div>
-                            <div class="color-gray small-font-size">The host is a Superhost</div>
+                            <div class="super-host-info padding-bottom">This host is a Superhost</div>
+                            <div class="color-gray small-font-size">Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.</div>
                         </div>
                     </div>
                     <div>
                         <img src="assets/images/icons/calendar.png" alt="stay type icon">
                         <div>
-                            <div class="cancellation-policy-info padding-bottom"></div>
-                            <div class="color-gray small-font-size">Add your trip dates to get the cancellation details
+                            <div class="cancellation-policy-info padding-bottom">Cancellation policy</div>
+                            <div class="color-gray small-font-size" id="cancellationPolicyInfo">Add your trip dates to get the cancellation details
                                 for this stay.</div>
                         </div>
                     </div>
                     <div>
                         <img src="assets/images/icons/rules2.png" alt="stay type icon">
                         <div>
-                            <div class="house-rules-info padding-bottom"></div>
-                            <div class="color-gray small-font-size"></div>
+                            <div class="house-rules-info padding-bottom">House rules</div>
+                            <div class="color-gray small-font-size" id="houseRulesInfo"></div>
                         </div>
                     </div>
                 </div>
                 <div class="bottom-line"></div>
-                <div class="stay-description color-darkgray big-horizontal-margin"></div>
+                <div id="descInfoField" class="stay-description color-darkgray big-horizontal-margin">Beautiful place with exceptional mountain view. The perfect place for relaxation and excaping the stressful city life.</div>
                 <div class="bottom-line"></div>
                 <div class="amenities-info-container">
                     <div class="ametinies-title">Amenities</div>
@@ -1090,9 +1090,9 @@
                                 <label for="suitableForChildrenAndInfants">Suitable for children and infants</label>
                                 <input type="checkbox" name="houseRules" value="Smoking" id="smoking">
                                 <label for="smoking">Smoking</label>
-                                <input type="checkbox" name="houseRules" value="Pets allowed" id="petsAllowed">
+                                <input type="checkbox" name="houseRules" value="PetsAllowed" id="petsAllowed">
                                 <label for="petsAllowed">Pets allowed</label>
-                                <input type="checkbox" name="houseRules" value="Parties allowed" id="partiesAllowed">
+                                <input type="checkbox" name="houseRules" value="PartiesAllowed" id="partiesAllowed">
                                 <label for="partiesAllowed">Parties allowed</label>
                                 <label for="additionalRules">Additional rules</label>
                                 <input type="text" name="houseRules" id="additionalRules">

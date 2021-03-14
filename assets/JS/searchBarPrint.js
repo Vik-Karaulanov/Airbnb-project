@@ -1,4 +1,4 @@
-function printSearchBar(chosenLocation = '', expandedOrNormal) {
+function printSearchBar(chosenLocation = '', expandOrNormalize) {
     let searchedLocationDiv = document.querySelector('.search-specific-location .searched-location');
     let searchedLocationExpanded = document.querySelector(".search-specifics-expanded .current-location");
     let currentPage = window.location.hash.slice(1);
@@ -118,8 +118,8 @@ function printSearchBar(chosenLocation = '', expandedOrNormal) {
         }
         return false;
     }
-    if (expandedOrNormal) {
-        return expandedOrNormal === 'expand' ? expandSearchBar() : normalizeSearchBar();
+    if (expandOrNormalize) {
+        return expandOrNormalize === 'expand' ? expandSearchBar() : normalizeSearchBar();
     }
 }
 
@@ -142,25 +142,25 @@ function getReservationData() {
     today = yyyy + '-' + mm + '-' + dd;
 
     if (!allCities.includes(chosenLocation.value)) {
-        chosenLocation.style.border = '2px solid red';
+        chosenLocation.style.border = '1px solid red';
     } else {
         chosenLocation.style.border = 'none';
     }
-    console.log(today > checkInDate.value);
+    
     if (today > checkInDate.value || checkInDate.value === '') {
-        checkInDate.style.border = '2px solid red';
+        checkInDate.style.border = '1px solid red';
     } else {
         checkInDate.style.border = 'none';
     }
 
     if (today > checkOutDate.value || checkOutDate.value === '' || checkInDate.value > checkOutDate.value) {
-        checkOutDate.style.border = '2px solid red';
+        checkOutDate.style.border = '1px solid red';
     } else {
         checkOutDate.style.border = 'none';
     }
 
     if (guestsNumber.value < 1) {
-        guestsNumber.style.border = '2px solid red';
+        guestsNumber.style.border = '1px solid red';
     } else {
         guestsNumber.style.border = 'none';
     }
@@ -168,7 +168,7 @@ function getReservationData() {
     let isDataCorrect = true;
 
     allElements.forEach(el => {
-        if (el.style.border === '2px solid red') {
+        if (el.style.border === '1px solid red') {
             isDataCorrect = false;
         }
     });
