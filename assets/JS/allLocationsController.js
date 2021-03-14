@@ -68,7 +68,13 @@ window.addEventListener('click', (ev) => {
         if (localStorage.getItem('searchFieldsValues')) {
             let searchInputsValues = localStorage.getItem('searchFieldsValues').split(',');
             loc = searchInputsValues[0];
+            let startDate = searchInputsValues[1];
+            let endDate = searchInputsValues[2];
+            
             currentStays = staysManager.allStays.filter(el => el.location === loc);
+
+            currentStays = filterByAvailability(startDate, endDate, currentStays);
+            
             userSearchedStays = filterStays('guests', Number(searchInputsValues[3]), currentStays);
             localStorage.setItem('displayedStays', userSearchedStays)
             printAllLocationsPage(loc, userSearchedStays)
@@ -102,11 +108,11 @@ optionsWrapper.addEventListener('change', (ev) => {
 })
 
 descendingPriceOption.addEventListener('click', () => {
-    let ascendingPriceSoredStays = sortByPrice('ascending', JSON.parse(localStorage.getItem('displayedStays')));
-    printAllLocationsPage(loc, ascendingPriceSoredStays);
+    let ascendingPriceSortedStays = sortByPrice('ascending', JSON.parse(localStorage.getItem('displayedStays')));
+    printAllLocationsPage(loc, ascendingPriceSortedStays);
 })
 
 ascendingPriceOption.addEventListener('click', () => {
-    let descendingPriceSoredStays = sortByPrice('descending', JSON.parse(localStorage.getItem('displayedStays')));
-    printAllLocationsPage(loc, descendingPriceSoredStays);
+    let descendingPriceSortedStays = sortByPrice('descending', JSON.parse(localStorage.getItem('displayedStays')));
+    printAllLocationsPage(loc, descendingPriceSortedStays);
 })
