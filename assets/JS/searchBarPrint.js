@@ -26,7 +26,7 @@ function printSearchBar(chosenLocation = '', expandOrNormalize) {
         showElementsStyle('none', startYourSearch, searchSpecificLocations);
 
         let normalDivWidth = 7;
-        let locationDivWidth = 5;
+        let locationDivWidth = 7;
         let whiteFieldHeight = 0;
         let headerHeight = 5;
         let searchContainerHeight = 3;
@@ -45,8 +45,8 @@ function printSearchBar(chosenLocation = '', expandOrNormalize) {
                 headerHeight += 0.25;
                 searchContainerHeight += 0.06;
                 translateState += 0.2;
-                locationDivWidth += 0.4;
-                normalDivWidth += 0.15;
+                locationDivWidth += 0.2;
+                normalDivWidth += 0.20;
                 searchIconExpansion += 0.05;
                 searchWrapperWidth += 0.1;
                 searchWrapperHeight += 0.05;
@@ -78,8 +78,8 @@ function printSearchBar(chosenLocation = '', expandOrNormalize) {
             showElementsStyle('flex', startYourSearch);
             showElementsStyle('none', searchSpecificsExpanded);
         }
-        let normalDivWidth = 10;
-        let locationDivWidth = 13;
+        let normalDivWidth = 11;
+        let locationDivWidth = 11;
         let whiteFieldHeight = 5;
         let headerHeight = 10;
         let searchContainerHeight = 4.2;
@@ -98,8 +98,8 @@ function printSearchBar(chosenLocation = '', expandOrNormalize) {
                 headerHeight -= 0.25;
                 searchContainerHeight -= 0.06;
                 translateState -= 0.05;
-                locationDivWidth -= 0.4;
-                normalDivWidth -= 0.15;
+                locationDivWidth -= 0.2;
+                normalDivWidth -= 0.20;
                 searchIconExpansion -= 0.05;
                 searchWrapperWidth -= 0.1;
                 searchWrapperHeight -= 0.05;

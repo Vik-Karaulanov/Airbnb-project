@@ -296,20 +296,20 @@ explore-all-btn a:active {
     background-position: center;
 }
 
-#liveAnywhereContainer .general-card .pets-welcome {
+#liveAnywhereContainer .general-card .pets-welcome-stays {
     background-image: url(../images/pets-friendly-image.jpg);
 }
 
-#liveAnywhereContainer .general-card .unique-stays {
-    background-image: url(../images/unique-stays-image.jpg);
+#liveAnywhereContainer .general-card .flat-stays {
+    background-image: url(../images/flat.jpg);
 }
 
-#liveAnywhereContainer .general-card .cabbins-and-cottages {
-    background-image: url(../images/cabbins-and-cottages-image.jpg);
+#liveAnywhereContainer .general-card .cabin-stays {
+    background-image: url(../images/cabin.jpg);
 }
 
-#liveAnywhereContainer .general-card .entire-homes {
-    background-image: url(../images/entire-home-image.jpg);
+#liveAnywhereContainer .general-card .hotel-room-stays {
+    background-image: url(../images/hotel-room.jpg);
 }
 
 #liveAnywhereContainer .general-card .place-title {

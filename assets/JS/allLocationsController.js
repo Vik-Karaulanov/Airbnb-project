@@ -1,5 +1,5 @@
 let loc = localStorage.getItem("chosenLocation") || '';
-let currentStays = JSON.parse(localStorage.getItem('displayedStays')) || staysManager.allStays;
+let currentStays = JSON.parse(localStorage.getItem('displayedStays')) || staysManager.allStays.filter(el => el.location === loc);
 
 printAllLocationsPage(loc, currentStays);
 
@@ -14,7 +14,7 @@ let descendingPriceOption = document.querySelector('.price-order-container .desc
 let miniLocations = document.querySelectorAll('#mini .container .mini-card');
 let searchBtn = document.querySelector('.search-specifics-expanded .search-loop-wrapper');
 let searchLoopImg = getById('searchLoopImg');
-let cuurentStays = staysManager.allStays.filter(el => el.location === loc);
+// let currentStays = staysManager.allStays.filter(el => el.location === loc);
 let userSearchedStays = staysManager.allStays.filter(el => el.location === loc);
 let filteredByStayType = JSON.parse(localStorage.getItem('displayedStays'));
 
@@ -23,13 +23,29 @@ miniLocations.forEach(el => {
     el.addEventListener('click', () => {
         localStorage.setItem("chosenLocation", el.querySelector('b').innerHTML);
         loc = localStorage.getItem("chosenLocation");
-        cuurentStays = staysManager.allStays.filter(el => el.location === loc);
+        currentStays = staysManager.allStays.filter(el => el.location === loc);
         userSearchedStays = staysManager.allStays.filter(el => el.location === loc);
         printAllLocationsPage(loc, staysManager.allStays);
         printSearchBar(loc);
         localStorage.removeItem('searchFieldsValues');
     });
 });
+
+window.addEventListener('click', (ev) => {
+    if(ev.target.parentElement.classList[0] === 'general-card') {
+        let temp = ev.target.parentElement.classList[1].replace('-card', '').split('-').join(' ');
+        let prop = temp[0].toUpperCase() + temp.slice(1);
+        let staysForPrint = staysManager.allStays;
+        if (prop === 'PetsAllowed') {
+            staysForPrint = staysForPrint.filter(stay => stay.houseRules.PetsAllowed);
+            printAllLocationsPage('', staysForPrint, 'Pets welcome');
+        } else {
+            staysForPrint = staysForPrint.filter(stay => stay.stayType === prop);
+            printAllLocationsPage('', staysForPrint, prop);
+        }
+        location.hash = 'allLocations';
+    }
+})
 
 window.addEventListener('click', (ev) => {
     if (ev.target === typeOfPlaceBtn) {
@@ -52,8 +68,8 @@ window.addEventListener('click', (ev) => {
         if (localStorage.getItem('searchFieldsValues')) {
             let searchInputsValues = localStorage.getItem('searchFieldsValues').split(',');
             loc = searchInputsValues[0];
-            cuurentStays = staysManager.allStays.filter(el => el.location === loc);
-            userSearchedStays = filterStays('guests', Number(searchInputsValues[3]), cuurentStays);
+            currentStays = staysManager.allStays.filter(el => el.location === loc);
+            userSearchedStays = filterStays('guests', Number(searchInputsValues[3]), currentStays);
             localStorage.setItem('displayedStays', userSearchedStays)
             printAllLocationsPage(loc, userSearchedStays)
         }

@@ -23,6 +23,7 @@ let router = (function () {
 
 
     return function () {
+        window.scroll(0, 0);
         let currentPage = window.location.hash.slice(1);
         const securedPages = ['becomeAHost'];
 

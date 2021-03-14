@@ -1,16 +1,27 @@
-function printAllLocationsPage(location, allStays = staysManager.allStays) {
+function printAllLocationsPage(location, allStays = staysManager.allStays, specificity) {
 
     let staysCounter = document.querySelector('#allLocations .stays-counter');
     let info = document.querySelector('#allLocations .info');
     let staysContainer = document.querySelector('#allLocations .stays-container');
-    let allStaysInLocation = allStays.filter(el => el.location === location);
-    
-    localStorage.setItem('displayedStays', JSON.stringify(allStaysInLocation));
+
+    let allStaysInLocation = allStays;
+
 
     staysContainer.innerHTML = '';
 
+    if (location) {
+        localStorage.removeItem('staysSpecificity');
+        info.innerText = `Stays in ${location}`;
+        allStaysInLocation = allStays.filter(el => el.location === location);
+    } else {
+        if (!specificity) specificity = localStorage.getItem('staysSpecificity');
+        localStorage.removeItem('chosenLocation');
+        localStorage.setItem('staysSpecificity', specificity);
+        info.innerText = `${localStorage.getItem('staysSpecificity')} stays` || `${specificity} stays`;
+    }
+
     staysCounter.innerText = `${allStaysInLocation.length} stays`;
-    info.innerText = `Stays in ${location}`;
+    localStorage.setItem('displayedStays', JSON.stringify(allStaysInLocation));
 
     allStaysInLocation.forEach(el => {
         let newCard = createEl('div', 'className', 'new-card');

@@ -137,8 +137,14 @@
 
 #littleSearchLabel .add-dates-in-search {
 	display: flex;
+	justify-content: center;
 	border-left: 1px solid lightgray;
 	border-right: 1px solid lightgray;
+}
+
+#littleSearchLabel .add-guests-in-search {
+	display: flex;
+	justify-content: center;
 }
 
 .search-line-height {
@@ -158,8 +164,10 @@
 	flex-direction: column;
 }
 
-.search-location-width {
-	min-width: max-content;
+.searched-location {
+	width: 8rem;
+    display: flex;
+    justify-content: center;
 }
 
 .search-specifics-expanded .add-dates-in-search>div {

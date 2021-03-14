@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/styles/footer.css">
     <link rel="stylesheet" href="assets/styles/all-locations-page.css">
     <link rel="stylesheet" href="assets/styles/singleStayStyle.css">
-    <script src="assets/JS/consts.js"></script>t
+    <script src="assets/JS/consts.js" defer></script>
     <script src="assets/JS/utils.js" defer></script>
     <script src="assets/data/stays.js" defer></script>
     <script src="assets/JS/router.js" defer></script>
@@ -32,7 +32,7 @@
     <script src="assets/JS/searchBarController.js" defer></script>
     <script src="assets/JS/allLocationsController.js" defer></script>
     <script src="assets/JS/hostYourHomeController.js" defer></script>
-    <script src="assets/JS/index.js" defer></script>script>
+    <script src="assets/JS/index.js" defer></script>
 </head>
 
 <body>
@@ -69,22 +69,22 @@
                         <div class="search-specifics-expanded">
                             <div class="searched-location-expanded">
                                 <div class="search-line-height flex-column search-location-width">
-                                    <span class="bold">Location</span>
-                                    <input type="text" placeholder="Where to?" class="current-location">
+                                    <label for="searchLoc" class="bold">Location</label>
+                                    <input id="searchLoc" type="text" placeholder="Where to?" class="current-location">
                                 </div>
                             </div>
                             <div class="add-dates-in-search search-line-height">
                                 <div class="search-divs-width">
-                                    <span class="bold">Check in</span>
+                                    <label for="checkInDate" class="bold">Check in</label>
                                     <input type="date" id="checkInDate">
                                 </div>
                                 <div class="search-divs-width">
-                                    <span class="bold">Check out</span>
+                                    <label for="checkOutDate" class="bold">Check out</label>
                                     <input type="date" id="checkOutDate">
                                 </div>
                             </div>
                             <div class="add-guests-in-search search-line-height search-divs-width">
-                                <span class="bold">Guests</span>
+                                <label for="guestsNumber" class="bold">Guests</label>
                                 <input type="number" placeholder="Add guests" id="guestsNumber">
                             </div>
                             <div class="search-loop-wrapper">
@@ -545,22 +545,22 @@
         <section id="liveAnywhereSection">
             <div class="section-header">Live anywhere</div>
             <div id="liveAnywhereContainer">
-                <div class="general-card">
-                    <div class="background-img entire-homes"></div>
-                    <div class="place-title">Entire homes</div>
+                <div class="general-card hotel-room-card">
+                    <div class="background-img hotel-room-stays"></div>
+                    <div class="place-title">Hotel room</div>
                 </div>
-                <div class="general-card">
-                    <div class="background-img cabbins-and-cottages">
+                <div class="general-card cabin-card">
+                    <div class="background-img cabin-stays">
                     </div>
-                    <div class="place-title">Cabbins and cottages</div>
+                    <div class="place-title">Cabins and cottages</div>
                 </div>
-                <div class="general-card">
-                    <div class="background-img unique-stays">
+                <div class="general-card flat-card">
+                    <div class="background-img flat-stays">
                     </div>
-                    <div class="place-title">Unique stays</div>
+                    <div class="place-title">Flat</div>
                 </div>
-                <div class="general-card">
-                    <div class="background-img pets-welcome">
+                <div class="general-card petsAllowed-card">
+                    <div class="background-img pets-welcome-stays">
                     </div>
                     <div>Pets welcome</div>
         </section>
