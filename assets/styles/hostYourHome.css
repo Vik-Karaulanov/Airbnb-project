@@ -72,6 +72,9 @@ fieldset legend {
 button {
     border: 1px solid black;
 }
+select {
+    height: 21px;
+}
 
 .continue {
     display: block;
@@ -98,6 +101,10 @@ button {
     margin-top: 50px;
     background-color: rgb(255, 56, 92);
     border-radius: 16px;
+    border: none;
+}
+#HYH:focus {
+    outline: none;
 }
 .collapsible {
     height: 35px;
@@ -139,12 +146,16 @@ button {
     display: flex;
     flex-direction: column;
 }
+#place-location label {
+    margin-bottom: 5px;
+}
 #place-location :is(input, select),
 #type :is(input, select, textarea) {
-    margin-bottom: rem;
+    margin-bottom: 1rem;
 }
 #type div {
     display: flex;
+    align-items: baseline;
 }
 #type div label {
     margin-right: 1rem;
@@ -162,10 +173,32 @@ button {
 #rules {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: baseline;
 }
-#rules :is(input[type="time"]) {
+#pricePerNight {
+    margin-right: 5px;
+}
+#rules > div:not(:last-child) {
+    margin-bottom: 1rem;
+}
+#rules input[type='text'] {
+    width: 400px;
+}
+
+#kitchen-and-dining {
+    display: flex;
+    flex-wrap: wrap;
+}
+#kitchen-and-dining > div{
+    margin-bottom: 1rem;
+}
+/* #rules :is(input[type="time"]) {
     margin-right: 1rem;
 }
 #rules :is(input[type="checkbox"]) {
     margin-left: 1rem;
 }
+#rules :is(input):not(:last-child) {
+    margin-bottom: 1rem;
+} */

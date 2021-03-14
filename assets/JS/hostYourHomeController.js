@@ -34,23 +34,14 @@
     let progress = getById('progress');
     let getStarted = getById('get-started');
     let userNamePlaceholder = document.querySelector('#get-started-heading .userName');
+    userNamePlaceholder.innerText = `Hi, ${userModel.currentLoggedUser.firstName}!`;
 
     let becomeAHost = document.querySelector('.inner-header-container > div:first-of-type');
     let HTHBtnHeaderProfileMenu1 = getById('menuHYHBtn');
     let HTHBtnHeaderProfileMenu2 = getById('menuHYHBtn2');
     let HYHFinalBtn = getById('HYH');
 
-    [becomeAHost, HTHBtnHeaderProfileMenu1, HTHBtnHeaderProfileMenu2].forEach(btn => {
-        btn.addEventListener('click', () => {
-            // if (userModel.currentLoggedUser !== 'Guest') {
-            window.location.hash = 'becomeAHost';
-            userNamePlaceholder.innerText = `Hi, ${userModel.currentLoggedUser.firstName}!`;
-            // }
-            // else {
-            //     showElementsFlex(login);
-            // }
-        });
-    });
+    
 
     let collapsible = document.getElementsByClassName("collapsible");
 
@@ -92,6 +83,13 @@
                 }
             });
         }
+    });
+
+    [becomeAHost, HTHBtnHeaderProfileMenu1, HTHBtnHeaderProfileMenu2].forEach(btn => {
+        btn.addEventListener('click', () => {
+            window.location.hash = 'becomeAHost';
+            userNamePlaceholder.innerText = `Hi, ${userModel.currentLoggedUser.firstName}!`;
+        });
     });
 
     let imageDivContainers = document.querySelectorAll('#uploadImages > div');

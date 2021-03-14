@@ -143,14 +143,13 @@
                         <div id="country">
                             <span>Country/Region</span>
                             <select id="country-select" required>
-                                <option value="591BO">Bolivia (+591)</option>
-                                <option value="Bulgaria">Bulgaria (+359)</option>
-                                <option value="385HR">Croatia (+385)</option>
-                                <option value="45DK">Denmark (+45)</option>
-                                <option value="49DE">Germany (+49)</option>
-                                <option value="30GR">Greece (+30)</option>
-                                <option value="36HU">Hungary (+36)</option>
-                                <option value="354IS">Iceland (+354)</option>
+                                <option value="Bulgaria">Bulgaria</option>
+                                <option value="385HR">Croatia</option>
+                                <option value="45DK">Denmark</option>
+                                <option value="49DE">Germany</option>
+                                <option value="30GR">Greece</option>
+                                <option value="36HU">Hungary</option>
+                                <option value="354IS">Iceland</option>
                             </select>
                         </div>
                         <div id="name">
@@ -943,7 +942,6 @@
                                         How many bedrooms can guests use?
                                     </label>
                                     <select name="" id="number-of-bedrooms">
-                                        <option value="studio">studio</option>
                                         <option value="1">1 bedroom</option>
                                         <option value="2">2 bedrooms</option>
                                         <option value="3">3 bedrooms</option>
@@ -981,7 +979,7 @@
                                         Price per night
                                     </label>
                                     <input type="number" name="" id="pricePerNight" placeholder="30">
-                                    <span>/per night</span>
+                                    <span>/ per night</span>
                                 </div>
                             </fieldset>
                             <button class="continue">Continue</button>
@@ -1038,27 +1036,43 @@
                             </fieldset>
                             <fieldset id="kitchen-and-dining">
                                 <legend>Kitchen and dining</legend>
-                                <input type="checkbox" name="kitchen-and-dining" value="Kitchen" id="kitchen">
-                                <label for="kitchen">Kitchen</label>
-                                <input type="checkbox" name="kitchen-and-dining" value="Dishwasher" id="dishwasher">
-                                <label for="dishwasher">Dishwasher</label>
-                                <input type="checkbox" name="kitchen-and-dining" value="Cooking-basics"
-                                    id="cookingBasics">
-                                <label for="cookingBasics">Cooking Basics</label>
-                                <input type="checkbox" name="kitchen-and-dining" value="Refrigerator" id="refrigerator">
-                                <label for="refrigerator">Refrigerator</label>
-                                <input type="checkbox" name="kitchen-and-dining" value="Stove" id="stove">
-                                <label for="stove">Stove</label>
-                                <input type="checkbox" name="kitchen-and-dining" value="Oven" id="oven">
-                                <label for="oven">Oven</label>
-                                <input type="checkbox" name="kitchen-and-dining" value="Coffee maker" id="coffeeMaker">
-                                <label for="coffeeMaker">Coffee Maker</label>
-                                <input type="checkbox" name="kitchen-and-dining" value="Microwave" id="microwave">
-                                <label for="microwave">Microwave</label>
-                                <input type="checkbox" name="kitchen-and-dining" value="Dishes-and-silverware"
-                                    id="dishesAndSilverware">
-                                <label for="dishesAndSilverware">Dishes
-                                    and silverware</label>
+                                <div>
+                                    <input type="checkbox" name="kitchen-and-dining" value="Kitchen" id="kitchen">
+                                    <label for="kitchen">Kitchen</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="kitchen-and-dining" value="Dishwasher" id="dishwasher">
+                                    <label for="dishwasher">Dishwasher</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="kitchen-and-dining" value="Cooking-basics"
+                                        id="cookingBasics">
+                                    <label for="cookingBasics">Cooking Basics</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="kitchen-and-dining" value="Refrigerator" id="refrigerator">
+                                    <label for="refrigerator">Refrigerator</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="kitchen-and-dining" value="Stove" id="stove">
+                                    <label for="stove">Stove</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="kitchen-and-dining" value="Oven" id="oven">
+                                    <label for="oven">Oven</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="kitchen-and-dining" value="Coffee maker" id="coffeeMaker">
+                                    <label for="coffeeMaker">Coffee Maker</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="kitchen-and-dining" value="Microwave" id="microwave">
+                                    <label for="microwave">Microwave</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="kitchen-and-dining" value="Dishes-and-silverware" id="dishesAndSilverware">
+                                    <label for="dishesAndSilverware">Dishes and silverware</label>
+                                </div>
                             </fieldset>
                             <fieldset id="Parking-and-facilities">
                                 <legend>Parking and facilities</legend>
@@ -1080,21 +1094,35 @@
                             </div>
                             <fieldset id="rules">
                                 <legend>House rules</legend>
-                                <label for="checkIn">Check in</label>
-                                <input type="time" name="houseRules" id="checkIn">
-                                <label for="checkOut">Check out</label>
-                                <input type="time" name="houseRules" id="checkOut">
-                                <input type="checkbox" name="houseRules" value="Suitable for children and infants"
-                                    id="suitableForChildrenAndInfants">
-                                <label for="suitableForChildrenAndInfants">Suitable for children and infants</label>
-                                <input type="checkbox" name="houseRules" value="Smoking" id="smoking">
-                                <label for="smoking">Smoking</label>
-                                <input type="checkbox" name="houseRules" value="PetsAllowed" id="petsAllowed">
-                                <label for="petsAllowed">Pets allowed</label>
-                                <input type="checkbox" name="houseRules" value="PartiesAllowed" id="partiesAllowed">
-                                <label for="partiesAllowed">Parties allowed</label>
-                                <label for="additionalRules">Additional rules</label>
-                                <input type="text" name="houseRules" id="additionalRules">
+                                <div>
+                                    <label for="checkIn">Check in</label>
+                                    <input type="time" name="houseRules" id="checkIn">
+                                </div>
+                                <div>
+                                    <label for="checkOut">Check out</label>
+                                    <input type="time" name="houseRules" id="checkOut">
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="houseRules" value="Suitable for children and infants"
+                                        id="suitableForChildrenAndInfants">
+                                    <label for="suitableForChildrenAndInfants">Suitable for children and infants</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="houseRules" value="Smoking" id="smoking">
+                                    <label for="smoking">Smoking</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="houseRules" value="PetsAllowed" id="petsAllowed">
+                                    <label for="petsAllowed">Pets allowed</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="houseRules" value="PartiesAllowed" id="partiesAllowed">
+                                    <label for="partiesAllowed">Parties allowed</label>
+                                </div>
+                                <div>
+                                    <label for="additionalRules">Additional rules</label>
+                                    <input type="text" name="houseRules" id="additionalRules">
+                                </div>
                             </fieldset>
                             <button class="continue">Continue</button>
                         </div>
