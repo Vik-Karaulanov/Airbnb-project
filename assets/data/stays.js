@@ -6970,7 +6970,7 @@ let stays = [
         "id": 205
     },
     {
-        "title": "Guest House Zoya",
+        "title": "Guest House Iliev",
         "location": "Sveti Vlas",
         "images": ["assets/images/stays-images/20.png", "assets/images/stays-images/25.png", "assets/images/stays-images/30.png", "assets/images/stays-images/34.png", "assets/images/stays-images/19.png"],
         "description": "My place is good for couples, solo adventurers, business travelers, families (with kids), and big groups.",
