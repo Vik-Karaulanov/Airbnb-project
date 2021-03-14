@@ -48,13 +48,18 @@ function printTargetStayPage(container, chosenStay) {
     let stayDescription = getById('descInfoField');
     let addToFave = getById('likeBtn');
 
+    let curStayGuestsText = parseInt(chosenStay.guests) !== 1 ? `${chosenStay.guests || 0} guests` : `${chosenStay.guests} guest`
+    let curStayBedsText = parseInt(chosenStay.beds) !== 1 ? `${chosenStay.beds || 0} beds` : `${chosenStay.beds} bed`
+    let curStayBedroomsText = parseInt(chosenStay.bedrooms) !== 1 ? `${chosenStay.bedrooms || 0} bedrooms` : `${chosenStay.bedrooms} bedroom`
+    let spaceArrangementText = `${curStayGuestsText} &#xb7 ${curStayBedroomsText} &#xb7 ${curStayBedsText}`
+
     printSimpleSection(superHostInfo, `${chosenStay.host} is a Superhost`);
     checkIfTrue(enhancedCleaning, chosenStay.enhancedCleaning);
     printSimpleSection(stayTypeInfo, chosenStay.stayType);
     printSimpleSection(stayTypeMoreInfo, `You will have the ${chosenStay.stayType} to yourself.`);
     printSimpleSection(cancellationPolicyInfo, chosenStay.cancellationPolicy);
     printSimpleSection(houseRulesInfo, getHouseRulesInfo(chosenStay, houseRulesText));
-    printSimpleSection(stayDescription, chosenStay.description ? chosenStay.description : "Beautiful place with exceptional mountain view. The perfect place for relaxation and excaping the stressful city life.");
+    printSimpleSection(stayDescription, chosenStay.description ? chosenStay.description : "Beautiful place with exceptional mountain view. The perfect place for relaxation and escaping the stressful city life.");
 
     // TODO addToFave.addEventListener()
 
@@ -68,7 +73,7 @@ function printTargetStayPage(container, chosenStay) {
     printSimpleSection(locationWrapper, chosenStay.location);
     appendImage(imagesContainer, chosenStay.images);
     printSimpleSection(stayTypeAndHostContainer, `${chosenStay.stayType} hosted by ${chosenStay.host.split(' ')[0]}`);
-    printSimpleSection(spaceArrangement, `${chosenStay.guests || 0} guests &#xb7 ${chosenStay.bedrooms || 0} bedrooms &#xb7 ${chosenStay.beds || 0} beds`);
+    printSimpleSection(spaceArrangement, spaceArrangementText);
 }
 
 function printSimpleSection(container, value) {
