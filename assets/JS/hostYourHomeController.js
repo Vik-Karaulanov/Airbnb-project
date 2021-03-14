@@ -44,7 +44,7 @@
         btn.addEventListener('click', () => {
             // if (userModel.currentLoggedUser !== 'Guest') {
             window.location.hash = 'becomeAHost';
-            userNamePlaceholder.innerText = userModel.currentLoggedUser.firstName;
+            userNamePlaceholder.innerText = `Hi, ${userModel.currentLoggedUser.firstName}!`;
             // }
             // else {
             //     showElementsFlex(login);

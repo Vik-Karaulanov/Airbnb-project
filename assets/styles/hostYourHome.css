@@ -24,19 +24,18 @@
 }
 #progress-steps div {
     width: 20%;
-    border-right: 5px solid rgb(255, 56, 92);
     border-radius: 12px;
     height: 15px;
 }
 #progress {
-    background-color: rgba(0, 0, 255, 0.7);
+    background-color: rgb(189, 30, 89);
     border-radius: 12px;
     width: 20%;
     height: 15px;
 }
 
 #get-started {
-    width: 60%;
+    width: 40%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -51,22 +50,19 @@
     font-size: 1.6rem;   
 }
 div.heading {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: 500;
     margin: 20px auto;
 }
 fieldset {
-    border: 2px solid gray;
+    border: 1px solid rgb(205, 205, 205);
     border-radius: 16px;
+    padding: 1rem;
 }
 fieldset legend {
     font-weight: 500;
     font-size: 1.3rem;
     margin-left: 30px;
-    margin-bottom: 10px;
-}
-.active {
-    background-color: lightgray;
 }
 .content {
     display: none;
@@ -76,14 +72,17 @@ fieldset legend {
 button {
     border: 1px solid black;
 }
-.userName {
-    font-size: 2rem;
-}
+
 .continue {
     display: block;
-    width: 25%;
-    margin: 0 auto;
-    background-color: rgb(161, 139, 139);
+    width: 100px;
+    margin: 0 auto; 
+    background-color: rgb(189, 30, 89);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin: 10px;
+    padding: 9px;
 }
 
 #uploadImages > div > img {
@@ -93,9 +92,9 @@ button {
 #HYH {
     display: block;
     width: max-content;
-    height: 40px;
     font-size: 1.2rem;
     margin: 0 auto;
+    padding: 1rem;
     margin-top: 50px;
     background-color: rgb(255, 56, 92);
     border-radius: 16px;
@@ -103,17 +102,70 @@ button {
 .collapsible {
     height: 35px;
     border-radius: 16px;
+    background-color: white;
+    border-color: rgb(205, 205, 205);
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
+    font-size: 1rem;
 }
+.collapsible:focus {
+    outline: none;
+}
+.active {
+    background-color: rgb(239, 239, 239);
+    font-weight: 800;
+}
+
 *:focus-visible {
     outline: none;
     transition: box-shadow 0.2s ease 0s;
     box-shadow: rgb(34, 34, 34) 0px 0px 0px 1px;
 }
 
-#description {
-    width: 350px;
-}
-
 .wrong {
     border-color: red;
+}
+
+#get-started-heading { 
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.userName {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin: 1.4rem;
+}
+#place-location {
+    display: flex;
+    flex-direction: column;
+}
+#place-location :is(input, select),
+#type :is(input, select, textarea) {
+    margin-bottom: rem;
+}
+#type div {
+    display: flex;
+}
+#type div label {
+    margin-right: 1rem;
+}
+#description {
+    width: 400px;
+    height: 80px;
+}
+#step3 label {
+    margin-right: 1rem;
+}
+#step3 fieldset:not(:last-child) {
+    margin-bottom: 1rem;
+}
+#rules {
+    display: flex;
+    flex-wrap: wrap;
+}
+#rules :is(input[type="time"]) {
+    margin-right: 1rem;
+}
+#rules :is(input[type="checkbox"]) {
+    margin-left: 1rem;
 }
