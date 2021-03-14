@@ -68,9 +68,7 @@ function printTargetStayPage(container, chosenStay) {
     printSimpleSection(locationWrapper, chosenStay.location);
     appendImage(imagesContainer, chosenStay.images);
     printSimpleSection(stayTypeAndHostContainer, `${chosenStay.stayType} hosted by ${chosenStay.host.split(' ')[0]}`);
-    printSimpleSection(spaceArrangement, `${chosenStay.guests} guests &#xb7 ${chosenStay.bedrooms} bedrooms &#xb7 ${chosenStay.beds} beds`);
-    // printMultipleElements(staySpecificsContainer, )
-
+    printSimpleSection(spaceArrangement, `${chosenStay.guests || 0} guests &#xb7 ${chosenStay.bedrooms || 0} bedrooms &#xb7 ${chosenStay.beds || 0} beds`);
 }
 
 function printSimpleSection(container, value) {
@@ -151,6 +149,10 @@ function getHouseRulesInfo(stay, innerText) {
         innerText += ` Check-in: After ${stay.houseRules.checkIn}.`;
         if (stay.houseRules.checkOut) innerText += ` Check-out: Before ${stay.houseRules.checkOut}.`
     } else if (stay.houseRules.checkOut) innerText += ` Check-out: Before ${stay.houseRules.checkOut}.`;
+    
+    if (stay.houseRules.additionalRules) {
+        innerText += ` Additional rules: ${stay.houseRules.additionalRules}`;
+    }
 
     function removeAllowed(propName) {
         if (propName.includes('Allowed')) return propName.replace('Allowed', '');

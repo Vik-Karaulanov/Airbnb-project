@@ -79,7 +79,9 @@ function printTypeOfPlacesOptions() {
 
         labelForEntireAp.innerHTML = `${el[0].toUpperCase() + el.slice(1)}`;
 
-        radioButtonsContainer.append(typeOfPlace, labelForEntireAp);
+        let littleContainer = createEl('div', 'className', 'little-container');
+        littleContainer.append(typeOfPlace, labelForEntireAp)
+        radioButtonsContainer.append(littleContainer);
     })
 }
 

@@ -92,6 +92,7 @@
 }
 
 .radio-buttons-container {
+    display: flex;
     position: absolute;
     top: -0.3rem;
     padding: 0 0.5rem;
