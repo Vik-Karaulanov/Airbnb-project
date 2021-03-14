@@ -9899,7 +9899,4 @@ let stays = [
         },
         "id": 300
     }
-]
-
-
-stays.forEach
+];

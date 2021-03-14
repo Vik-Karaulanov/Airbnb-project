@@ -17,35 +17,35 @@ function printTargetStayPage(container, chosenStay) {
     let stayDescription = document.querySelector('.stay-description');
     stayDescription.innerHTML = chosenStay.description;
 
-    // selecting all Amenities icons + labels (wifi-info);
 
+    // marking the existing amenities icons and labels for the chosenStay
 
-    for (let key in chosenStay.amenities){
+    let amenitiesDivs = document.querySelectorAll('.amenities-info > div > div > div');
+
+    let allAmenitiesInChosenStay = [];
+    for (let key in chosenStay.amenities) {
         chosenStay.amenities[key].forEach(item => {
-            let info = (item.replaceAll(' ','-') + '-info').toLowerCase();
-            console.log(info);
-            setItemToUnavailable(info)
+            let info = (item.replaceAll(' ', '-') + '-info').toLowerCase();
+            allAmenitiesInChosenStay.push(info);
         })
     };
 
-    function setItemToUnavailable(elClass) {
-        let label = document.querySelector(`.${elClass}`) ?? false;
-        if (label) {
-            let icon = label.previousElementSibling;
-            label.classList.add('amenity-info-not-included');
+    amenitiesDivs.forEach(div => {
+        let doesThisExist = allAmenitiesInChosenStay.some(amenity => div.classList.contains(amenity));
+        let icon = div.previousElementSibling;
+        if (doesThisExist) {
+            if (div.classList.contains('amenity-info-not-included')) {
+                div.classList.remove('amenity-info-not-included');
+                icon.classList.remove('amenity-icon-not-included');
+            }
+        } else {
+            div.classList.add('amenity-info-not-included');
             icon.classList.add('amenity-icon-not-included');
-        } else console.log('nqma takova');
-    }
-
-
-
-
-
-
-    
+        }
+    });
 
     // TODO: hostIconContainer.addEventListener('click', ()=> staysOfHost to be printed);
-    hostIconContainer.addEventListener('click', () => {console.log(staysOfHost)});
+    hostIconContainer.addEventListener('click', () => { console.log(staysOfHost) });
 
     printSimpleSection(titleContainer, chosenStay.title);
     printSimpleSection(singleStayRating, chosenStay.rating);
@@ -62,7 +62,7 @@ function printSimpleSection(container, value) {
     container.innerHTML = value;
 }
 
-function printMultipleElements(container, ...values) {}
+function printMultipleElements(container, ...values) { }
 
 function appendImage(container, imgPaths) {
     container.innerHTML = '';

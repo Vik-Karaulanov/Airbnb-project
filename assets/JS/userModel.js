@@ -15,10 +15,11 @@ const userModel = (function () {
     }
 
     let users = [
-        new User('asd', 'asd', 'asd@asd.asd', 'asd', 'Bulgaria', 'assets/images/profilePics/profilePic1.jpg'),
+        // new User('asd', 'asd', 'asd@asd.asd', 'asd', 'Bulgaria', 'assets/images/userProfilePicTest.webp'),
+        new User('Petur', 'Iliev', 'Petur@asd.asd', 'Asd', 'Bulgaria', 'assets/images/profilePics/profilePic1.jpg'),
         new User('Gesho', 'Vazov', 'Gesho@asd.asd', 'Asd', 'Bulgaria', 'assets/images/profilePics/profilePic2.jpg'),
         new User('Iliyan', 'Vuchkov', 'Iliyan@asd.asd', 'Asd', 'Bulgaria', 'assets/images/profilePics/profilePic3.jpg'),
-        new User('Genadi', 'Popov', 'Genadi@asd.asd', 'Asd', 'Bulgaria', 'assets/images/profilePics/profilePic5.jpg'),
+        new User('Genadi', 'Popov', 'Genadi@asd.asd', 'Asd', 'Bulgaria', 'assets/images/profilePics/profilePic4.jpg'),
         new User('John', 'Kirilov', 'John@asd.asd', 'Asd', 'Bulgaria', 'assets/images/profilePics/profilePic5.jpg'),
         new User('Stamat', 'Ignatov', 'Stamat@asd.asd', 'Asd', 'Bulgaria', 'assets/images/profilePics/profilePic6.jpg'),
         new User('Hasan', 'Uzunov', 'Hasan@asd.asd', 'Asd', 'Bulgaria', 'assets/images/profilePics/profilePic7.jpg'),
@@ -31,7 +32,7 @@ const userModel = (function () {
         new User('Pavlina', 'Zelenkova', 'Pavlina@asd.asd', 'Asd', 'Bulgaria', 'assets/images/profilePics/profilePic14.jpg'),
         new User('Draganka', 'Dinkova', 'Draganka@asd.asd', 'Asd', 'Bulgaria', 'assets/images/profilePics/profilePic15.jpg'),
         new User('Ivanka', 'Popova', 'Ivanka@asd.asd', 'Asd', 'Bulgaria', 'assets/images/profilePics/profilePic16.jpg'),
-        new User('Ginka', 'Geshova', 'Ginka@asd.asd', 'Asd', 'Bulgaria', 'assets/images/profilePics/profilePi17.jpg'),
+        new User('Dinka', 'Geshova', 'Ginka@asd.asd', 'Asd', 'Bulgaria', 'assets/images/profilePics/profilePic17.jpg'),
         new User('Minka', 'Harizanova', 'Minka@asd.asd', 'Asd', 'Bulgaria', 'assets/images/profilePics/profilePic18.jpg'),
         new User('Ginka', 'Strahilova', 'Ginka@asd.asd', 'Asd', 'Bulgaria', 'assets/images/profilePics/profilePic19.jpg'),
         new User('Detelina', 'Malinova', 'Detelina@asd.asd', 'Asd', 'Bulgaria', 'assets/images/profilePics/profilePic20.jpg'),

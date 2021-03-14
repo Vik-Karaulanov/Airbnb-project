@@ -157,7 +157,7 @@
         amenitiesObj['Bedroom and laundry'] = bedroomAndLaundry.map(el => el.value);
         amenitiesObj['Entertainment'] = entertainment.map(el => el.value);
         amenitiesObj['Heating and cooling'] = heatingAndCooling.map(el => el.value);
-        amenitiesObj['Parking and facilities'] = kitchenAndDining.map(el => el.value);
+        amenitiesObj['Kitchen and dining'] = kitchenAndDining.map(el => el.value);
         amenitiesObj['Parking and facilities'] = parkingAndFacilities.map(el => el.value);
 
         stayObj['amenities'] = amenitiesObj;
