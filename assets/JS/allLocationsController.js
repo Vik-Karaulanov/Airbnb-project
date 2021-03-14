@@ -19,8 +19,8 @@ let userSearchedStays = staysManager.allStays.filter(el => el.location === loc);
 let filteredByStayType = JSON.parse(localStorage.getItem('displayedStays'));
 
 miniLocations.forEach(el => {
-    el.addEventListener('click', () => window.location.hash = 'allLocations');
     el.addEventListener('click', () => {
+        window.location.hash = 'allLocations';
         localStorage.setItem("chosenLocation", el.querySelector('b').innerHTML);
         loc = localStorage.getItem("chosenLocation");
         currentStays = staysManager.allStays.filter(el => el.location === loc);
@@ -33,6 +33,8 @@ miniLocations.forEach(el => {
 
 window.addEventListener('click', (ev) => {
     if(ev.target.parentElement.classList[0] === 'general-card') {
+        localStorage.setItem('chosenLocation', '');
+        printSearchBar();
         let temp = ev.target.parentElement.classList[1].replace('-card', '').split('-').join(' ');
         let prop = temp[0].toUpperCase() + temp.slice(1);
         let staysForPrint = staysManager.allStays;

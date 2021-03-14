@@ -2,10 +2,13 @@ function printSearchBar(chosenLocation = '', expandOrNormalize) {
     let searchedLocationDiv = document.querySelector('.search-specific-location .searched-location');
     let searchedLocationExpanded = document.querySelector(".search-specifics-expanded .current-location");
     let currentPage = window.location.hash.slice(1);
-    searchedLocationDiv.innerHTML = chosenLocation;
+    let areStaysForSpecificLoc = document.querySelector('#allLocations .info').innerText.startsWith('Stays in');
+    searchedLocationDiv.innerHTML = chosenLocation || 'Location';
 
-    if (currentPage !== 'allLocations') searchedLocationExpanded.placeholder = 'Where to?';
-    else searchedLocationExpanded.value = chosenLocation;
+    if (currentPage !== 'allLocations' || !areStaysForSpecificLoc) {
+        searchedLocationExpanded.placeholder = 'Where to?';
+        searchedLocationExpanded.value = '';
+    } else searchedLocationExpanded.value = chosenLocation;
 
     let searchSpecificsExpanded = document.querySelector('.search-specifics-expanded');
     let startYourSearch = document.querySelector(".start-your-search");

@@ -11,10 +11,9 @@ let logoField = document.querySelector('.logo')
 let locationInput = document.querySelector('.searched-location-expanded .current-location');
 let checkInInput = getById('checkInDate');
 let checkOutInput = getById('checkOutDate');
-let guestsinput = getById('guestsNumber');
+let guestsInput = getById('guestsNumber');
 
-let inputArr = [locationInput, checkInInput, checkOutInput, guestsinput];
-console.log(inputArr);
+let inputArr = [locationInput, checkInInput, checkOutInput, guestsInput];
 
 printSearchBar(chosenLocation);
 
