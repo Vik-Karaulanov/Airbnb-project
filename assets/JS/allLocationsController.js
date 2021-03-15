@@ -19,7 +19,7 @@ let filteredByStayType = JSON.parse(localStorage.getItem('displayedStays'));
 let userSearchedStays = JSON.parse(localStorage.getItem('displayedStays'));
 if (localStorage.getItem('chosenLocation')) {
     userSearchedStays = staysManager.allStays.filter(el => el.location === loc);
-} else {
+} else if (localStorage.getItem('staysSpecificity')) {
     loc = '';
     let staysSpecificity = localStorage.getItem('staysSpecificity');
     checkStaysPrint(staysSpecificity);
@@ -52,6 +52,7 @@ function checkStaysPrint(spec) {
         staysForPrint = staysForPrint.filter(stay => stay.stayType === spec);
         printAllLocationsPage('', staysForPrint, spec);
     }
+    localStorage.setItem('displayedStays', JSON.stringify(staysForPrint));
 }
 
 window.addEventListener('click', (ev) => {
@@ -136,10 +137,12 @@ optionsWrapper.addEventListener('change', (ev) => {
 
 descendingPriceOption.addEventListener('click', () => {
     let ascendingPriceSortedStays = sortByPrice('ascending', JSON.parse(localStorage.getItem('displayedStays')));
+    if(localStorage.getItem('staysSpecificity')) loc = '';
     printAllLocationsPage(loc, ascendingPriceSortedStays);
 })
 
 ascendingPriceOption.addEventListener('click', () => {
     let descendingPriceSortedStays = sortByPrice('descending', JSON.parse(localStorage.getItem('displayedStays')));
+    if(localStorage.getItem('staysSpecificity')) loc = '';
     printAllLocationsPage(loc, descendingPriceSortedStays);
 })
