@@ -106,6 +106,10 @@ button {
 #HYH:focus {
     outline: none;
 }
+#HYH:hover {
+    filter: drop-shadow(0px 0px 2px black);
+}
+
 .collapsible {
     height: 35px;
     border-radius: 16px;

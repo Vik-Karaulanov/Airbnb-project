@@ -2,7 +2,7 @@ let staysManager = (function () {
 
     class Stay {
         constructor(title, location, images, description, host = 'TEST', rating = 0, reviews = 0, stayType, nonAvailableDates = "1970-05-05 – 1970-05-09", guests, bedrooms, beds, price, enhancedCleaning = false, cancellationPolicy = CANCELLATION_POLICY, houseRules, amenities) {
-            this.title = title || 'Custom user place';
+            this.title = title || userModel.currentLoggedUser.fullName;
             this.location = location;
             this.images = images;
             this.description = description;
