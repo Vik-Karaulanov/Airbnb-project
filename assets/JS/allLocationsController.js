@@ -14,9 +14,16 @@ let descendingPriceOption = document.querySelector('.price-order-container .desc
 let miniLocations = document.querySelectorAll('#mini .container .mini-card');
 let searchBtn = document.querySelector('.search-specifics-expanded .search-loop-wrapper');
 let searchLoopImg = getById('searchLoopImg');
-// let currentStays = staysManager.allStays.filter(el => el.location === loc);
-let userSearchedStays = staysManager.allStays.filter(el => el.location === loc);
 let filteredByStayType = JSON.parse(localStorage.getItem('displayedStays'));
+// let currentStays = staysManager.allStays.filter(el => el.location === loc);
+let userSearchedStays = JSON.parse(localStorage.getItem('displayedStays'));
+if (localStorage.getItem('chosenLocation')) {
+    userSearchedStays = staysManager.allStays.filter(el => el.location === loc);
+} else {
+    loc = '';
+    let staysSpecificity = localStorage.getItem('staysSpecificity');
+    checkStaysPrint(staysSpecificity);
+}
 
 miniLocations.forEach(el => {
     el.addEventListener('click', () => {
@@ -31,20 +38,38 @@ miniLocations.forEach(el => {
     });
 });
 
+function checkStaysPrint(spec) {
+    let staysForPrint = staysManager.allStays;
+    if (spec === 'PetsAllowed') {
+        localStorage.setItem('staysSpecificity', 'PetsAllowed');
+        staysForPrint = staysForPrint.filter(stay => stay.houseRules.PetsAllowed);
+        printAllLocationsPage('', staysForPrint, 'Pets welcome');
+    } else if (spec.endsWith(`'s`)) {
+        staysForPrint = staysForPrint.filter(stay => stay.host === spec.replace(`'s`, ''));
+        printAllLocationsPage('', staysForPrint, spec);
+    } else {
+        localStorage.setItem('staysSpecificity', spec);
+        staysForPrint = staysForPrint.filter(stay => stay.stayType === spec);
+        printAllLocationsPage('', staysForPrint, spec);
+    }
+}
+
 window.addEventListener('click', (ev) => {
     if(ev.target.parentElement.classList[0] === 'general-card') {
         localStorage.setItem('chosenLocation', '');
         printSearchBar();
         let temp = ev.target.parentElement.classList[1].replace('-card', '').split('-').join(' ');
         let prop = temp[0].toUpperCase() + temp.slice(1);
-        let staysForPrint = staysManager.allStays;
-        if (prop === 'PetsAllowed') {
-            staysForPrint = staysForPrint.filter(stay => stay.houseRules.PetsAllowed);
-            printAllLocationsPage('', staysForPrint, 'Pets welcome');
-        } else {
-            staysForPrint = staysForPrint.filter(stay => stay.stayType === prop);
-            printAllLocationsPage('', staysForPrint, prop);
-        }
+        loc = '';
+        
+        checkStaysPrint(prop);
+        // if (prop === 'PetsAllowed') {
+        //     staysForPrint = staysForPrint.filter(stay => stay.houseRules.PetsAllowed);
+        //     printAllLocationsPage('', staysForPrint, 'Pets welcome');
+        // } else {
+        //     staysForPrint = staysForPrint.filter(stay => stay.stayType === prop);
+        //     printAllLocationsPage('', staysForPrint, prop);
+        // }
         location.hash = 'allLocations';
     }
 })
@@ -102,7 +127,7 @@ optionsWrapper.addEventListener('change', (ev) => {
     }, '');
     if (ev.target.checked) {
         filteredByStayType = filterStays('stayType', focusedElm, userSearchedStays);
-        printAllLocationsPage(loc, filteredByStayType);
+        printAllLocationsPage(loc || '', filteredByStayType);
         localStorage.setItem('displayedStays', JSON.stringify(filteredByStayType));
     } else {
         printAllLocationsPage(loc);

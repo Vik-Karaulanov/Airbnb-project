@@ -65,6 +65,7 @@ function printTargetStayPage(container, chosenStay) {
 
     hostIconContainer.addEventListener('click', ()=> {
         location.hash = 'allLocations';
+        localStorage.setItem('staysSpecificity', `${hostName}'s`)
         printAllLocationsPage('', staysOfHost, `${hostName}'s stays`);
     });
 

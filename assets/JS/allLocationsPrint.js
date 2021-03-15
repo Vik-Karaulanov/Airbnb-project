@@ -16,7 +16,7 @@ function printAllLocationsPage(location, allStays = staysManager.allStays, speci
     } else {
         if (!specificity) specificity = localStorage.getItem('staysSpecificity');
         localStorage.removeItem('chosenLocation');
-        localStorage.setItem('staysSpecificity', specificity);
+        // localStorage.setItem('staysSpecificity', specificity);
         // info.innerText = `${localStorage.getItem('staysSpecificity')} stays` || `${specificity} stays`;
         info.innerText = `${localStorage.getItem('staysSpecificity')} stays`;
     }
@@ -59,13 +59,15 @@ function printAllLocationsPage(location, allStays = staysManager.allStays, speci
 }
 
 function printTypeOfPlacesOptions() {
-
-    let typesOfPlaces = [];
-    stays.forEach(el => {
-        if (!typesOfPlaces.includes(el.stayType)) typesOfPlaces.push(el.stayType)
-    })
     let radioButtonsContainer = document.querySelector('#allLocations .radio-buttons-container');
     radioButtonsContainer.innerHTML = '';
+    let typesOfPlaces = [];
+
+    if (!localStorage.getItem('staysSpecificity')) {
+        stays.forEach(el => {
+            if (!typesOfPlaces.includes(el.stayType)) typesOfPlaces.push(el.stayType)
+        })
+    }
 
     typesOfPlaces.forEach(el => {
         let typeOfPlace = createEl('input', 'type', 'radio');

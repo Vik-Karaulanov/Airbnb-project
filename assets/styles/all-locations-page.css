@@ -34,7 +34,7 @@
 }
 
 #allLocations .buttons-container {
-    width: 30%;
+    width: 20%;
     display: flex;
     justify-content: space-between;
     padding: 0 0.5rem;
