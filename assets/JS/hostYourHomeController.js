@@ -40,6 +40,7 @@
     let HTHBtnHeaderProfileMenu1 = getById('menuHYHBtn');
     let HTHBtnHeaderProfileMenu2 = getById('menuHYHBtn2');
     let HYHFinalBtn = getById('HYH');
+    let HYHSectionCards = document.querySelector('.hosting-cards-container div:first-child');
 
     
 
@@ -85,7 +86,7 @@
         }
     });
 
-    [becomeAHost, HTHBtnHeaderProfileMenu1, HTHBtnHeaderProfileMenu2].forEach(btn => {
+    [becomeAHost, HTHBtnHeaderProfileMenu1, HTHBtnHeaderProfileMenu2, HYHSectionCards].forEach(btn => {
         btn.addEventListener('click', () => {
             window.location.hash = 'becomeAHost';
             userNamePlaceholder.innerText = `Hi, ${userModel.currentLoggedUser.firstName}!`;
