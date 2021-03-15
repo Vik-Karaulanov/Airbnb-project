@@ -17,7 +17,8 @@ function printAllLocationsPage(location, allStays = staysManager.allStays, speci
         if (!specificity) specificity = localStorage.getItem('staysSpecificity');
         localStorage.removeItem('chosenLocation');
         localStorage.setItem('staysSpecificity', specificity);
-        info.innerText = `${localStorage.getItem('staysSpecificity')} stays` || `${specificity} stays`;
+        // info.innerText = `${localStorage.getItem('staysSpecificity')} stays` || `${specificity} stays`;
+        info.innerText = `${localStorage.getItem('staysSpecificity')} stays`;
     }
 
     staysCounter.innerText = `${allStaysInLocation.length} stays`;

@@ -63,8 +63,10 @@ function printTargetStayPage(container, chosenStay) {
 
     // TODO addToFave.addEventListener()
 
-    // TODO: hostIconContainer.addEventListener('click', ()=> staysOfHost to be printed);
-    hostIconContainer.addEventListener('click', () => {  });
+    hostIconContainer.addEventListener('click', ()=> {
+        location.hash = 'allLocations';
+        printAllLocationsPage('', staysOfHost, `${hostName}'s stays`);
+    });
 
     printSimpleSection(titleContainer, chosenStay.title);
     printSimpleSection(singleStayRating, chosenStay.rating);
