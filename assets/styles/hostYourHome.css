@@ -72,9 +72,9 @@ fieldset legend {
 button {
     border: 1px solid black;
 }
-select {
+/* select {
     height: 21px;
-}
+} */
 
 .continue {
     display: block;

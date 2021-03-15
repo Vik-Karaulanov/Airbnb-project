@@ -60,6 +60,14 @@
     border: 1px lightgray solid;
 }
 
+#signup {
+    overflow: scroll;
+}
+.signup-container {
+    position: absolute;
+    top: 2rem;
+}
+
 #signup-form {
     width: 100%;
     padding: 10px;
