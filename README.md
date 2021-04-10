@@ -36,9 +36,9 @@ This is the mid IT Talents season 12 project which is a recreation of the origin
 ![image](https://user-images.githubusercontent.com/78790848/114275076-d7cff980-9a29-11eb-92b6-626c88a14418.PNG)
 <hr>
 ![image](https://user-images.githubusercontent.com/78790848/114275235-6f354c80-9a2a-11eb-9c45-f0d573d0168d.PNG)
-
+<hr>
 ![image](https://user-images.githubusercontent.com/78790848/114275086-dbfc1700-9a29-11eb-9bad-165e6360e809.PNG)
-
+<hr>
 ![image](https://user-images.githubusercontent.com/78790848/114275091-de5e7100-9a29-11eb-99f1-6baf24dcd084.PNG)
-
+<hr>
 ![image](https://user-images.githubusercontent.com/78790848/114275101-e7e7d900-9a29-11eb-9db1-d457fc3098c3.PNG)
